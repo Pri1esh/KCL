@@ -10,7 +10,10 @@
 .subscribe_div button{
     font-size: 12px;
 }
-
+.subscribe_div h5{
+    font-size: 16px;
+    font-weight: bold;
+}
 
 .operations-container .accordion-button,.operations-container .accordion-item{
     padding-left: 0;
