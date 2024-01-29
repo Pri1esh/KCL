@@ -82,6 +82,7 @@
 .nav-link{
     margin-block: 30px;
     color: black !important;
+    font-size: 16px !important;
     font-weight: 500 !important;
 }
 .navbar .dropdown-toggle::after {
