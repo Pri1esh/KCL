@@ -43,19 +43,19 @@ const Home = () => {
           <div>
             <img className="card-img" src={slide1} alt="Placeholder Image" style={{ objectFit: "cover", width: "100%", height: "70vh" }} />
             <div className="card-img-overlay d-flex justify-content-center align-items-center row">
-              <h1 className="text-white text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
+              <h1 className="text-white bann-txt text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
             </div>
           </div>
           <div>
             <img className="card-img" src={slide2} alt="Placeholder Image" style={{ objectFit: "cover", width: "100%", height: "70vh" }} />
             <div className="card-img-overlay d-flex justify-content-center align-items-center row">
-              <h1 className="text-white text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
+              <h1 className="text-white bann-txt text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
             </div>
           </div>
           <div>
             <img className="card-img" src={slide3} alt="Placeholder Image" style={{ objectFit: "cover", width: "100%", height: "70vh" }} />
             <div className="card-img-overlay d-flex justify-content-center align-items-center row">
-              <h1 className="text-white text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
+              <h1 className="text-white bann-txt text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
             </div>
           </div>
         </OwlCarousel>
