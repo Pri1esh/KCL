@@ -66,7 +66,12 @@ body{
 /* =========================================banner others =================================*/
 .banner-crumb a{
     color: white;
-} 
+}
+.banner-crumb p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}  
 .banner-crumb{
     position: absolute;
     z-index: 1;
@@ -75,7 +80,17 @@ body{
     display: flex;
     flex-direction: row;
     color: white;
-    font-size: small;
+    
+}
+.headers{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 57px;
+}
+.header-para{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 /* =========================================who we are start =================================*/
@@ -152,6 +167,11 @@ body{
 }
 .wwr-list li{
     text-align: start;
+}
+.all-headings{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.18px;
 }
 /* =========================================who we are end =================================*/
 /* =========================================What we do start =================================*/
@@ -376,5 +396,5 @@ display: none !important;
 
 
 p{
-    font-size: 16px !important;
+    font-size: 16px;
 }
