@@ -1,0 +1,377 @@
+{
+    "headless-header": [
+        {
+          "uid": "892d2658-5414-4c69-be02-54044e1190a3",
+          "componentName": "AML Liberia",
+          "dataSource": "{B33840BB-4FEC-44E5-A780-25893E497139}",
+          "fields": {
+            "Logo": {
+              "value": {
+                "src": "https://edge.sitecorecloud.io/arcelormitt24dc-aml-aml-078f/media/Themes/AML/images/logo/favicon.png?h=566&iar=0&w=900",
+                "alt": "",
+                "width": "900",
+                "height": "566"
+              }
+            },
+            "Link": {
+              "value": "<link linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/\" />"
+            },
+            "Header Items": [
+              {
+                "id": "214c5efd-93d9-46b9-aacd-a0d54e0bc698",
+                "url": "/Data/Texts/Header/About-Us",
+                "name": "About Us",
+                "displayName": "About Us",
+                "fields": {
+                  "Title": {
+                    "value": "AboutUsDetails"
+                  },
+                  "Description": {
+                    "value": "Our mining operations in Liberia to create smarter steels for people and planet."
+                  },
+                  "Redirection Link": {
+                    "value": "<link linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/AboutUsDetails\" />"
+                  },
+                  "Sub Items": [
+                    {
+                      "id": "1cbe38ec-4fda-48f8-a33b-11ef472f543e",
+                      "url": "/Data/Texts/Header/About-Us/ArcelorMittal-Liberia-Leadership-Team",
+                      "name": "ArcelorMittal Liberia Leadership Team",
+                      "displayName": "ArcelorMittal Liberia Leadership Team",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"ArcelorMittal Liberia Leadership Team\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Leadershipteam\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "935ecfb5-ce40-4865-ba1f-339c7f8dfa70",
+                      "url": "/Data/Texts/Header/About-Us/Phase-II-Expansion-Projects",
+                      "name": "Phase II Expansion Projects",
+                      "displayName": "Phase II Expansion Projects",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"home\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Phase_II_Expansion_Projects\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "a9cd611e-6fcd-46b8-bfd8-7d03fe4f033b",
+                "url": "/Data/Texts/Header/Mining-Operations",
+                "name": "Mining Operations",
+                "displayName": "Mining Operations",
+                "fields": {
+                  "Title": {
+                    "value": "Mining"
+                  },
+                  "Description": {
+                    "value": "Our mining operations in Liberia to create smarter steels for people and planet."
+                  },
+                  "Redirection Link": {
+                    "value": "<link text=\"Go to Mining Page\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/mining\" anchor=\"\" target=\"\" />"
+                  },
+                  "Sub Items": [
+                    {
+                      "id": "54f8540b-ef5f-4f59-8079-4222032b5ffd",
+                      "url": "/Data/Texts/Header/Mining-Operations/Rail-and-Ports",
+                      "name": "Rail and Ports",
+                      "displayName": "Rail and Ports",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Rail &amp; Ports\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/RailsandPorts\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "991207e8-3bbe-4720-b227-45e5882c8c76",
+                      "url": "/Data/Texts/Header/Mining-Operations/Mining",
+                      "name": "Mining",
+                      "displayName": "Mining",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Mining\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Mining\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "3a29ff34-8ba9-44ff-97bb-4fdcabcceb89",
+                      "url": "/Data/Texts/Header/Mining-Operations/Ironore",
+                      "name": "Ironore",
+                      "displayName": "Ironore",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Ironore\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Ironore\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "b2674cee-d222-444b-b142-ea92c66d9659",
+                      "url": "/Data/Texts/Header/Mining-Operations/Rail",
+                      "name": "Rail",
+                      "displayName": "Rail",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Rail\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Rail\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "0503152c-582a-4c46-9e56-48cb6791f684",
+                      "url": "/Data/Texts/Header/Mining-Operations/Supply-Chain",
+                      "name": "Supply Chain",
+                      "displayName": "Supply Chain",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Supply Chain\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/SupplyChain\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "1917e1f8-c705-4842-b18f-4b48d9cdf26a",
+                "url": "/Data/Texts/Header/Phase_II_Expansion_Projects",
+                "name": "Phase_II_Expansion_Projects",
+                "displayName": "Phase_II_Expansion_Projects",
+                "fields": {
+                  "Title": {
+                    "value": "Phase II Expansion Projects"
+                  },
+                  "Description": {
+                    "value": "Our mining operations in Liberia to create smarter steels for people and planet."
+                  },
+                  "Redirection Link": {
+                    "value": "<link text=\"Go to Phase II Expansion Projects\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Phase_II_Expansion_Projects\" anchor=\"\" target=\"\" />"
+                  },
+                  "Sub Items": [
+                    {
+                      "id": "e27ddd9b-4468-4794-a189-d5dd99d55b86",
+                      "url": "/Data/Texts/Header/Phase_II_Expansion_Projects/Workplace",
+                      "name": "Workplace",
+                      "displayName": "Workplace",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Workplace\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Workplace\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "80fa4f4f-ccca-44b6-8fdd-d09343a9b3de",
+                      "url": "/Data/Texts/Header/Phase_II_Expansion_Projects/Ethics-and-Governance",
+                      "name": "Ethics and Governance",
+                      "displayName": "Ethics and Governance",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Ethics &amp; Governance\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Ethics_And_Governence\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "bd9dc06b-6cf7-495d-9696-a1f3782238dd",
+                "url": "/Data/Texts/Header/Sustainability",
+                "name": "Sustainability",
+                "displayName": "Sustainability",
+                "fields": {
+                  "Title": {
+                    "value": "Sustainability"
+                  },
+                  "Description": {
+                    "value": "Our mining operations in Liberia to create smarter steels for people and planet."
+                  },
+                  "Redirection Link": {
+                    "value": "<link text=\"Sustainability\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Sustainability\" anchor=\"\" target=\"\" />"
+                  },
+                  "Sub Items": [
+                    {
+                      "id": "9d4616d7-b449-40a9-9dce-e91b9e513568",
+                      "url": "/Data/Texts/Header/Sustainability/Communities",
+                      "name": "Communities",
+                      "displayName": "Communities",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Communities\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Communities\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "63c257d1-9977-4ebf-a8e1-b87fa2774ea5",
+                      "url": "/Data/Texts/Header/Sustainability/Environment",
+                      "name": "Environment",
+                      "displayName": "Environment",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Environment\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Environment\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "d1286115-1fac-4f76-a9f7-5342fe917515",
+                      "url": "/Data/Texts/Header/Sustainability/Sustainability",
+                      "name": "Sustainability",
+                      "displayName": "Sustainability",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Sustainability\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Sustainability\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "01af89fa-1e25-46d4-9ec7-98ca19a374f3",
+                "url": "/Data/Texts/Header/Career",
+                "name": "Career",
+                "displayName": "Career",
+                "fields": {
+                  "Title": {
+                    "value": "Career"
+                  },
+                  "Description": {
+                    "value": "Our mining operations in Liberia to create smarter steels for people and planet."
+                  },
+                  "Redirection Link": {
+                    "value": "<link text=\"Go to Career Page\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Career\" anchor=\"\" target=\"\" />"
+                  },
+                  "Sub Items": [
+                    {
+                      "id": "42018cc3-f706-4b45-a270-3d894f86ebea",
+                      "url": "/Data/Texts/Header/Career/Why-Arcelor-Mittal",
+                      "name": "Why Arcelor Mittal",
+                      "displayName": "Why Arcelor Mittal",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Why Arcelor Mittal\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Career\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "3a798b63-b8be-46eb-9a9c-24403eb5aa03",
+                      "url": "/Data/Texts/Header/Career/JobOpportunities",
+                      "name": "JobOpportunities",
+                      "displayName": "JobOpportunities",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"JobOpportunities\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/JobOpportunities\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "943a5b20-f66a-4229-a093-6c6a700aa022",
+                      "url": "/Data/Texts/Header/Career/Scholarships",
+                      "name": "Scholarships",
+                      "displayName": "Scholarships",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Scholarships\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/Scholarships\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "ae06863e-bd02-4bac-8e55-b4ed2af1a280",
+                      "url": "/Data/Texts/Header/Career/DiversityAndInclusion",
+                      "name": "DiversityAndInclusion",
+                      "displayName": "DiversityAndInclusion",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"DiversityAndInclusion\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/DiversityAndInclusion\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "07266721-0ef2-4646-bf90-0777d10baba1",
+                      "url": "/Data/Texts/Header/Career/LocalContent",
+                      "name": "LocalContent",
+                      "displayName": "LocalContent",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"LocalContent\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/LocalContent\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "2bfbd29b-8031-428d-b32e-91876c7621a4",
+                "url": "/Data/Texts/Header/Media",
+                "name": "Media",
+                "displayName": "Media",
+                "fields": {
+                  "Title": {
+                    "value": "Media"
+                  },
+                  "Description": {
+                    "value": "Our mining operations in Liberia to create smarter steels for people and planet."
+                  },
+                  "Redirection Link": {
+                    "value": "<link text=\"Go to Media Page\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/MediaNews\" anchor=\"\" target=\"\" />"
+                  },
+                  "Sub Items": [
+                    {
+                      "id": "8888d4c7-2fbe-45f0-a43e-8bd0529cec24",
+                      "url": "/Data/Texts/Header/Media/Press-Release",
+                      "name": "Press Release",
+                      "displayName": "Press Release",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Press Release\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/PressRelease\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    },
+                    {
+                      "id": "9674bc6d-3e46-4ca8-aa0d-54b8af08268d",
+                      "url": "/Data/Texts/Header/Media/News",
+                      "name": "News",
+                      "displayName": "News",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"News\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/MediaNews\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "fdd3b9d7-b66e-4703-b491-9cee6dd4be19",
+                "url": "/Data/Texts/Header/Contact-Us",
+                "name": "Contact Us",
+                "displayName": "Contact Us",
+                "fields": {
+                  "Title": {
+                    "value": "Contact Us"
+                  },
+                  "Description": {
+                    "value": "Our mining operations in Liberia to create smarter steels for people and planet."
+                  },
+                  "Redirection Link": {
+                    "value": "<link text=\"Go to Contact Us Page\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/ContactUs\" anchor=\"\" target=\"\" />"
+                  },
+                  "Sub Items": [
+                    {
+                      "id": "94fe7eef-045b-447e-b587-be3dd7639176",
+                      "url": "/Data/Texts/Header/Contact-Us/Contact-Us",
+                      "name": "Contact Us",
+                      "displayName": "Contact Us",
+                      "fields": {
+                        "Link": {
+                          "value": "<link text=\"Contact Us\" linktype=\"external\" url=\"https://aml-liberia-web.vercel.app/ContactUs\" anchor=\"\" target=\"\" />"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+}

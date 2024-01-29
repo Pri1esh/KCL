@@ -1,0 +1,231 @@
+.site_map h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.site_map ul li a{
+    font-size: 14px;
+    color: #666666;
+}
+.subscribe_div button{
+    font-size: 12px;
+}
+
+
+.operations-container .accordion-button,.operations-container .accordion-item{
+    padding-left: 0;
+    background-color: white !important;
+}
+
+.operations-container .accordion-button:not(.collapsed){
+    color: black !important;
+}
+
+.operations-container .accordion-button:focus{
+    border: none !important;
+    box-shadow :none !important;
+}
+
+.operations-container .accordion-flush .accordion-item{
+    border: 0 !important;
+}
+.operations-container .accordion-body{
+    padding-left: 5rem;
+}
+.operations-container .horizontal-line{
+    padding-left: 4rem;
+}
+.operations-container .accordion-body li{
+    margin-bottom: 1rem;
+}
+.operations-container .accordion-button::after{
+    background-size: 1rem !important;
+}
+.operations-container .accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+
+.operations-container .circle{
+    border: solid 1px #d6d5d5;
+    width: 3rem; /* Set your desired width */
+    height: 3rem; /* Set your desired height */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-right: 1rem;
+    transform: translate(0px, -5px);
+    z-index: 10;
+    background-color: white;
+}
+.operations-container .circle h4{
+    color: #666666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.operations-container .accordion-button{
+    z-index: unset !important;
+}
+.operations-container .circle{
+    z-index: 10;
+}
+.dotted-line {
+    border-left: 2px dashed #666666; 
+    height: calc(100% - 60px);
+    position: absolute;
+    top:20px;
+    left: 1.5rem;
+    z-index: 5; 
+}
+.operations-container .accordion{
+    position: relative;
+}
+
+/* .operations-container .accordion-item:nth-last-child(2) .accordion-body{
+    background-color: white;
+    position: relative;
+    z-index: 10;
+}
+.operations-container .accordion-item:nth-last-child(2) .circle::after{
+    content: 'sdfs';
+    background-color: black;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 10;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #f9f9f9;
+    margin-top: 2rem;
+}
+
+footer .footer-logo{
+    height: 3rem;
+    width: auto;
+}
+
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+footer ul li{
+    margin-block: 0.5rem;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: black;
+    text-decoration: none;
+}
+footer .form-group{
+    position: relative;
+}
+footer .form-group .form-control{
+    padding-block: 0.8rem;
+}
+footer .form-group button{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    right: 1rem;
+    border: none;
+    color: gray;
+    background: transparent;
+}
+footer .social-logo img{
+    height: 1.2rem;
+    aspect-ratio: 1/1;
+    filter: grayscale(0%) brightness(0%);
+}
+footer .social-container{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+footer .social-logo a{
+    border: solid 1px gray;
+    border-radius: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .bottom-banner{
+    border-top: solid 1px gray;
+}
+footer .bottom-banner ul{
+    display: inline-flex;
+    gap:2rem;
+    color: gray;
+    list-style: disc;
+    margin-bottom: 0;
+}
+footer .bottom-banner p{
+    color: gray;
+    display: inline;
+    margin-right: 2rem;
+}
+footer .bottom-banner .tag{
+    list-style: none;
+}
+footer .bottom-banner ul li a{
+    color: gray;
+}
+
+footer .accordion-button,footer .accordion-item{
+    background-color: #f9f9f9 !important;
+}
+
+footer .accordion-button:not(.collapsed){
+    color: black !important;
+}
+
+footer .accordion-button:focus{
+    border: none !important;
+    box-shadow :none !important;
+}
+
+footer .accordion-flush .accordion-item{
+    border: 0 !important;
+}
+footer .accordion-body{
+    padding-top: 0 !important;
+}
+footer .accordion-body li{
+    margin-bottom: 1rem;
+}
+footer .accordion-button::after{
+    background-size: 1rem !important;
+}

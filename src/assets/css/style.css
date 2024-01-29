@@ -1,0 +1,356 @@
+body{
+    font-family:  'Roboto', sans-serif !important;
+}
+
+
+/* =========================================home banner starts =================================*/
+.banner{
+    height: 70vh;
+}
+.banner-box{
+    height: 70vh;
+}
+.owl-carousel .owl-dots{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #736060 !important;
+    border: solid 2px white;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background: white !important;
+}
+.carousel-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 60%;
+    z-index: 1;
+}
+.banner-carousel {
+    position: relative;
+}
+.home-banner{
+    position: relative;
+}
+.banner-btn{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.banner-left-button{
+    left: 1rem;
+}
+.banner-right-button{
+    right: 1rem;
+}
+
+/* =========================================banner end =================================*/
+
+/* =========================================banner others =================================*/
+.banner-crumb a{
+    color: white;
+} 
+.banner-crumb{
+    position: absolute;
+    z-index: 1;
+    top: 1rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: small;
+}
+
+/* =========================================who we are start =================================*/
+.section-heading{
+    font-weight: 700;
+}
+.font-500{
+    font-weight: 500;
+}
+.home_btn{
+    padding-inline: 2.3rem !important;
+    padding-block: 0.9rem !important;
+    font-size: 16px;
+    font-weight: 500 !important;
+}
+
+.WhoWeAreData {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.WhoWeAreImage {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 1rem;
+}
+.WhoWeAreImage h3{
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.WhoWeAreImage::-webkit-scrollbar{
+    display: none;
+}
+.WhoWeAre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.WhoWeAreKnowMoreButton {
+    background-color: black !important;
+    border-radius: 25px  !important;
+    border-color: black  !important;
+    /* padding: 15px !important; */
+    padding: 10px 25px 10px 25px !important;
+
+}
+/* .WhoWeAreContainer{
+    height: 100vh;
+} */
+.WhoWeAreButton{
+    height: 20vh;
+}
+.show-more-button-sustainibility{
+    color: black;
+}
+.ChaimanAdaniGroup{
+    color:#6c757d;
+}
+.wwr-leadership .inner-data{
+    text-align: start;
+    line-height: 1;
+}
+.wwr-leadership .inner-data h5{
+    font-weight: bold;
+}
+.wwr-list{
+    list-style: square;
+}
+.wwr-list li{
+    text-align: start;
+}
+/* =========================================who we are end =================================*/
+/* =========================================What we do start =================================*/
+/* .contentsection{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+} */
+.WhatWeDo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.WhatWeDoImage {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.WhatWeDoImage .card{
+    border: none;
+}
+.WhatWeDoImages{
+    border: none !important;
+}
+.WhatWeDoImages h3{
+    font-weight: 700;
+}
+.WhatWeDoImages p{
+    font-weight: 500;
+}
+.WhatWeDo{
+    background-color: #f1ffef;
+}
+.contentsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* =========================================What we do end =================================*/
+
+
+/* =========================================Sustainibility start =================================*/
+.SustainibilitySection{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.SustainibilityData h1{
+    font-size: 3rem;
+}
+.SustainibilityData{
+    position: absolute;
+    bottom: 106px;
+    left: 50px;
+}
+.WhoWeAreKnowMoreButtonSustainibility {
+    background-color: white !important;
+    border-radius: 25px  !important;
+    border-color: white  !important;
+    color: black !important;
+    padding: 10px 25px 10px 25px !important;
+
+}
+/* =========================================Chairman section start =================================*/
+.Chairman{
+    background-color: #e9ecef;
+}
+.ChairmanContainer h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.ChaimanContentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.show-more-content {
+    overflow: hidden;
+    max-height: 100px; /* Adjust this value based on your preference */
+    transition: max-height 0.5s ease;
+}
+
+/* Show more button style */
+.show-more-button {
+    display: block;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+/* .mobileview{
+display: none !important;
+} */
+/* .mobileview1{
+    display: none !important;
+    } */
+/* =========================================Chairman section end =================================*/
+/* =========================================Life at KCL start =================================*/
+
+.LifeAtKCL-1{
+    width: 60% !important;
+}
+.LifeAtKCL-2{
+    width: 40% !important;
+}
+.small-images{
+    display: flex;
+    flex-direction: column;
+}
+.LifeAtKCL-row1{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:786px) {
+    .LifeAtKCL-row1{
+        gap:0.3rem;
+    }
+}
+
+.LifeAtKCLImg-2 , .LifeAtKCLImg-3{
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* =========================================Life at KCL end =================================*/
+
+
+/* =========================================Who we are page starts =================================*/
+.banner-image{
+    object-fit: cover;
+     width: 100%;
+     height: 80vh
+}
+.banner-image-data{
+    position: absolute;
+    bottom: 106px;
+    left: 50px;
+}
+/* =========================================Who we are page end =================================*/
+/* =========================================Sustainibility end =================================*/
+@media (max-width: 767px) {
+    .SustainabilitySection, .WhatWeDo , .WhoWeAre,.Chairman, .LifeAtKCL{
+         
+       height: auto;
+    }
+    .Chairman-img{
+        width: 100%;
+        height: auto;
+    }
+    .WhoWeAreData {
+        display: flex;
+        text-align: left;
+        /* align-items: center; */
+    }
+}
+@media (max-width: 767px) {
+    .contentsection {
+        align-items: left;
+    }
+    .WhoWeAreImage {
+        text-align: left;
+    }
+    .WhatWeDoImage {
+        text-align: left;
+    }
+    
+    .mobileview{
+        /* display: block; */
+        text-align: center;
+    }
+    .Chaimanrows {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+   
+    /* .LifeAtKCL-2{
+        width: 50%;
+    } */
+    .LifeAtKCL-1 {
+        width: 100% !important;
+    }
+    .LifeAtKCLRows {
+        display: flex;
+        flex-direction: column;
+    }
+    .LifeAtKCL-2 {
+        width: 100% !important;
+    }
+    .LifeAtKCLImg-2, .LifeAtKCLImg-3{
+        width: 50%;
+       
+    }
+    .small-images{
+        flex-direction: column !important;
+    }
+    .KCL-two-img{
+        display: flex;
+    flex-direction: row;
+    }
+   
+}
+
+
+p{
+    font-size: 16px !important;
+}
