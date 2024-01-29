@@ -76,6 +76,8 @@ body{
 /* =========================================who we are start =================================*/
 .section-heading{
     font-weight: 700;
+    font-size: 48px !important;
+    line-height: 40px;
 }
 .font-500{
     font-weight: 500;
@@ -216,8 +218,18 @@ body{
     background-color: #e9ecef;
 }
 .ChairmanContainer h2{
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 700;
+}
+.ChaimanBottomContentdata h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.ChaimanBottomContentdata span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
 }
 .ChaimanContentSection {
     display: flex;
