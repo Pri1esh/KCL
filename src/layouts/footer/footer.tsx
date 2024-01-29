@@ -54,7 +54,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 subscribe_div">
                     <h5>Subscribe for Project updates</h5>
                     <form>
                         <div className="form-group">
@@ -148,7 +148,6 @@ const Footer = () => {
                     <li><a href="">Privacy Policy</a></li>
                     <li><a href="">Terms & Conditions</a></li>
                 </ul>
-
             </div>
         </div>
     </footer>
