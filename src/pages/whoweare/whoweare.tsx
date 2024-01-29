@@ -37,18 +37,18 @@ const Whoweare = () => {
             </a>
             <div className="row WhatWeDoImage align-items-stretch justify-content-between mt-4">
               <div className="col-md-4 card WhatWeDoImages">
-                <h3 className="mt-3 mobileviewKCL d-md-none d-block">Vision</h3>
+                <h3 className="my-4 mobileviewKCL d-md-none d-block all-headings text-start">Vision</h3>
                 <img src={vision} alt="Image 1" />
                 <div className="inner-data">
-                  <h3 className="mt-3 all-headings d-md-block d-none laptopviewKCL">Vision</h3>
+                  <h3 className="my-4 all-headings d-md-block d-none laptopviewKCL text-start">Vision</h3>
                   <p className="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repudiandae quibusdam.</p>
                 </div>
               </div>
               <div className="col-md-4 card WhatWeDoImages">
-                <h3 className="mt-3 all-headings d-md-none d-block mobileviewKCL">Mission</h3>
+                <h3 className="my-4 all-headings d-md-none d-block mobileviewKCL all-headings text-start">Mission</h3>
                 <img src={mission} alt="Image 2" />
                 <div className="inner-data mt-2">
-                  <h3 className="mt-3 all-headings d-md-block d-none laptopviewKCL">Mission</h3>
+                  <h3 className="my-4 all-headings d-md-block d-none laptopviewKCL text-start">Mission</h3>
                   <ul className="wwr-list">
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio expedita labore provident ducimus fugit veritatis.</li>
                     <li>Lorem ipsumdsf dolor sit amet consectetur adipisicing elit. Ipsa optio expedita labore provident ducimus fugit veritatis.</li>
@@ -57,10 +57,10 @@ const Whoweare = () => {
                 </div>
               </div>
               <div className="col-md-4 card WhatWeDoImages">
-                <h3 className="mt-3 all-headings d-md-none d-block mobileviewKCL">Value</h3>
+                <h3 className="my-4 all-headings d-md-none d-block mobileviewKCL all-headings text-start">Value</h3>
                 <img src={values} alt="Image 3" />
                 <div className="inner-data mt-2">
-                  <h3 className="mt-3 all-headings d-md-block d-none laptopviewKCL">Value</h3>
+                  <h3 className="my-4 all-headings d-md-block d-none laptopviewKCL text-start">Value</h3>
                   <ul className="wwr-list">
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio expedita labore provident ducimus fugit veritatis.</li>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio expedita labore provident ducimus fugit veritatis.</li>
@@ -105,46 +105,46 @@ const Whoweare = () => {
           <div className="container">
             <h2 className="all-headings">Leadership & Management</h2>
 
-            <div className="row WhatWeDoImage justify-content-between align-items-start mt-4">
+            <div className="row WhatWeDoImage justify-content-between align-items-start">
               <div className="col-md-4 mt-4 card WhatWeDoImages">
                 <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
-                  <h5 className="mt-3 all-headings">Karan Adani</h5>
+                  <h5 className="mt-3">Karan Adani</h5>
                   <span>CEO, Adani Ports & SEZ Ltd.</span>
                 </div>
               </div>
               <div className="col-md-4 mt-4 card WhatWeDoImages">
                 <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
-                  <h5 className="mt-3 all-headings">Sudipta Bhattacharya</h5>
+                  <h5 className="mt-3">Sudipta Bhattacharya</h5>
                   <span>CEO, Adani Group North America, and CTO, Adani Group</span>
                 </div>
               </div>
               <div className="col-md-4 mt-4 card WhatWeDoImages">
                 <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
-                  <h5 className="mt-3 all-headings">Vinay Parkash</h5>
+                  <h5 className="mt-3">Vinay Parkash</h5>
                   <span>Director, Adani Enterprises and CTO Natural Resouuces</span>
                 </div>
               </div>
               <div className="col-md-4 mt-4 card WhatWeDoImages">
                 <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
-                  <h5 className="mt-3 all-headings">Sudipta Bhattacharya</h5>
+                  <h5 className="mt-3">Sudipta Bhattacharya</h5>
                   <span>CEO, Adani Group North America, and CTO, Adani Group</span>
                 </div>
               </div>
               <div className="col-md-4 mt-4 card WhatWeDoImages">
                 <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
-                  <h5 className="mt-3 all-headings">Vinay Parkash</h5>
+                  <h5 className="mt-3">Vinay Parkash</h5>
                   <span>Director, Adani Enterprises and CTO Natural Resouuces</span>
                 </div>
               </div>
               <div className="col-md-4 mt-4 card WhatWeDoImages">
                 <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
-                  <h5 className="mt-3 all-headings">BS Rao</h5>
+                  <h5 className="mt-3">BS Rao</h5>
                   <span>VP, Digital and Strategy, Adani Enterprises Ltd</span>
                 </div>
               </div>

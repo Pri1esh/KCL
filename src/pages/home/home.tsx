@@ -32,7 +32,7 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <section className="banner home-banner mb-5">
+      <section className="banner home-banner mb-5 h-100">
         <div className="banner-btn d-md-flex align-items-center justify-content-center d-none banner-left-button p-2">
           <ChevronLeftIcon className="h-100 w-100" />
         </div>
@@ -41,21 +41,29 @@ const Home = () => {
         </div>
         <OwlCarousel items={1} className="owl-theme" loop nav={false} smartSpeed={1000} id="home-carousel">
           <div>
-            <img className="card-img" src={slide1} alt="Placeholder Image" style={{ objectFit: "cover", width: "100%", height: "70vh" }} />
-            <div className="card-img-overlay d-flex justify-content-center align-items-center row">
-              <h1 className="text-white bann-txt text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
+            <div className="banner-img-div">
+              <img className="card-img" src={slide1} alt="Placeholder Image" />
+            </div>
+            <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
+              <h1 className="text-white bann-txt col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
             </div>
           </div>
+
           <div>
-            <img className="card-img" src={slide2} alt="Placeholder Image" style={{ objectFit: "cover", width: "100%", height: "70vh" }} />
-            <div className="card-img-overlay d-flex justify-content-center align-items-center row">
-              <h1 className="text-white bann-txt text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
+            <div className="banner-img-div">
+              <img className="card-img" src={slide2} alt="Placeholder Image" />
+            </div>
+            <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
+              <h1 className="text-white bann-txt col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
             </div>
           </div>
+
           <div>
-            <img className="card-img" src={slide3} alt="Placeholder Image" style={{ objectFit: "cover", width: "100%", height: "70vh" }} />
-            <div className="card-img-overlay d-flex justify-content-center align-items-center row">
-              <h1 className="text-white bann-txt text-center col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
+            <div className="banner-img-div">
+              <img className="card-img" src={slide3} alt="Placeholder Image" />
+            </div>
+            <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
+              <h1 className="text-white bann-txt col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
             </div>
           </div>
         </OwlCarousel>
@@ -68,7 +76,7 @@ const Home = () => {
               <h1 className="mb-3 section-heading">Who We are</h1>
               <p>Copper plays a significant role in sectors such as infrastructure development, power transmission, electrical equipment manufacturing, and renewable energy. As a leading mining, metal, and trading company, our mission is to reduce India's dependence on copper imports and lead the nation toward an ‘Atmanirbhar Bharat’</p>
             </div>
-            <div className="WhoWeAreImage d-flex mt-4">
+            <div className="WhoWeAreImage d-flex align-items-start mt-4">
               <div className="col-md-4 col-8 px-3">
                 <div className="d-md-flex justify-content-center px-md-5">
                   <img src={wwr2} className="rounded w-50" alt="Image 3" />
@@ -81,7 +89,7 @@ const Home = () => {
                   <img src={wwr3} className="rounded w-50" alt="Image 3" />
                 </div>
                 <h3>Mission</h3>
-                <p>To be the world's largest copper smelting complex by 2030. Responsible and sustainable copper  extraction with superior environmental standards</p>
+                <p>To be the world's largest copper smelting complex by 2030. Responsible and sustainable copper extraction with superior environmental standards</p>
               </div>
               <div className="col-md-4 col-8 px-3">
                 <div className="d-md-flex justify-content-center px-md-5">
@@ -105,7 +113,7 @@ const Home = () => {
           <div className="row WhatWeDoData justify-content-center">
             <div className="contentsection col-md-8 mb-3">
               <h1 className="mb-3 section-heading">What we do</h1>
-              <p className="text-center font-500">Adani's manufacturing acumen is unmatched. We adhere to the highest standards, ensuring quality, compliance, and sustainability across our operations.</p>
+              <p className="text-center font-500">Adani's manufacturing acumen is unmatched. We adhere to the highest standards,<br/> ensuring quality, compliance, and sustainability across our operations.</p>
             </div>
             <div className="row WhatWeDoImage no-gutters">
               <div className="col-md-4 WhatWeDoImages mb-4">
@@ -154,11 +162,11 @@ const Home = () => {
           />
           <div className="SustainibilityData text-white row me-0">
             <div className="col-md-7 ms-md-5">
-            <h1 className="mb-3">Sustainability</h1>
-            <p className="mb-4">Adani Kutch Copper prioritizes sustainability. We strive for responsible copper extraction, low carbon footprint, and circular economy practices.</p>
-            <button type="button" className="btn btn-light position-absolute rounded-pill home_btn">
-              Know More
-            </button>
+              <h1 className="mb-3">Sustainability</h1>
+              <p className="mb-4">Adani Kutch Copper prioritizes sustainability. We strive for responsible copper extraction, low carbon footprint, and circular economy practices.</p>
+              <button type="button" className="btn btn-light position-absolute rounded-pill home_btn">
+                Know More
+              </button>
             </div>
           </div>
         </div>
@@ -193,7 +201,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="LifeAtKCL d-flex align-items-center justify-content-center py-5">
+      <section className="LifeAtKCL d-flex align-items-center justify-content-center pt-5">
         <div className="container LifeAtKCLContainer grid-custom">
           <h1 className="mb-4 mt-4 mobileview2 section-heading">Life at KCL</h1>
           <div className="row LifeAtKCLRows">
@@ -222,7 +230,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-12 LifeAtKCL-2">
+            <div className="col-lg-6 col-12 LifeAtKCL-2 ps-md-5">
               <div className="LifeAtKCLContentData">
                 <h1 className="mb-4 laptopview2 section-heading">Life at KCL</h1>
                 <p>Experience the vibrant life at Kutch Copper Limited (KCL), where innovation meets tradition in the world of metals. Our commitment to responsible and sustainable copper extraction, coupled with cutting-edge technology and digitalisation, sets the stage for a dynamic workplace. Discover a culture built on values of Courage, Trust, and unwavering Commitment and join us in this transformative journey at KCL, where every individual plays a crucial role in building a stronger, Atmanirbhar Bharat. </p>

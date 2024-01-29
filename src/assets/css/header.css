@@ -166,8 +166,8 @@
     line-height: 35px;
    }
    .side-bar .menu .item .icons{
-    width: 20px;
-    aspect-ratio: 1/1;
+    height: 18.68px;
+    width: 18.68px;
     margin-right: 0.8rem;
    }
    
@@ -215,6 +215,9 @@
    .side-bar .menu .item .sub-btn{
     display: flex;
     align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
    }
    
    .rotate{

@@ -8,14 +8,17 @@ import social2 from "../../assets/images/Bitmap-2.svg";
 import social3 from "../../assets/images/Bitmap.svg";
 import social4 from "../../assets/images/Shape.svg";
 import social5 from "../../assets/images/Vector.svg";
+import logo1 from "../../assets/images/KCL Logo  1.png";
 
 const Footer = () => {
 
   return (
     <footer>
         <div className="container py-4">
-            <div className="row mb-2">
-                <img className="footer-logo" src="/assests/images/KCL Logo  1.png" alt=""/>
+            <div className="row mb-3">
+            <Link className="navbar-brand" to={"/"}>
+              <img src={logo1} alt="" style={{ mixBlendMode: "darken" }} />
+            </Link>
             </div>
             <div className="row">
                 <div className="col-md-8 d-md-block d-none">
