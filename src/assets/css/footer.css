@@ -234,3 +234,16 @@ footer .accordion-body li{
 footer .accordion-button::after{
     background-size: 1rem !important;
 }
+
+.footer-bottom h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-bottom p{
+    font-size: 14px !important;
+    color: #666666;
+}
+.bottom-banner p,
+.bottom-banner li{
+    font-size: 14px !important;
+}

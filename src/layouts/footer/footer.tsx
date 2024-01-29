@@ -136,7 +136,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="d-md-block d-none">
+            <div className="d-md-block d-none footer-bottom">
                 <h5>Kutch Copper Limited</h5>
                 <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem provident hic commodi tempore nemo, optio inventore ipsum quos maiores temporibus dolore perferendis fugit minima aut eum quis tenetur cupiditate vero ab ullam aspernatur autem fuga mollitia! Voluptas labore porro praesentium, quod itaque molestiae nam pariatur dolorem laudantium, obcaecati suscipit?</p>
             </div>
