@@ -46,7 +46,7 @@ const Operations = () => {
     <div>
         <Banner bannerImg={bannerImg} heading={"Operations"} subheading={"Advanced smelting technology, allowing us to reduce TAT and production losses"}/>
       <section>
-        <div className="container  operations-container">
+        <div className="container operations-container">
           <h3>
             <strong>Copper at a glance</strong>
           </h3>
@@ -54,7 +54,7 @@ const Operations = () => {
             mining, metal, and trading company, our mission is to reduce India's dependence on copper imports and lead the nation toward an ‘Atmanirbhar Bharat’. Adani is committed to
             expanding domestic mining operations, enhancing refining capabilities, and promoting sustainable practices to build a stronger India.</p>
 
-          <div className="row">
+          <div className="row" style={{marginTop:"90px"}}>
             <div className="col-md-8">
               <h3>
                 <strong>Operations at KCL</strong>
@@ -62,10 +62,10 @@ const Operations = () => {
               <p>Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCLhas
                 adopted flash smelting and pierce smith converting technology wherein the copper concentrates are
                 converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.</p>
-              <p>Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure ~~
+              <p>Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure 
                 copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with |
                 minimal impurities.</p>
-              <a className="text-dark" href="">
+              <a className="operations-rm" href="">
                 <h6>Read More</h6>
               </a>
             </div>
@@ -74,8 +74,8 @@ const Operations = () => {
             </div>
           </div>
 
-          <h2>Smelting and Refining Process</h2>
-          <div className="accordion accordion-flush" id="accordionFlushExample">
+          <h2 style={{marginTop:"90px"}} className="op-smelting-heading">Smelting and Refining Process</h2>
+          <div className="accordion accordion-flush op-accordion" id="accordionFlushExample">
             <div className="accordion-item">
               <h2 className="accordion-header" id="flush-heading-1">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-1" aria-expanded="false" aria-controls="flush-collapse-1">
