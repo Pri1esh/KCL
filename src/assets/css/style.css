@@ -10,6 +10,13 @@ body{
 .banner-box{
     height: 70vh;
 }
+.home-banner-box{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0px);
+    max-height: 670px;
+    max-width: 1440px;
+}
 .owl-carousel .owl-dots{
     position: absolute;
     bottom: 1rem;
@@ -20,6 +27,14 @@ body{
     background: #736060 !important;
     border: solid 2px white;
     margin: 5px 2px !important;
+}
+
+@media (max-width:786px){
+    .owl-theme .owl-dots .owl-dot span {
+        background: transparent !important;
+        border: solid 1px white;
+        margin: 5px 5px !important;
+    }
 }
 .owl-theme .owl-dots .owl-dot.active span {
     background: white !important;
@@ -40,7 +55,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Black with 50% opacity */
+    background: rgba(0, 0, 0, 25%); /* #333333 with 50% opacity */
   }
 .carousel-buttons {
     display: flex;
@@ -52,9 +67,7 @@ body{
 .banner-carousel {
     position: relative;
 }
-.home-banner{
-    position: relative;
-}
+
 .bann-txt{
     text-align: left;
     font-size: 42px;
@@ -92,6 +105,10 @@ body{
 /* =========================================banner end =================================*/
 
 /* =========================================banner others =================================*/
+.banner-others .banner-box{
+    max-height: 670px;
+    max-width: 1440px;
+}
 .banner-crumb a{
     color: white;
 }
@@ -158,6 +175,9 @@ body{
 .WhoWeAreImage::-webkit-scrollbar{
     display: none;
 }
+.WhoWeAre p{
+    color: #666666;
+}
 .WhoWeAre {
     display: flex;
     flex-direction: row;
@@ -165,9 +185,9 @@ body{
     margin-bottom: 6rem !important;
 }
 .WhoWeAreKnowMoreButton {
-    background-color: black !important;
+    background-color: #333333 !important;
     border-radius: 25px  !important;
-    border-color: black  !important;
+    border-color: #333333  !important;
     /* padding: 15px !important; */
     padding: 10px 25px 10px 25px !important;
 
@@ -176,7 +196,7 @@ body{
     height: 100vh;
 } */
 .show-more-button-sustainibility{
-    color: black;
+    color: #333333;
 }
 .ChaimanAdaniGroup{
     color:#6c757d;
@@ -211,6 +231,29 @@ body{
     font-weight: 700;
     line-height: 32.18px;
 }
+
+@media (max-width:786px){
+    .leadership_Profiles{
+        flex-wrap: nowrap !important;
+        overflow-x: scroll;
+        gap: 30px;
+        width: 100vw;
+    }
+    .leadership_Profiles img{
+        min-width: 268px !important;
+        max-height: 276px !important;
+    }
+}
+.leadership_Profiles img{
+    width: 413px;
+    max-height: 348px;
+}
+.leadership_Profiles::-webkit-scrollbar{
+    display: none;
+}
+.about-divs{
+    margin-bottom: 0px !important;
+}
 /* =========================================who we are end =================================*/
 /* =========================================What we do start =================================*/
 /* .contentsection{
@@ -234,7 +277,7 @@ body{
 }
 .WhatWeDoImages{
     border: none !important;
-    margin-bottom: 84px;
+    margin-bottom: 80px;
 }
 .WhatWeDoImages h3{
     font-size: 24px;
@@ -242,6 +285,7 @@ body{
     line-height: 32px;
 }
 .WhatWeDoImages p{
+    color: #666666;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -265,6 +309,10 @@ body{
     flex-direction: row;
     align-items: center;
 }
+.SustainibilitySection img{
+    max-width: 1280px;
+    max-height: 670px;
+}
 .SustainibilityData h1{
     font-size: 48px;
     font-weight: 700;
@@ -284,13 +332,13 @@ body{
     background-color: white !important;
     border-radius: 25px  !important;
     border-color: white  !important;
-    color: black !important;
+    color: #333333 !important;
     padding: 10px 25px 10px 25px !important;
 
 }
 /* =========================================Chairman section start =================================*/
 .Chairman{
-    background-color: #e9ecef;
+    background-color: #F9F9F9;
 }
 .ChairmanContainer h2{
     font-size: 48px;
@@ -310,6 +358,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-block: 44x;
 }
 .show-more-content {
     overflow: hidden;
@@ -351,6 +400,9 @@ display: none !important;
 @media (max-width:786px) {
     .LifeAtKCL-row1{
         gap:0.3rem;
+    }
+    .WhatWeDoImages{
+        margin-right: 10px;
     }
 }
 
@@ -409,6 +461,13 @@ display: none !important;
         flex-direction: column-reverse;
         text-align: center;
     }
+    .Chaimanrows img{
+        height: 480px;
+        max-width: 521px;
+    }
+    .ChaimanTopContentData p{
+        color: #333333;
+    }
    
     /* .LifeAtKCL-2{
         width: 50%;
@@ -440,4 +499,60 @@ display: none !important;
 
 p{
     font-size: 16px;
+}
+
+/* Ceo message */
+.ceo-crumb{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.ceo-crumb a{
+    color: #333333;
+}  
+.ceo-crumb a p{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 16xp;
+}
+.ceo-crumb p{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 16xp;
+}
+
+.ceoMessage-container h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.ceoMessage-container .ceo-data p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* Leadership & Management */
+.leadership-container h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44.53px;
+}
+.leadership-container .lead-profile{
+    margin-bottom: 70px;
+}
+.leadership-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.leadership-container .lead-profile h5{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #333333;
 }

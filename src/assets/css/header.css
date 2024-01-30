@@ -81,9 +81,10 @@
 }
 .nav-link{
     margin-block: 30px;
-    color: black !important;
+    color: #222222 !important;
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
+    line-height: 32px;
 }
 .navbar .dropdown-toggle::after {
     display: none !important;
@@ -92,7 +93,7 @@
     padding-block:1rem ;
 }
 .navbar .dropdown-item:active {
-    background-color: whitesmoke !important;
+    background-color: #FFFFFF !important;
 }
 /* =========================================Nav end =================================*/
 .main-container{
@@ -103,7 +104,7 @@
 
 /* Sidebar ----------------------------------------------------- */
 .side-bar{
-    background: white;
+    background: #FFFFFF;
     backdrop-filter: blur(15px);
     width: 350px;
     height: 100vh;
@@ -153,7 +154,7 @@
    .side-bar .menu{
     width: 100%;
     padding-block: 1rem ;
-    border-top: solid 2px #ededed;
+    border-top: solid 8px #F1F1F1;
    }
 
 

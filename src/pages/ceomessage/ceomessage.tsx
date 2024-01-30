@@ -5,17 +5,21 @@ const Ceomessage = () => {
   return (
     <div>
       <section>
-        <div className="container">
+        <div className="container ceoMessage-container">
           <div className=" d-md-flex d-none ceo-crumb small">
-            <a className="text-dark" href="/">
+            <a href="/">
               <p>Home</p>
+            </a>
+            <p>&nbsp;/&nbsp;</p>
+            <a href="/whoweare">
+              <p>Who we are</p>
             </a>
             <p>&nbsp;/&nbsp;</p>
             <p>CEO Message</p>
           </div>
           <div className="row mt-3 mb-4">
           <h1>CEO Message</h1>
-            <div className="col-md-6 order-md-1 order-2">
+            <div className="col-md-6 order-md-1 order-2 ceo-data">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi unde quam fuga asperiores. Nemo facere, magnam provident distinctio labore rerum officia officiis reprehenderit quod perferendis in, quisquam quo, est consequuntur. Facere distinctio adipisci voluptatem tempora alias nam recusandae nihil vitae optio. Asperiores placeat pariatur sequi, ea suscipit quos dolorem.</p>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi unde quam fuga asperiores. Nemo facere, magnam provident distinctio labore rerum officia officiis reprehenderit quod perferendis in, quisquam quo, est consequuntur. Facere distinctio adipisci voluptatem tempora alias nam recusandae nihil vitae optio. Asperiores placeat pariatur sequi, ea suscipit quos dolorem.</p>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi unde quam fuga asperiores. Nemo facere, magnam provident distinctio labore rerum officia officiis reprehenderit quod perferendis in, quisquam quo, est consequuntur. Facere distinctio adipisci voluptatem tempora alias nam recusandae nihil vitae optio. Asperiores placeat pariatur sequi, ea suscipit quos dolorem.</p>
@@ -32,13 +36,13 @@ const Ceomessage = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-12">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut fugiat sed nostrum voluptatem, exercitationem iusto nobis dignissimos molestiae qui itaque obcaecati a ducimus, ad, nemo et quos corrupti labore repudiandae aliquam excepturi provident est natus. Labore, mollitia quis? Quas omnis labore assumenda iure eligendi reprehenderit earum autem, laborum blanditiis.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut fugiat sed nostrum voluptatem, exercitationem iusto nobis dignissimos molestiae qui itaque obcaecati a ducimus, ad, nemo et quos corrupti labore repudiandae aliquam excepturi provident est natus. Labore, mollitia quis? Quas omnis labore assumenda iure eligendi reprehenderit earum autem, laborum blanditiis.</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad earum quisquam cumque, nemo ipsa porro itaque sint facere est iste.</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

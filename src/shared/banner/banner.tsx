@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Banner = (props: any) => {
   return (
-    <section className="banner mb-5 banner-whoweare">
+    <section className="banner mb-5 banner-others d-flex justify-content-center">
       <div className="position-relative banner-box">
         <div className="banner-crumb d-md-flex d-none">
           <Link to={"/"}><p>Home</p></Link>

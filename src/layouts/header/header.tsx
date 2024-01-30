@@ -26,11 +26,19 @@ const Header = () => {
       $(".mobile-trigger").click(function () {
         $(".side-bar").addClass("active");
         $(".mobile-trigger").css("visibility", "hidden");
+        $('#sidebar-fade').show();
       });
 
       $(".close-btn").click(function () {
         $(".side-bar").removeClass("active");
         $(".mobile-trigger").css("visibility", "visible");
+        $('#sidebar-fade').hide();
+      });
+      $("#sidebar-fade").click(function () {
+        console.log(2342);
+        $(".side-bar").removeClass("active");
+        $(".mobile-trigger").css("visibility", "visible");
+        $('#sidebar-fade').hide();
       });
     });
 
@@ -244,6 +252,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      {<div id="sidebar-fade" className="modal-backdrop fade show" style={{display:"none"}}></div>}
     </header>
   );
 };

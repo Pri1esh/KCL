@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import mission from "../../assets/images/Bitmap.png";
 import vision from "../../assets/images/Mask group.png";
 import values from "../../assets/images/Mask group-1.png";
+import graybox from "../../assets/images/graybox.png"
 
 
 const Whoweare = () => {
@@ -36,7 +37,7 @@ const Whoweare = () => {
               Read More
             </a>
             <div className="row WhatWeDoImage align-items-stretch justify-content-between mt-4">
-              <div className="col-md-4 card WhatWeDoImages">
+              <div className="col-md-4 card about-divs WhatWeDoImages">
                 <h3 className="my-4 mobileviewKCL d-md-none d-block all-headings text-start">Vision</h3>
                 <img src={vision} alt="Image 1" />
                 <div className="inner-data">
@@ -44,7 +45,7 @@ const Whoweare = () => {
                   <p className="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repudiandae quibusdam.</p>
                 </div>
               </div>
-              <div className="col-md-4 card WhatWeDoImages">
+              <div className="col-md-4 card about-divs WhatWeDoImages">
                 <h3 className="my-4 all-headings d-md-none d-block mobileviewKCL all-headings text-start">Mission</h3>
                 <img src={mission} alt="Image 2" />
                 <div className="inner-data mt-2">
@@ -56,7 +57,7 @@ const Whoweare = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 card WhatWeDoImages">
+              <div className="col-md-4 card about-divs WhatWeDoImages">
                 <h3 className="my-4 all-headings d-md-none d-block mobileviewKCL all-headings text-start">Value</h3>
                 <img src={values} alt="Image 3" />
                 <div className="inner-data mt-2">
@@ -103,46 +104,46 @@ const Whoweare = () => {
       <section className="aboutKCL-section1 wwr-leadership d-flex align-items-center justify-content-center mt-5">
         <div className="">
           <div className="container">
-            <h2 className="all-headings">Leadership & Management</h2>
+            <h2 className="all-headings" style={{marginBottom:"20px"}}>Leadership & Management</h2>
 
-            <div className="row WhatWeDoImage justify-content-between align-items-start">
-              <div className="col-md-4 mt-4 card WhatWeDoImages">
-                <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
+            <div className="row leadership_Profiles WhatWeDoImage justify-content-between align-items-start">
+              <div className="col-md-4 col-8 card WhatWeDoImages ">
+                <img src={graybox} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
                   <h5 className="mt-3">Karan Adani</h5>
                   <span>CEO, Adani Ports & SEZ Ltd.</span>
                 </div>
               </div>
-              <div className="col-md-4 mt-4 card WhatWeDoImages">
-                <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
+              <div className="col-md-4 col-8 card WhatWeDoImages ">
+                <img src={graybox} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
                   <h5 className="mt-3">Sudipta Bhattacharya</h5>
                   <span>CEO, Adani Group North America, and CTO, Adani Group</span>
                 </div>
               </div>
-              <div className="col-md-4 mt-4 card WhatWeDoImages">
-                <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
+              <div className="col-md-4 col-8 card WhatWeDoImages ">
+                <img src={graybox} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
                   <h5 className="mt-3">Vinay Parkash</h5>
                   <span>Director, Adani Enterprises and CTO Natural Resouuces</span>
                 </div>
               </div>
-              <div className="col-md-4 mt-4 card WhatWeDoImages">
-                <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
+              <div className="col-md-4 col-8 card WhatWeDoImages ">
+                <img src={graybox} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
                   <h5 className="mt-3">Sudipta Bhattacharya</h5>
                   <span>CEO, Adani Group North America, and CTO, Adani Group</span>
                 </div>
               </div>
-              <div className="col-md-4 mt-4 card WhatWeDoImages">
-                <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
+              <div className="col-md-4 col-8 card WhatWeDoImages ">
+                <img src={graybox} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
                   <h5 className="mt-3">Vinay Parkash</h5>
                   <span>Director, Adani Enterprises and CTO Natural Resouuces</span>
                 </div>
               </div>
-              <div className="col-md-4 mt-4 card WhatWeDoImages">
-                <img src="https://placehold.co/600x400" alt="Image 1" className="rounded img-fluid fixed-size-image" />
+              <div className="col-md-4 col-8 card WhatWeDoImages ">
+                <img src={graybox} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
                   <h5 className="mt-3">BS Rao</h5>
                   <span>VP, Digital and Strategy, Adani Enterprises Ltd</span>

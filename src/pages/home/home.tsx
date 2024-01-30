@@ -12,10 +12,12 @@ import wwr3 from "../../assets/images/Group 1000006553.png";
 import banner from "../../assets/images/Mask group 1.png";
 import sustainability from "../../assets/images/Content Section V20.png";
 import { Link, useNavigate } from "react-router-dom";
+import graybox from "../../assets/images/graybox.png"
 
-import slide1 from "../../assets/images/slide-1.jpg";
-import slide2 from "../../assets/images/slide-2.jpg";
-import slide3 from "../../assets/images/slide-3.jpg";
+
+import slide1 from "../../assets/images/slide-1.png";
+import slide2 from "../../assets/images/slide-2.png";
+import slide3 from "../../assets/images/slide-3.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -33,40 +35,42 @@ const Home = () => {
   return (
     <div>
       <section className="banner home-banner mb-5 h-100">
-        <div className="banner-btn d-md-flex align-items-center justify-content-center d-none banner-left-button p-2">
-          <ChevronLeftIcon className="h-100 w-100" />
-        </div>
-        <div className="banner-btn d-md-flex align-items-center justify-content-center d-none banner-right-button p-2">
-          <ChevronRightIcon className="h-100 w-100" />
-        </div>
-        <OwlCarousel items={1} className="owl-theme" loop nav={false} smartSpeed={1000} id="home-carousel">
-          <div>
-            <div className="banner-img-div">
-              <img className="card-img" src={slide1} alt="Placeholder Image" />
-            </div>
-            <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-              <h1 className="text-white bann-txt col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
-            </div>
+        <div className="home-banner-box">
+          <div className="banner-btn d-md-flex align-items-center justify-content-center d-none banner-left-button p-2">
+            <ChevronLeftIcon className="h-100 w-100" />
           </div>
+          <div className="banner-btn d-md-flex align-items-center justify-content-center d-none banner-right-button p-2">
+            <ChevronRightIcon className="h-100 w-100" />
+          </div>
+          <OwlCarousel items={1} className="owl-theme" loop nav={false} smartSpeed={1000} id="home-carousel">
+            <div>
+              <div className="banner-img-div">
+                <img className="card-img" src={slide1} alt="Placeholder Image" />
+              </div>
+              <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
+                <h1 className="text-white bann-txt col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
+              </div>
+            </div>
 
-          <div>
-            <div className="banner-img-div">
-              <img className="card-img" src={slide2} alt="Placeholder Image" />
+            <div>
+              <div className="banner-img-div">
+                <img className="card-img" src={slide2} alt="Placeholder Image" />
+              </div>
+              <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
+                <h1 className="text-white bann-txt col-md-8">Nation Building At Our Core Catering to more than half of Nation’s Copper Demand</h1>
+              </div>
             </div>
-            <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-              <h1 className="text-white bann-txt col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
-            </div>
-          </div>
 
-          <div>
-            <div className="banner-img-div">
-              <img className="card-img" src={slide3} alt="Placeholder Image" />
+            <div>
+              <div className="banner-img-div">
+                <img className="card-img" src={slide3} alt="Placeholder Image" />
+              </div>
+              <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
+                <h1 className="text-white bann-txt col-md-8">Keeping ESG goals as our top priority Zero Liquid Discharge Plant</h1>
+              </div>
             </div>
-            <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-              <h1 className="text-white bann-txt col-md-8">India's Largest Single Location Custom Smelter 500 ktpa production capacity</h1>
-            </div>
-          </div>
-        </OwlCarousel>
+          </OwlCarousel>
+        </div>
       </section>
 
       <section className="WhoWeAre">
@@ -113,7 +117,10 @@ const Home = () => {
           <div className="row WhatWeDoData justify-content-center">
             <div className="contentsection col-md-8 mb-3">
               <h1 className="mb-3 section-heading">What we do</h1>
-              <p className="text-center font-500">Adani's manufacturing acumen is unmatched. We adhere to the highest standards,<br/> ensuring quality, compliance, and sustainability across our operations.</p>
+              <p className="text-center font-500">
+                Adani's manufacturing acumen is unmatched. We adhere to the highest standards,
+                <br /> ensuring quality, compliance, and sustainability across our operations.
+              </p>
             </div>
             <div className="row WhatWeDoImage no-gutters">
               <div className="col-md-4 WhatWeDoImages mb-4">
@@ -174,11 +181,11 @@ const Home = () => {
 
       <section className="Chairman py-5 d-flex align-items-center justify-content-center">
         <div className="container ChairmanContainer">
-          <h2 className="d-md-none d-block mt-4 mb-4 ">Chairman Message</h2>
+          <h2 className="d-md-none d-block mt-4" style={{marginBottom:"40px"}}>Chairman Message</h2>
           <div className="row Chaimanrows">
             <div className="col-md-6 ChaimanContentSection">
               <div className="ChaimanTopContentData">
-                <h2 className="d-md-block d-none">Chairman Message</h2>
+                <h2 className="d-md-block d-none" style={{marginBottom:"40px"}}>Chairman Message</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus adipisci mollitia, eaque similique sint voluptatem? Enim, nisi consequatur sequi accusantium adipisci amet distinctio commodi est, expedita sapiente tempora accusamus. nisi consequatur sequi accusantium adipisci amet distinctio commodi est, expedita sapiente tempora accusamus.</p>
                 <Link to={"ceomessage"} className="show-more-button-sustainibility">
                   Read More
@@ -195,7 +202,7 @@ const Home = () => {
               <span className="ChaimanAdaniGroup">Chairman, Adani Group</span>
             </div>
             <div className="col-md-6 px-md-5 align-items-center">
-              <img src="https://via.placeholder.com/400" alt="" className="Chairman-img rounded w-100" />
+              <img src={graybox} alt="" className="Chairman-img rounded" />
             </div>
           </div>
         </div>
