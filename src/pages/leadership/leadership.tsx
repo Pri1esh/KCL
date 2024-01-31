@@ -29,7 +29,7 @@ const Leadership = () => {
     },[]);
   return (
     <div>
-        <Banner bannerImg={bannerImg} heading={"Leadership & Management"} />
+        <Banner bannerImg={bannerImg} heading={"Leadership & Management"}  crumb={"Leadership & Management"}/>
         <section>
             <div className="container leadership-container">
                 <h1>Leader at KCL</h1>

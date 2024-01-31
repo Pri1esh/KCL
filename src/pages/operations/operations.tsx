@@ -45,7 +45,7 @@ const Operations = () => {
   }, []);
   return (
     <div>
-      <Banner bannerImg={bannerImg} heading={"Operations"} subheading={"Advanced smelting technology, allowing us to reduce TAT and production losses"} />
+      <Banner bannerImg={bannerImg} heading={"Operations"} crumb={"Operations"} subheading={"Advanced smelting technology, allowing us to reduce TAT and production losses"} />
       <section>
         <div className="container operations-container">
           <h3>

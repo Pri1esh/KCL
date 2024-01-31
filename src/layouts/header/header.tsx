@@ -69,7 +69,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
           <div className="leftdata">
             <div className="hamburger mobile-trigger">

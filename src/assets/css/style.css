@@ -137,6 +137,12 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
+@media (max-width:786px){
+    .banner-cont{
+        position: absolute;
+        bottom: 60px;
+    }
+}
 
 /* =========================================who we are start =================================*/
 .section-heading{
@@ -673,16 +679,124 @@ p{
     }
 }
 
-/* .operations-container .accordion-item:nth-last-child(2) .accordion-body{
-    background-color: white;
-    position: relative;
-    z-index: 10;
+
+
+
+/* Products */
+.product-container .prod-heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    margin-bottom: 30px;
+    color: #222222;
 }
-.operations-container .accordion-item:nth-last-child(2) .circle::after{
-    content: 'sdfs';
-    background-color: black;
+.prod-box{
+    margin-bottom:120px ;
+}
+
+.product-container img{
+    max-height: 535px;
+    max-width: 305px;
+    margin-bottom: 30px;
+}
+.product-container .prod-card-body h5{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    margin-bottom: 30px;
+    color: #000000;
+
+}
+.product-container .prod-card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #222222;
+    margin-bottom: 80px;
+}
+.product-container .prod-cards{
     position: relative;
-    top: 0;
-    right: 0;
-    z-index: 10;
-} */
+}
+.product-container .prod-card-body button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 15px 27px;
+    color: #333333;
+    position: absolute;
+    bottom: 0px;
+}
+.product-container .prod-card-body button:hover{
+    color: #F9F9F9;
+}
+.product-tab-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-bottom: solid 1px #EAEAEA;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+.product-tab-head .tab-heads{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 25px 25px;
+    color: #333333;
+    cursor: pointer;
+}
+.product-tab-head .tab-heads{
+    transform: translate(0px,1px);
+}
+.product-tab-head .tab-heads.active{
+    border-bottom: solid 2px #222222;
+}
+
+@media (max-width:786px){
+    .prod-box{
+        margin-bottom:30px ;
+    }
+    .product-tab-head  .tab-heads{
+        padding-block: 25px;
+        text-wrap: nowrap;
+    }
+    .product-container img{
+        aspect-ratio: 3/2;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .product-container .prod-card-body p{
+        margin-bottom: 30px;
+    }
+    .product-container .prod-card-body button{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        padding-block: 15px;
+        width: 100%;
+        color: #FFFFFF;
+        background-color: #222222;
+        position: relative;
+    }
+    .product-container .prod-card-body button:hover{
+        color: #222222;
+        background-color: #FFFFFF;
+    }
+    .product-tab-head{
+        width: calc(100vw - var(--bs-gutter-x) * .5);
+        overflow-x: scroll;
+    }
+    .product-tab-head::-webkit-scrollbar{
+        display: none;
+    }
+    .prod-cards{
+        margin-bottom: 40px;
+    }
+    .product-container h3{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+}

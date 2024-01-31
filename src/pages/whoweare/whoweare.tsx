@@ -27,7 +27,7 @@ const Whoweare = () => {
 
   return (
     <div>
-      <Banner bannerImg={bannerImg} heading={"Who we are"} subheading={"know about Kutch Copper"}/>
+      <Banner bannerImg={bannerImg} crumb={"Who we are"}  heading={"Who we are"} subheading={"know about Kutch Copper"}/>
       <section>
         <div className="aboutKCL-section d-flex align-items-center justify-content-center mb-5">
           <div className="container ">

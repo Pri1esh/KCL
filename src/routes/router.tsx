@@ -6,6 +6,7 @@ import Operations from '../pages/operations/operations';
 import Leadership from '../pages/leadership/leadership';
 import Ceomessage from '../pages/ceomessage/ceomessage';
 import Whoweare from '../pages/whoweare/whoweare';
+import Products from '../pages/products/products';
 
 
 const Routings = () => {
@@ -20,6 +21,7 @@ const Routings = () => {
           <Route path="/leadership" element={<Leadership/>} />
           <Route path="/ceomessage" element={<Ceomessage/>} />
           <Route path="/whoweare" element={<Whoweare/>} />
+          <Route path="/products" element={<Products/>} />
 
         </Routes>
     </div>
