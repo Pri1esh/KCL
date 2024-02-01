@@ -22,16 +22,6 @@
 .navbar{
     height: 80px;
 }
-.sidebar {
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: -250px;
-    color: #333;
-    background-color: #fff;
-    transition: left 0.3s ease;
-}
 
 .sidebar p {
     padding: 20px;
@@ -116,7 +106,7 @@
     top: 0;
     left: -350px;
     overflow-y: auto;
-    transition: 0.6s ease;
+    transition: 0.4s ease;
     transition-property: left;
    }
    .side-bar::-webkit-scrollbar {
@@ -134,7 +124,7 @@
         top: 0;
         left: -100vw;
         overflow-y: auto;
-        transition: 0.6s ease;
+        transition: 0.4s ease;
         transition-property: left;
        }
    }
@@ -185,6 +175,44 @@
     color: #222222;
     display: block;
     padding: 5px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+   }
+
+   .side-bar .menu .item .sub-menu a{
+    text-decoration: none;
+    color: #222222;
+    display: block;
+    padding: 5px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+   }
+
+   @media (max-width:786px){
+    .side-bar .menu .item a{
+        text-decoration: none;
+        color: #222222;
+        display: block;
+        padding: 5px 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+       }
+    
+       .side-bar .menu .item .sub-menu a{
+        text-decoration: none;
+        color: #222222;
+        display: block;
+        padding: 5px 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+       }
+       .side-bar .menu{
+        border-top: solid 2px #F1F1F1;
+       }
    }
    
    .side-bar .menu .item a:hover{
@@ -210,7 +238,6 @@
    
    .side-bar .menu .item .sub-menu a{
     padding-left: calc(46px + 0.8rem);
-    line-height: 2rem;
    }
 
    .side-bar .menu .item .sub-btn{

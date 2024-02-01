@@ -35,7 +35,6 @@ const Header = () => {
         $('#sidebar-fade').hide();
       });
       $("#sidebar-fade").click(function () {
-        console.log(2342);
         $(".side-bar").removeClass("active");
         $(".mobile-trigger").css("visibility", "visible");
         $('#sidebar-fade').hide();
