@@ -8,6 +8,7 @@ import Ceomessage from '../pages/ceomessage/ceomessage';
 import Whoweare from '../pages/whoweare/whoweare';
 import Products from '../pages/products/products';
 import CopperRods from '../pages/copper-rods/copper-rods';
+import CopperCathode from '../pages/copper-cathode/copper-cathode';
 
 
 const Routings = () => {
@@ -24,6 +25,7 @@ const Routings = () => {
           <Route path="/whoweare" element={<Whoweare/>} />
           <Route path="/products" element={<Products/>} />
           <Route path="/copperRods" element={<CopperRods/>} />
+          <Route path="/copperCathode" element={<CopperCathode/>} />
 
         </Routes>
     </div>

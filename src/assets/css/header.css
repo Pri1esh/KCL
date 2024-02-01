@@ -106,7 +106,7 @@
     top: 0;
     left: -350px;
     overflow-y: auto;
-    transition: 0.4s ease;
+    transition: 0.3s ease-in-out;
     transition-property: left;
    }
    .side-bar::-webkit-scrollbar {
@@ -124,7 +124,7 @@
         top: 0;
         left: -100vw;
         overflow-y: auto;
-        transition: 0.4s ease;
+        transition: 0.3s ease-in-out;
         transition-property: left;
        }
    }

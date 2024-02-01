@@ -17,7 +17,7 @@ import menu_arr from "../../assets/images/crbmenu-arrow.svg";
 import crCross from "../../assets/images/cross.svg";
 import BottomBar from "../../shared/bottomBar/bottomBar";
 
-const CopperRods = () => {
+const CopperCathode = () => {
   useEffect(() => {
     function sliceTextToWords(text: String, numWords: number) {
       var words = text.split(" ");
@@ -47,13 +47,13 @@ const CopperRods = () => {
       $(".read_cr").after(read_cr);
     }
 
-    $('.menu_arr').click(function(){
-      $('.bottom-bar').addClass('active');
-      $('#sidebar-fade').show();
+    $(".menu_arr").click(function () {
+      $(".bottom-bar").addClass("active");
+      $("#sidebar-fade").show();
     });
-    $('.bottom-bar .cross-img').click(function(){
-      $('.bottom-bar').removeClass('active');
-      $('#sidebar-fade').hide();
+    $(".bottom-bar .cross-img").click(function () {
+      $(".bottom-bar").removeClass("active");
+      $("#sidebar-fade").hide();
     });
   }, []);
 
@@ -98,54 +98,102 @@ const CopperRods = () => {
           </div>
           <div className="col-md-9 products-right">
             <div className="productsr-head">
-              <h2>Copper Rods</h2>
+              <h2>Copper Cathode</h2>
               <img className="menu_arr d-md-none d-inline" src={menu_arr} alt="" />
             </div>
             <div className="right-head">
-              <p className="readcr-text">Copper rods serve various essential purposes due to their excellent electrical conductivity, malleability, and corrosion resistance. They are mainly used in drawing electrical wires, manufacturing of electrical components, </p>
+              <p className="readcr-text">Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore with a minimum copper content of 99.95%. · In its Phase 1, (Adani /We) will be producing 5,00,000 Tons of Copper Cathodes.</p>
               <button type="button" className="btn btn-outline-dark rounded-pill">
                 Buy Now
               </button>
             </div>
             <img className="rounded products-banner d-md-block d-none" src={bannerImg} alt="" />
-            <div className="cr-section-1">
-              <h3>Typical Specifications</h3>
-              <div className="row read_cr">
+            <div className="cc-section-1">
+              <h3>Typical Chemical Specifications</h3>
+              <div className="row cc-box read_cr">
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <div className="d-flex justify-content-between">
+                    <ul>
+                      <li>
+                        <h5>Element</h5>
+                      </li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <h5>PPM</h5>
+                      </li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <div className="d-flex justify-content-between">
+                    <ul>
+                      <li>
+                        <h5>Element</h5>
+                      </li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <h5>PPM</h5>
+                      </li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <div className="d-flex justify-content-between">
+                    <ul>
+                      <li>
+                        <h5>Element</h5>
+                      </li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                      <li>1.Selinium</li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <h5>PPM</h5>
+                      </li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                      <li>&lt; 2</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+              </div>
+              <div className="row justify-content-between">
+                <div className="col-md-8 left">
+                  <h4>1</h4>
+                  <h5>2</h5>
                 </div>
-                <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
-                </div>
-                <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
-                </div>
-                <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
-                </div>
-                <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
-                </div>
-                <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                <div className="col-md-4 right">
+                  <div className="row justify-content-between">
+                  <div className="col text-start">
+                    <h4>3</h4>
+                    <h4>4</h4>
+                  </div>
+                  <div className="col text-end">
+                    <h4>5</h4>
+                    <h4>6</h4>
+                  </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -215,38 +263,9 @@ const CopperRods = () => {
         </div>
       </div>
 
-      {/* <div className="bottom-bar">
-        <div className="strip">
-          <span></span>
-        </div>
-        <div className="cross-img">
-          <img src={crCross} alt=""/>
-        </div>
-        <div className="menu-box">
-        <div className="left-menu">
-          <h4>Products</h4>
-          <div className="sub-head">Copper Cathods</div>
-          <div className="sub-head">Copper Rods</div>
-          <div className="sub-head">Silver</div>
-          <div className="sub-head">Gold</div>
-        </div>
-        <div className="left-menu">
-          <h4>By-Products</h4>
-          <div className="sub-head">Industrial Gases</div>
-          <div className="sub-head">Sulphuric Acid</div>
-          <div className="sub-head">Copper Slag</div>
-        </div>
-        <div className="left-menu">
-          <h4>Precious and Minor Metals</h4>
-          <div className="sub-head">Selinium Powder</div>
-          <div className="sub-head">Nickel Carbonate</div>
-          <div className="sub-head">Copper Telluride</div>
-        </div>
-        </div>
-      </div> */}
-      <BottomBar product={'Copper Rods'}/>
+      <BottomBar product={"Copper Rods"} />
     </div>
   );
 };
 
-export default CopperRods;
+export default CopperCathode;

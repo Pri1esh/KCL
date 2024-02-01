@@ -161,11 +161,6 @@ const Home = () => {
             src={sustainability}
             alt="Placeholder Image"
             className="rounded"
-            style={{
-              objectFit: "cover",
-              width: "100%",
-              height: "80vh",
-            }}
           />
           <div className="SustainibilityData text-white row me-0">
             <div className="col-md-7 ms-md-5">
