@@ -98,7 +98,10 @@ const CopperRods = () => {
                 </div>
               </div>
             </div>
-            <div className="cr-section-2"></div>
+            <div className="cr-section-2">
+                <h3>Technical / Physical Specifications</h3>
+                <h6>*These values are typical range for Cathode dimensions. This does not represent Actual values.</h6>
+            </div>
             <div className="cr-section-3">
               <h3>Explore other Products</h3>
               <div className="row prod-box">
