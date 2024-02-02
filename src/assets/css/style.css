@@ -155,10 +155,11 @@ body {
   font-weight: 500;
 }
 .home_btn {
-  padding-inline: 2.3rem !important;
-  padding-block: 0.9rem !important;
+  padding-inline: 42px !important;
+  padding-block: 15px !important;
   font-size: 16px;
   font-weight: 500 !important;
+  line-height: 20px;
 }
 
 .WhoWeAreData {
@@ -192,11 +193,7 @@ body {
   margin-bottom: 6rem !important;
 }
 .WhoWeAreKnowMoreButton {
-  background-color: #333333 !important;
-  border-radius: 25px !important;
-  border-color: #333333 !important;
-  /* padding: 15px !important; */
-  padding: 10px 25px 10px 25px !important;
+  margin-top: 50px;
 }
 /* .WhoWeAreContainer{
     height: 100vh;
@@ -334,7 +331,7 @@ body {
   bottom: 106px;
   left: 50px;
 }
-.WhoWeAreKnowMoreButtonSustainibility {
+.Sustainibility {
   background-color: white !important;
   border-radius: 25px !important;
   border-color: white !important;
@@ -431,6 +428,83 @@ display: none !important;
   left: 50px;
 }
 /* =========================================Who we are page end =================================*/
+
+.Sustainibility-box{
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  max-width: 560px;
+}
+.Sustainibility-box h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.Sustainibility-box p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-block: 20px;
+}
+.Sustainibility-box button{
+  padding-inline: 42px !important;
+  padding-block: 15px !important;
+  font-size: 16px;
+  font-weight: 500 !important;
+  line-height: 20px;
+}
+@media (min-width: 767px) and (max-width:1024px) {
+  .Sustainibility-box h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .Sustainibility-box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-block: 20px;
+  }
+  .Chaimanrows img{
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .SustainibilitySection{
+    padding-block: 0;
+  } 
+  .SustainibilitySection .container{
+    padding-inline: 0;
+  }
+  .SustainibilitySection .container img{
+    height: 560px;
+    border-radius: 0 !important;
+  }
+  .Sustainibility-box{
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    bottom: 30px;
+    padding-inline: 15px;
+  }
+  .Sustainibility-box h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .Sustainibility-box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-block: 20px;
+  }
+}
 /* =========================================Sustainibility end =================================*/
 @media (max-width: 767px) {
   .SustainabilitySection,
@@ -441,7 +515,7 @@ display: none !important;
     height: auto;
   }
   .Chairman-img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
   }
   .WhoWeAreData {
@@ -641,12 +715,16 @@ p {
   z-index: 10;
 }
 .dotted-line {
-  border-left: 2px dashed #4d4d4d;
+  /* border-left: 2px dashed #4d4d4d; */
   height: calc(100% - 60px);
   position: absolute;
   top: 20px;
   left: 1.5rem;
   z-index: 5;
+
+  width: 1.5px;   /* Set the width of your dotted line */
+  background: linear-gradient(to bottom, black 2px, transparent 1px);
+  background-size: 100% 10px;
 }
 .operations-container .accordion {
   position: relative;
@@ -816,17 +894,24 @@ p {
   font-weight: 700;
   line-height: 20px;
   color: #333333;
+  padding-left: 20px;
+}
+.products-left .sub-head.selected{
+  background-color: whitesmoke;
 }
 .products-left .sub-head {
   font-size: 16px;
   font-weight: 400;
   line-height: auto;
   color: #000000;
-  margin-block: 40px;
+  margin-block: 30px;
+  padding-block: 10px;
+  padding-left: 20px;
 }
 .products-left .left-menu {
-    padding-top: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
+  padding-right: 1rem;
 }
 .right-head {
   display: flex;
@@ -1206,4 +1291,49 @@ p {
   }
   .cc-section-1 .right{
     padding-left:50px;
+  }
+
+  .cc-section-1 .left h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #333333;
+  }
+  .cc-section-1 .left h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #666666;
+  }
+  .cc-section-1 .right h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+  }
+  .cc-section-1 .cc-box .hed{
+    display: none;
+  }
+
+  @media (max-width:767px){
+    .cc-section-1 .tabs {
+      padding-left: calc(var(--bs-gutter-x) * .5) !important;
+      padding-right: calc((var(--bs-gutter-x) * .5) + 10px) !important;
+      margin-bottom: 0px;
+    }
+    .cc-section-1 .cc-box h5{
+      display: none;
+    }
+    .cc-section-1 .cc-box .hed{
+      display: inline;
+    }
+    .cc-section-1 .tabs ul:nth-child(1) li{
+      text-align: start;
+    }
+    .cc-section-1 .tabs ul:nth-child(2) li{
+      text-align: end;
+    }
+    .cc-section-1 .right{
+      display: none;
+    }  
   }

@@ -11,6 +11,7 @@ import wwr2 from "../../assets/images/Group 1000006552.png";
 import wwr3 from "../../assets/images/Group 1000006553.png";
 import banner from "../../assets/images/Mask group 1.png";
 import sustainability from "../../assets/images/Content Section V20.png";
+import sustainabilityMobile from "../../assets/images/sustainabilityMobile.png";
 import { Link, useNavigate } from "react-router-dom";
 import graybox from "../../assets/images/graybox.png"
 
@@ -105,7 +106,7 @@ const Home = () => {
             </div>
           </div>
           <div className="WhoWeAreButton d-flex align-items-center justify-content-center">
-            <button type="button" className="btn btn-dark rounded-pill home_btn" onClick={() => navigate("/whoweare")}>
+            <button type="button" className="WhoWeAreKnowMoreButton btn btn-dark rounded-pill home_btn" onClick={() => navigate("/whoweare")}>
               Know more
             </button>
           </div>
@@ -160,16 +161,17 @@ const Home = () => {
           <img
             src={sustainability}
             alt="Placeholder Image"
-            className="rounded"
+            className="rounded d-none d-md-block"
           />
-          <div className="SustainibilityData text-white row me-0">
-            <div className="col-md-7 ms-md-5">
-              <h1 className="mb-3">Sustainability</h1>
-              <p className="mb-4">Adani Kutch Copper prioritizes sustainability. We strive for responsible copper extraction, low carbon footprint, and circular economy practices.</p>
-              <button type="button" className="btn btn-light position-absolute rounded-pill home_btn">
-                Know More
-              </button>
-            </div>
+          <img
+            src={sustainabilityMobile}
+            alt="Placeholder Image"
+            className="rounded d-block d-md-none"
+          />
+          <div className="Sustainibility-box">
+            <h1>Sustainability</h1>
+            <p>Adani Kutch Copper prioritizes sustainability. We strive for responsible copper extraction, low carbon footprint, and circular economy practices.</p>
+            <button type="button" className="btn btn-light rounded-pill">Know More</button>
           </div>
         </div>
       </section>
@@ -196,7 +198,7 @@ const Home = () => {
               <h4>Gautam Adani</h4>
               <span className="ChaimanAdaniGroup">Chairman, Adani Group</span>
             </div>
-            <div className="col-md-6 px-md-5 align-items-center">
+            <div className="col-md-6 px-lg-5 align-items-center">
               <img src={graybox} alt="" className="Chairman-img rounded" />
             </div>
           </div>

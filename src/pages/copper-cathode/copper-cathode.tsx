@@ -16,6 +16,7 @@ import meterImg from "../../assets/images/cr-meter.png";
 import menu_arr from "../../assets/images/crbmenu-arrow.svg";
 import crCross from "../../assets/images/cross.svg";
 import BottomBar from "../../shared/bottomBar/bottomBar";
+import LeftMenu from "../../shared/leftMenu/leftMenu";
 
 const CopperCathode = () => {
   useEffect(() => {
@@ -38,10 +39,12 @@ const CopperCathode = () => {
       $(".readcr-text").after(readMore);
       $(readMore).before(displayText);
 
-      var read_cr = $('<div class="text-start wwr-read-more text-decoration-underline mb-4">Read More</div>');
-      $(".read_cr .tabs").slice(5, 9).hide();
+      var read_cr = $('<div class="text-start wwr-read-more text-decoration-underline mt-2 mb-4">Read More</div>');
+      $(".read_cr .tabs .lul .lli").slice(5, 13).hide();
+      $(".read_cr .tabs .rul .rli").slice(5, 13).hide();
       read_cr.on("click", function () {
-        $(this).prev().find(".tabs").slice(5, 9).toggle();
+        $(this).prev().find(".tabs .lul .lli").slice(5, 13).toggle();
+        $(this).prev().find(".tabs .rul .rli").slice(5, 13).toggle();
         $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
       });
       $(".read_cr").after(read_cr);
@@ -75,26 +78,8 @@ const CopperCathode = () => {
         </div>
 
         <div className="row">
-          <div className="col-md-3 d-md-block d-none products-left">
-            <div className="left-menu">
-              <h4>Products</h4>
-              <div className="sub-head">Copper Cathods</div>
-              <div className="sub-head">Copper Rods</div>
-              <div className="sub-head">Silver</div>
-              <div className="sub-head">Gold</div>
-            </div>
-            <div className="left-menu">
-              <h4>By-Products</h4>
-              <div className="sub-head">Industrial Gases</div>
-              <div className="sub-head">Sulphuric Acid</div>
-              <div className="sub-head">Copper Slag</div>
-            </div>
-            <div className="left-menu">
-              <h4>Precious and Minor Metals</h4>
-              <div className="sub-head">Selinium Powder</div>
-              <div className="sub-head">Nickel Carbonate</div>
-              <div className="sub-head">Copper Telluride</div>
-            </div>
+          <div className="col-md-3 d-md-block d-none">
+            <LeftMenu product={"Copper Cathode"} />
           </div>
           <div className="col-md-9 products-right">
             <div className="productsr-head">
@@ -113,86 +98,90 @@ const CopperCathode = () => {
               <div className="row cc-box read_cr">
                 <div className="col-md-4 tabs">
                   <div className="d-flex justify-content-between">
-                    <ul>
+                    <ul className="lul">
+                      <li>
+                        <h5 className="hed">Element</h5>
+                      </li>
                       <li>
                         <h5>Element</h5>
                       </li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
+                      <li className="lli">1.Selinium</li>
+                      <li className="lli">2.Selinium</li>
+                      <li className="lli">3.Selinium</li>
+                      <li className="lli">4.Selinium</li>
                     </ul>
-                    <ul>
+                    <ul className="rul">
+                      <li>
+                        <h5 className="hed">PPM</h5>
+                      </li>
                       <li>
                         <h5>PPM</h5>
                       </li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
                     </ul>
                   </div>
                 </div>
                 <div className="col-md-4 tabs">
                   <div className="d-flex justify-content-between">
-                    <ul>
+                    <ul className="lul">
                       <li>
                         <h5>Element</h5>
                       </li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
+                      <li className="lli">5.Selinium</li>
+                      <li className="lli">6.Selinium</li>
+                      <li className="lli">7.Selinium</li>
+                      <li className="lli">8.Selinium</li>
                     </ul>
-                    <ul>
+                    <ul className="rul">
                       <li>
                         <h5>PPM</h5>
                       </li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
                     </ul>
                   </div>
                 </div>
                 <div className="col-md-4 tabs">
                   <div className="d-flex justify-content-between">
-                    <ul>
+                    <ul className="lul">
                       <li>
                         <h5>Element</h5>
                       </li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
-                      <li>1.Selinium</li>
+                      <li className="lli">9.Selinium</li>
+                      <li className="lli">10.Selinium</li>
+                      <li className="lli">11.Selinium</li>
+                      <li className="lli">12.Selinium</li>
                     </ul>
-                    <ul>
+                    <ul className="rul">
                       <li>
                         <h5>PPM</h5>
                       </li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
-                      <li>&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 2</li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="row justify-content-between">
                 <div className="col-md-8 left">
-                  <h4>1</h4>
-                  <h5>2</h5>
+                  <h4>Copper grade A STM B115(Grade-1) / IS 191 (Cu-Cath-1)</h4>
+                  <h5>*All the values are in PPM . This does not represent actual Content of any lot.</h5>
                 </div>
                 <div className="col-md-4 right">
-                  <div className="row justify-content-between">
-                  <div className="col text-start">
-                    <h4>3</h4>
-                    <h4>4</h4>
+                  <div className="d-flex justify-content-between">
+                    <h4>Total (Excluding O2)</h4>
+                    <h4>&gt; 65</h4>
                   </div>
-                  <div className="col text-end">
-                    <h4>5</h4>
-                    <h4>6</h4>
-                  </div>
+                  <div className="d-flex justify-content-between">
+                    <h4>Copper Content</h4>
+                    <h4>&gt; 99.99 %</h4>
                   </div>
                 </div>
               </div>
@@ -201,6 +190,13 @@ const CopperCathode = () => {
               <h3>Technical / Physical Specifications</h3>
               <div className="technical-box">
                 <div className="technical-div">
+                  <img src={upArrow} alt="" style={{ height: "30px", width: "12px" }} />
+                  <div>
+                    <h4>Length</h4>
+                    <h5>Approx. 1050 mm</h5>
+                  </div>
+                </div>
+                <div className="technical-div">
                   <img src={outArrow} alt="" style={{ height: "12px", width: "30px" }} />
                   <div>
                     <h4>Internal diameter</h4>
@@ -208,17 +204,17 @@ const CopperCathode = () => {
                   </div>
                 </div>
                 <div className="technical-div">
-                  <img src={expandArrow} alt="" style={{ height: "13.25px", width: "37.75px" }} />
+                  <img src={inArrow} alt="" style={{ height: "25.76px", width: "25.76px" }} />
                   <div>
-                    <h4>Outer diameter</h4>
-                    <h5>1650mm</h5>
+                    <h4>Coil weight</h4>
+                    <h5>2 mt - 5 mt</h5>
                   </div>
                 </div>
                 <div className="technical-div">
                   <img src={meterImg} alt="" style={{ height: "25.76px", width: "25.76px" }} />
                   <div>
-                    <h4>Coil weight</h4>
-                    <h5>2 mt - 5 mt</h5>
+                    <h4>Outer diameter</h4>
+                    <h5>1650mm</h5>
                   </div>
                 </div>
               </div>
@@ -263,7 +259,7 @@ const CopperCathode = () => {
         </div>
       </div>
 
-      <BottomBar product={"Copper Rods"} />
+      <BottomBar product={"Copper Cathode"} />
     </div>
   );
 };

@@ -14,19 +14,29 @@ const Operations = () => {
       var slicedWords = words.slice(0, numWords);
       return slicedWords.join(" ");
     }
+    function getWordCount(inputString: string): number {
+      const trimmedString: string = inputString.trim();
+      if (trimmedString === "") {
+        return 0;
+      }
+      const words: string[] = trimmedString.split(/\s+/);
+      return words.length;
+    }
     if (window.innerWidth <= 768) {
-      var readMore = $('<div class="text-start wwr-read-more text-decoration-underline">Read More</div>');
-      var firstParagraphText = $(".readMore-para").find("p:first").text();
-      var slicedText = sliceTextToWords(firstParagraphText, 20);
-      var displayPara = $(`<p>${slicedText}</p>`);
+      $(".readMore-para")
+        .find("p:first")
+        .each(function (index, element) {
+          var readMore = $('<div class="text-start wwr-read-more text-decoration-underline">Read More</div>');
+          readMore.on("click", function () {
+            $(this).prev().toggle();
+            $(this).prev().prev().toggle();
+            $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
+          });
+          var displayPara = $(`<p>${sliceTextToWords($(element).text(), 20)}</p>`);
+          $(element).parent().after(readMore);
+          $(element).parent().after(displayPara);
+        });
       $(".readMore-para").hide();
-      readMore.on("click", function () {
-        $(this).prev().toggle();
-        $(this).prev().prev().toggle();
-        $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
-      });
-      $(".readMore-para").after(readMore);
-      $(readMore).before(displayPara);
     }
     //to hide more text in mobile view
     if (window.innerWidth <= 768) {
@@ -73,7 +83,6 @@ const Operations = () => {
             Smelting and Refining Process
           </h2>
           <div className="accordion accordion-flush op-accordion" id="accordionFlushExample">
-
             <div className="accordion-item">
               <h2 className="accordion-header" id="flush-heading-1">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-1" aria-expanded="false" aria-controls="flush-collapse-1">
@@ -91,9 +100,9 @@ const Operations = () => {
                     </div>
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius laudantium accusantium illo sed. Repellendus, a nemo! Esse inventore deserunt ipsum deleniti quidem, earum quis neque molestias obcaecati aliquid dolore quaerat, culpa nihil consectetur aperiam eveniet ratione aliquam aspernatur ex!</p>
+                        <p>The copper concentrates are fed through the flash smelting furnace with oxygen-enriched air. In the furnace, the concentrates are instantly oxidized, after which they melt and separate by their own reaction heat into copper matte with a grade of 60-65% and slag consisting of iron oxide, silica, and other compounds.</p>
                         <p>Reaction in the flash smelting furnace</p>
-                        <h6>Zn + H2SO4 -- ZnSO4 + H2</h6>
+                        <h6>CuFeS2 + SiO2 + O2 → Cu2S・FeS + 2FeO・SiO2 + SO2 + Reaction heat</h6>
                       </div>
                     </div>
                   </div>
@@ -120,9 +129,11 @@ const Operations = () => {
                       <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius laudantium accusantium illo sed. Repellendus, a nemo! Esse inventore deserunt ipsum deleniti quidem, earum quis neque molestias obcaecati aliquid dolore quaerat, culpa nihil consectetur aperiam eveniet ratione aliquam aspernatur ex!</p>
-                      <p>Reaction in the flash smelting furnace</p>
-                      <h6>Zn + H2SO4 -- ZnSO4 + H2</h6>
+                      <div className="readMore-para">
+                        <p>The matte produced by the flash smelting furnace is transferred to the converter furnace. Oxygen-enriched air is blown into the converter furnace to further oxidize the matte, creating blister copper with a grade of approximately 98-99%</p>
+                        <p>Reaction in the flash smelting furnace</p>
+                        <h6>Cu2S・FeS + SiO2 + O2 → Cu + 2FeO・SiO2 + SO2 + Reaction heat</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -148,7 +159,9 @@ const Operations = () => {
                       <img className="rounded w-100" src={graybox} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
-                      <p>Your content for Accordion Item 3 goes here.</p>
+                      <div className="readMore-para">
+                        <p>Fire refining is conducted in the anode furnace. FO or NG is used as a reductant to eliminate the oxygen in the blister copper, refining it to a purity of approximately 99.5%.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -175,9 +188,9 @@ const Operations = () => {
                       <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius laudantium accusantium illo sed. Repellendus, a nemo! Esse inventore deserunt ipsum deleniti quidem, earum quis neque molestias obcaecati aliquid dolore quaerat, culpa nihil consectetur aperiam eveniet ratione aliquam aspernatur ex!</p>
-                      <p>Reaction in the flash smelting furnace</p>
-                      <h6>Zn + H2SO4 -- ZnSO4 + H2</h6>
+                      <div className="readMore-para">
+                        <p>The refined blister copper is then poured into casting molds lined-up side by side on the revolving circular caster of a casting wheel, forming anode plates for electrolytic refining. Each anode plate weighs 380-425 kg.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -203,9 +216,9 @@ const Operations = () => {
                       <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius laudantium accusantium illo sed. Repellendus, a nemo! Esse inventore deserunt ipsum deleniti quidem, earum quis neque molestias obcaecati aliquid dolore quaerat, culpa nihil consectetur aperiam eveniet ratione aliquam aspernatur ex!</p>
-                      <p>Reaction in the flash smelting furnace</p>
-                      <h6>Zn + H2SO4 -- ZnSO4 + H2</h6>
+                      <div className="readMore-para">
+                        <p>Anode plates (Cu) and stainless-steel cathode plates are alternately set into the electrorefining cell, where a proper level of DC current is supplied. Dissolved copper from the anode is electrolytically deposited on the stainless-steel cathode plate. After about 6- 7 days of electrolysis, the cathode is lifted out and stripped from the stainless-steel plate, resulting in the completion of refined copper (with grade of 99.99%) as a final product. Weight of Cu Cathode is approx. 110 Kg.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -231,9 +244,9 @@ const Operations = () => {
                       <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius laudantium accusantium illo sed. Repellendus, a nemo! Esse inventore deserunt ipsum deleniti quidem, earum quis neque molestias obcaecati aliquid dolore quaerat, culpa nihil consectetur aperiam eveniet ratione aliquam aspernatur ex!</p>
-                      <p>Reaction in the flash smelting furnace</p>
-                      <h6>Zn + H2SO4 -- ZnSO4 + H2</h6>
+                      <div className="readMore-para">
+                        <p>Cathode produced from refinery is sent to CCR for further processing i.e., Melting, Casting and Drawing into different size of wires as per the market demand. Quality of Rod drawn must be very high so that ultra fine wire drawing can be done at very high yielding. Excellent surface finish is also required for the Rod producing in CCR.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -259,9 +272,9 @@ const Operations = () => {
                       <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius laudantium accusantium illo sed. Repellendus, a nemo! Esse inventore deserunt ipsum deleniti quidem, earum quis neque molestias obcaecati aliquid dolore quaerat, culpa nihil consectetur aperiam eveniet ratione aliquam aspernatur ex!</p>
-                      <p>Reaction in the flash smelting furnace</p>
-                      <h6>Zn + H2SO4 -- ZnSO4 + H2</h6>
+                      <div className="readMore-para">
+                        <p>The gases from the flash smelting furnace and converter furnace include highly concentrated SO2 gas. The Heat is recovered from the gas by waste heat recovery boiler. After electrostatic precipitators remove dust particles in the gases, the gas is transferred to the sulfuric acid plant. At the sulfuric acid plant, the catalytic reaction of vanadium oxides causes SO2 to oxidize into SO3, which is absorbed in water to yield concentrated sulfuric acid.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -287,9 +300,9 @@ const Operations = () => {
                       <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius laudantium accusantium illo sed. Repellendus, a nemo! Esse inventore deserunt ipsum deleniti quidem, earum quis neque molestias obcaecati aliquid dolore quaerat, culpa nihil consectetur aperiam eveniet ratione aliquam aspernatur ex!</p>
-                      <p>Reaction in the flash smelting furnace</p>
-                      <h6>Zn + H2SO4 -- ZnSO4 + H2</h6>
+                      <div className="readMore-para">
+                        <p>Slime generated in the electrolytic refining process contains precious and rare metals such as gold, silver, selenium, tellurium, etc. These precious and rare metals are recovered through processes in the slime treatment plant. The powdered silver & gold from the slime treatment plant is melted and cast into ingots.</p>
+                      </div>
                     </div>
                   </div>
                 </div>

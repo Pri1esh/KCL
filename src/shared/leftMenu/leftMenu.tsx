@@ -1,17 +1,9 @@
 import React from "react";
-import crCross from "../../assets/images/cross.svg";
 
-const BottomBar = (props: any) => {
+const LeftMenu = (props:any) => {
   return (
-    <div className="bottom-bar">
-      <div className="strip">
-        <span></span>
-      </div>
-      <div className="cross-img">
-        <img src={crCross} alt="" />
-      </div>
-      <div className="menu-box">
-        <div className="left-menu">
+    <div className="products-left">
+      <div className="left-menu">
           <h4>Products</h4>
           <div className={`sub-head ${props.product ===  'Copper Cathode'? 'selected' : ''}`}>Copper Cathode</div>
           <div className={`sub-head ${props.product ===  'Copper Rods'? 'selected' : ''}`}>Copper Rods</div>
@@ -30,9 +22,8 @@ const BottomBar = (props: any) => {
           <div className={`sub-head ${props.product ===  ''? 'selected' : 'Nickel Carbonate'}`}>Nickel Carbonate</div>
           <div className={`sub-head ${props.product ===  ''? 'selected' : 'Copper Telluride'}`}>Copper Telluride</div>
         </div>
-      </div>
     </div>
   );
 };
 
-export default BottomBar;
+export default LeftMenu;
