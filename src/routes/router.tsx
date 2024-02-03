@@ -9,6 +9,7 @@ import Whoweare from '../pages/whoweare/whoweare';
 import Products from '../pages/products/products';
 import CopperRods from '../pages/copper-rods/copper-rods';
 import CopperCathode from '../pages/copper-cathode/copper-cathode';
+import Contactus from '../pages/contactUs/contactUs';
 
 
 const Routings = () => {
@@ -26,6 +27,7 @@ const Routings = () => {
           <Route path="/products" element={<Products/>} />
           <Route path="/copperRods" element={<CopperRods/>} />
           <Route path="/copperCathode" element={<CopperCathode/>} />
+          <Route path="/contactUs" element={<Contactus/>} />
 
         </Routes>
     </div>
