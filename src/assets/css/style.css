@@ -913,14 +913,21 @@ p {
 .products-left .sub-head.selected{
   background-color: whitesmoke;
 }
-.products-left .sub-head {
+.products-left .sub-head:hover{
+  background-color: whitesmoke;
+}
+.products-left .sub-head{
+  margin-block: 30px;
+  padding-block: 10px;
+  padding-left: 20px;
+}
+.products-left .sub-head a{
   font-size: 16px;
   font-weight: 400;
   line-height: auto;
   color: #000000;
-  margin-block: 30px;
-  padding-block: 10px;
-  padding-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
 }
 .products-left .left-menu {
   padding-top: 10px;
@@ -1106,6 +1113,9 @@ p {
   }
   
   @media(max-width:767px){
+    .products-banner {
+      border-radius: 0px !important;
+    }
     .products-banner {
         height: 196px;
         width: 100%;

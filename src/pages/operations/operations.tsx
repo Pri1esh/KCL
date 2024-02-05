@@ -9,27 +9,12 @@ import graybox from "../../assets/images/graybox.png";
 
 const Operations = () => {
   useEffect(() => {
-    function sliceTextToWords(text:String, numWords:number) {
+    function sliceTextToWords(text: String, numWords: number) {
       var words = text.split(" ");
-      var sentenceEndRegex = /[.!?]/;
-      var lastWordIndex = 0;
-      for (var i = 0; i < numWords && lastWordIndex < words.length; i++) {
-        lastWordIndex += words[lastWordIndex].length + 1; // +1 to account for the space
-      }
-      while (lastWordIndex < text.length && !sentenceEndRegex.test(text[lastWordIndex])) {
-        lastWordIndex++;
-      }
-      return text.substring(0, lastWordIndex + 1); // +1 to include the sentence-ending punctuation
+      var slicedWords = words.slice(0, numWords);
+      return slicedWords.join(" ");
     }
-    
-    function getWordCount(inputString: string): number {
-      const trimmedString: string = inputString.trim();
-      if (trimmedString === "") {
-        return 0;
-      }
-      const words: string[] = trimmedString.split(/\s+/);
-      return words.length;
-    }
+
     if (window.innerWidth <= 768) {
       $(".readMore-para")
         .find("p:first")
@@ -49,7 +34,7 @@ const Operations = () => {
     //to hide more text in mobile view
     if (window.innerWidth <= 768) {
       var readMore = $('<div class="text-start wwr-read-more text-decoration-underline mb-4">Read More</div>');
-      var slicedText = sliceTextToWords($(".readMore-text").text(), 20);
+      var slicedText = sliceTextToWords($(".readMore-text").text(), 19);
       var displayText = $(`<p>${slicedText}</p>`);
       $(".readMore-text").hide();
       readMore.on("click", function () {
@@ -59,6 +44,18 @@ const Operations = () => {
       });
       $(".readMore-text").after(readMore);
       $(readMore).before(displayText);
+
+      var operations = $('<div class="text-start wwr-read-more text-decoration-underline mb-4">Read More</div>');
+      var slicedText = sliceTextToWords($(".operations-text").text(), 40);
+      var displayText = $(`<p>${slicedText}</p>`);
+      $(".operations-text").hide();
+      operations.on("click", function () {
+        $(this).prev().toggle();
+        $(this).prev().prev().toggle();
+        $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
+      });
+      $(".operations-text").after(operations);
+      $(operations).before(displayText);
     }
   }, []);
   return (
@@ -71,27 +68,23 @@ const Operations = () => {
           </h3>
           <p className="mb-4 readMore-text">Copper plays a significant role in sectors such as infrastructure development, power transmission, electrical equipment manufacturing, and renewable energy. As a leading | mining, metal, and trading company, our mission is to reduce India's dependence on copper imports and lead the nation toward an ‘Atmanirbhar Bharat’. Adani is committed to expanding domestic mining operations, enhancing refining capabilities, and promoting sustainable practices to build a stronger India.</p>
 
-          <div className="row" style={{ marginTop: "90px" }}>
-            <div className="col-md-8">
-              <h3>
+          <div className="row" style={{ marginTop: "60px" }}>
+            <div className="col-md-8 order-md-2 order-2">
+              <h3 className="d-md-block d-none">
                 <strong>Operations at KCL</strong>
               </h3>
-              <p>Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCLhas adopted flash smelting and pierce smith converting technology wherein the copper concentrates are converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.</p>
-              <div className="d-md-block d-none">
-              <p>Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with | minimal impurities.</p>
-              <a className="operations-rm" href="">
-                <h6>Read More</h6>
-              </a>
-              </div>
+              <p className="my-4 operations-text">
+                Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCLhas adopted flash smelting and pierce smith converting technology wherein the copper concentrates are converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.
+                <br />
+                <br />
+                Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with | minimal impurities.
+              </p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 order-md-2 order-1">
+              <h3 className="d-md-none d-block">
+                <strong>Operations at KCL</strong>
+              </h3>
               <img className="rounded w-100 my-4" src={operations} alt="" />
-              <div className="d-md-none d-block">
-              <p>Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with | minimal impurities.</p>
-              <a className="operations-rm" href="">
-                <h6>Read More</h6>
-              </a>
-              </div>
             </div>
           </div>
 
@@ -172,7 +165,7 @@ const Operations = () => {
                 <div className="accordion-body">
                   <div className="row">
                     <div className="col-md-3 p-0 mb-3">
-                    <img className="rounded w-100" src={smelting2} alt="" />
+                      <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">

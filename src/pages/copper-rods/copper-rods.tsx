@@ -16,20 +16,14 @@ import meterImg from "../../assets/images/cr-meter.png";
 import menu_arr from "../../assets/images/crbmenu-arrow.svg";
 import crCross from "../../assets/images/cross.svg";
 import BottomBar from "../../shared/bottomBar/bottomBar";
+import LeftMenu from "../../shared/leftMenu/leftMenu";
 
 const CopperRods = () => {
   useEffect(() => {
-    function sliceTextToWords(text:String, numWords:number) {
+    function sliceTextToWords(text: String, numWords: number) {
       var words = text.split(" ");
-      var sentenceEndRegex = /[.!?]/;
-      var lastWordIndex = 0;
-      for (var i = 0; i < numWords && lastWordIndex < words.length; i++) {
-        lastWordIndex += words[lastWordIndex].length + 1; // +1 to account for the space
-      }
-      while (lastWordIndex < text.length && !sentenceEndRegex.test(text[lastWordIndex])) {
-        lastWordIndex++;
-      }
-      return text.substring(0, lastWordIndex + 1); // +1 to include the sentence-ending punctuation
+      var slicedWords = words.slice(0, numWords);
+      return slicedWords.join(" ");
     }
     //to hide more text in mobile view
     if (window.innerWidth <= 767) {
@@ -66,7 +60,7 @@ const CopperRods = () => {
 
   return (
     <div>
-      <img className="rounded products-banner d-md-none d-block" src={mobileImg} alt="" />
+      <img className="products-banner d-md-none d-block" src={mobileImg} alt="" />
 
       <div className="container">
         <div className="products-crumb d-md-flex d-none">
@@ -83,25 +77,7 @@ const CopperRods = () => {
 
         <div className="row">
           <div className="col-md-3 d-md-block d-none products-left">
-            <div className="left-menu">
-              <h4>Products</h4>
-              <div className="sub-head">Copper Cathods</div>
-              <div className="sub-head">Copper Rods</div>
-              <div className="sub-head">Silver</div>
-              <div className="sub-head">Gold</div>
-            </div>
-            <div className="left-menu">
-              <h4>By-Products</h4>
-              <div className="sub-head">Industrial Gases</div>
-              <div className="sub-head">Sulphuric Acid</div>
-              <div className="sub-head">Copper Slag</div>
-            </div>
-            <div className="left-menu">
-              <h4>Precious and Minor Metals</h4>
-              <div className="sub-head">Selinium Powder</div>
-              <div className="sub-head">Nickel Carbonate</div>
-              <div className="sub-head">Copper Telluride</div>
-            </div>
+            <LeftMenu product={"Copper Rods"}/>
           </div>
           <div className="col-md-9 products-right">
             <div className="productsr-head">
@@ -123,36 +99,36 @@ const CopperRods = () => {
                   <p>99.9% and above</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Oxygen content</h5>
+                  <p>175 - 450 ppm</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Copper grade</h5>
+                  <p>ETP</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Copper rod</h5>
+                  <p>8.00 ± 0.38</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Condition</h5>
+                  <p>Soft</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Electrical conductivity</h5>
+                  <p>100% minimum</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Tensile strength</h5>
+                  <p>Minimum 210 N / mm</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Elongation at fracture <br/><small>( 250 mm gauge length)</small></h5>
+                  <p>Minimum 35%</p>
                 </div>
                 <div className="col-md-4 tabs">
-                  <h5>Copper content</h5>
-                  <p>99.9% and above</p>
+                  <h5>Surface condition</h5>
+                  <p>Clean , smooth and free from scratches & crack</p>
                 </div>
               </div>
             </div>

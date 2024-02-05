@@ -20,17 +20,10 @@ import LeftMenu from "../../shared/leftMenu/leftMenu";
 
 const CopperCathode = () => {
   useEffect(() => {
-    function sliceTextToWords(text:String, numWords:number) {
+    function sliceTextToWords(text: String, numWords: number) {
       var words = text.split(" ");
-      var sentenceEndRegex = /[.!?]/;
-      var lastWordIndex = 0;
-      for (var i = 0; i < numWords && lastWordIndex < words.length; i++) {
-        lastWordIndex += words[lastWordIndex].length + 1; // +1 to account for the space
-      }
-      while (lastWordIndex < text.length && !sentenceEndRegex.test(text[lastWordIndex])) {
-        lastWordIndex++;
-      }
-      return text.substring(0, lastWordIndex + 1); // +1 to include the sentence-ending punctuation
+      var slicedWords = words.slice(0, numWords);
+      return slicedWords.join(" ");
     }
     //to hide more text in mobile view
     if (window.innerWidth <= 767) {
@@ -113,9 +106,9 @@ const CopperCathode = () => {
                         <h5>Element</h5>
                       </li>
                       <li className="lli">1.Selinium</li>
-                      <li className="lli">2.Selinium</li>
-                      <li className="lli">3.Selinium</li>
-                      <li className="lli">4.Selinium</li>
+                      <li className="lli">2.Tellurium</li>
+                      <li className="lli">3.Bismuth</li>
+                      <li className="lli">4.Group Total (Se+Te+Bi)</li>
                     </ul>
                     <ul className="rul">
                       <li>
@@ -126,8 +119,8 @@ const CopperCathode = () => {
                       </li>
                       <li className="rli">&lt; 2</li>
                       <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 1</li>
+                      <li className="rli">&lt; 3</li>
                     </ul>
                   </div>
                 </div>
@@ -137,19 +130,19 @@ const CopperCathode = () => {
                       <li>
                         <h5>Element</h5>
                       </li>
-                      <li className="lli">5.Selinium</li>
-                      <li className="lli">6.Selinium</li>
-                      <li className="lli">7.Selinium</li>
-                      <li className="lli">8.Selinium</li>
+                      <li className="lli">5.Antimony</li>
+                      <li className="lli">6.Arsenic</li>
+                      <li className="lli">7.Tin</li>
+                      <li className="lli">8.Lead</li>
                     </ul>
                     <ul className="rul">
                       <li>
                         <h5>PPM</h5>
                       </li>
-                      <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 4</li>
+                      <li className="rli">&lt; 5</li>
+                      <li className="rli">&lt; 5</li>
+                      <li className="rli">&lt; 5</li>
                     </ul>
                   </div>
                 </div>
@@ -159,19 +152,19 @@ const CopperCathode = () => {
                       <li>
                         <h5>Element</h5>
                       </li>
-                      <li className="lli">9.Selinium</li>
-                      <li className="lli">10.Selinium</li>
-                      <li className="lli">11.Selinium</li>
-                      <li className="lli">12.Selinium</li>
+                      <li className="lli">9.Iron</li>
+                      <li className="lli">10.Nickel</li>
+                      <li className="lli">11.Sulfur</li>
+                      <li className="lli">12.Silver</li>
                     </ul>
                     <ul className="rul">
                       <li>
                         <h5>PPM</h5>
                       </li>
-                      <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
-                      <li className="rli">&lt; 2</li>
+                      <li className="rli">&lt; 5</li>
+                      <li className="rli">&lt; 10</li>
+                      <li className="rli">&lt; 15</li>
+                      <li className="rli">&lt; 25</li>
                     </ul>
                   </div>
                 </div>
