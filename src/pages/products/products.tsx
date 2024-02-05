@@ -3,8 +3,8 @@ import Banner from "../../shared/banner/banner";
 import graybox from "../../assets/images/graybox.png";
 import bannerImg from "../../assets/images/products_banner.png";
 
-import copperCathod  from "../../assets/images/Copper Cathodes.png";
-import copperRods from "../../assets/images/Copper Rods.png";
+import copperRods from "../../assets/images/Copper Cathodes.png";
+import copperCathod from "../../assets/images/Copper Rods.png";
 import Silver  from "../../assets/images/Silver.png";
 import Gold from "../../assets/images/Gold.png";
 import SulphuricAcid from "../../assets/images/Sulphuric Acid.png";
