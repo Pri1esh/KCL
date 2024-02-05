@@ -34,6 +34,11 @@ const Header = () => {
         $(".mobile-trigger").css("visibility", "visible");
         $('#sidebar-fade').hide();
       });
+      $(".nav_links").click(function () {
+        $(".side-bar").removeClass("active");
+        $(".mobile-trigger").css("visibility", "visible");
+        $('#sidebar-fade').hide();
+      });
       $("#sidebar-fade").click(function () {
         $(".side-bar").removeClass("active");
         $(".mobile-trigger").css("visibility", "visible");
@@ -183,29 +188,29 @@ const Header = () => {
         </div>
         <div className="menu">
           <div className="item">
-            <Link to={"/whoweare"} className="sub-btn">
+            <a  className="sub-btn">
               <img className="icons" src={sidebar1} alt="" />
-              Who we are<i className="fas fa-angle-right dropdown"></i>
-            </Link>
+              <Link to={"/whoweare"} className="sub-head nav_links">Who we are</Link><i className="fas fa-angle-right dropdown"></i>
+            </a>
             <div className="sub-menu">
-              <Link to={"/whoweare"} className="sub-item">
+              <Link to={"/whoweare"} className="sub-item nav_links">
                 About Us
               </Link>
-              <Link to={"/leadership"} className="sub-item">
+              <Link to={"/leadership"} className="sub-item nav_links">
                 Leadership & Management
               </Link>
             </div>
           </div>
           <div className="item">
-            <Link to={"/operations"} className="sub-btn">
+            <a  className="sub-btn">
               <img className="icons" src={sidebar2} alt="" />
-              What we do<i className="fas fa-angle-right dropdown"></i>
-            </Link>
+              <Link to={"/operations"} className="sub-head nav_links">What we do</Link><i className="fas fa-angle-right dropdown"></i>
+            </a>
             <div className="sub-menu">
-              <Link to={"/operations"} className="sub-item">
+              <Link to={"/operations"} className="sub-item nav_links">
                 Operations
               </Link>
-              <Link to={"/products"} className="sub-item">
+              <Link to={"/products"} className="sub-item nav_links">
                 Products
               </Link>
               <Link to={"/"} className="sub-item">
@@ -213,7 +218,7 @@ const Header = () => {
               </Link>
             </div>
           </div>
-          <div className="item">
+          {/* <div className="item">
             <Link to={"#"}>
               <img className="icons" src={sidebar3} alt="" />
               Sustainability
@@ -231,6 +236,23 @@ const Header = () => {
               Careers
             </Link>
           </div>
+        </div> */}
+        <div className="item">
+            <a  className="sub-btn">
+            <img className="icons" src={sidebar3} alt="" />
+              <Link to={""} className="sub-head nav_links">Sustainability</Link>
+            </a>
+          </div><div className="item">
+            <a  className="sub-btn">
+            <img className="icons" src={sidebar4} alt="" />
+              <Link to={""} className="sub-head nav_links">Media</Link>
+            </a>
+          </div><div className="item">
+            <a  className="sub-btn">
+            <img className="icons" src={sidebar5} alt="" />
+              <Link to={""} className="sub-head nav_links">Careers</Link>
+            </a>
+          </div>
         </div>
 
         <div className="menu">
@@ -239,13 +261,13 @@ const Header = () => {
           </div>
 
           <div className="item">
-            <Link to={"contactUs"}>Contact Us</Link>
+            <Link className="info-menu nav_links" to={"contactUs"}>Contact Us</Link>
           </div>
           <div className="item">
-            <Link to={"/privacyPolicy"}>Privacy Policy</Link>
+            <Link className="info-menu nav_links" to={"/privacyPolicy"}>Privacy Policy</Link>
           </div>
           <div className="item">
-            <Link to={"/terms"}>Terms & Conditions</Link>
+            <Link className="info-menu nav_links" to={"/terms"}>Terms & Conditions</Link>
           </div>
         </div>
       </div>

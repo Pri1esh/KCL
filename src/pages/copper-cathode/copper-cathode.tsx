@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Banner from "../../shared/banner/banner";
-import bannerImg from "../../assets/images/cr-banner.png";
+import bannerImg from "../../assets/images/cc-banner.png";
 import mobileImg from "../../assets/images/cr-mobile-banner.png";
 import { Link } from "react-router-dom";
 
@@ -199,22 +199,22 @@ const CopperCathode = () => {
                 <div className="technical-div">
                   <img src={outArrow} alt="" style={{ height: "12px", width: "30px" }} />
                   <div>
-                    <h4>Internal diameter</h4>
-                    <h5>1100 ± 50 mm</h5>
+                    <h4>Width</h4>
+                    <h5>Approx. 1030 mm</h5>
                   </div>
                 </div>
                 <div className="technical-div">
                   <img src={inArrow} alt="" style={{ height: "25.76px", width: "25.76px" }} />
                   <div>
-                    <h4>Coil weight</h4>
-                    <h5>2 mt - 5 mt</h5>
+                    <h4>Thickness</h4>
+                    <h5>Approx. 6-8 mm</h5>
                   </div>
                 </div>
                 <div className="technical-div">
                   <img src={meterImg} alt="" style={{ height: "25.76px", width: "25.76px" }} />
                   <div>
-                    <h4>Outer diameter</h4>
-                    <h5>1650mm</h5>
+                    <h4>Weight</h4>
+                    <h5>Approx. 60 Kg</h5>
                   </div>
                 </div>
               </div>
@@ -225,10 +225,10 @@ const CopperCathode = () => {
               <div className="row prod-box no-gutters">
                 <div className="col-md-4 col-9 prod-cards">
                   <div>
-                    <img className="card-img prod-card-img" src={copperCathod} alt="" />
+                    <img className="card-img prod-card-img" src={copperRods} alt="" />
                     <div className="card-body prod-card-body">
-                      <h5>Copper Cathodes</h5>
-                      <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                      <h5>Copper Rods</h5>
+                      <p>Copper rods serve various essential purposes due to their excellent electrical conductivity, malleability</p>
                       <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                   </div>
@@ -237,8 +237,8 @@ const CopperCathode = () => {
                   <div>
                     <img className="card-img prod-card-img" src={Silver} alt="" />
                     <div className="card-body prod-card-body">
-                      <h5>Copper Cathodes</h5>
-                      <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                      <h5>Silver</h5>
+                      <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
                       <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                   </div>
@@ -247,8 +247,8 @@ const CopperCathode = () => {
                   <div>
                     <img className="card-img prod-card-img" src={Gold} alt="" />
                     <div className="card-body prod-card-body">
-                      <h5>Copper Cathodes</h5>
-                      <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                      <h5>Gold</h5>
+                      <p>Gold bars are revered for their timeless value and myriad applications making them a cornerstone in various sectors</p>
                       <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                   </div>

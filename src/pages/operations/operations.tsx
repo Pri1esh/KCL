@@ -156,7 +156,7 @@ const Operations = () => {
                 <div className="accordion-body">
                   <div className="row">
                     <div className="col-md-3 p-0 mb-3">
-                      <img className="rounded w-100" src={graybox} alt="" />
+                    <img className="rounded w-100" src={smelting2} alt="" />
                     </div>
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">
