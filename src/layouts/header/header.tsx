@@ -179,10 +179,10 @@ const Header = () => {
       </nav>
       <div className="side-bar">
         <div className="sidebar-head">
-          <div className="close-btn">
+          <div className="close-btn d-none">
             <i className="fas fa-times"></i>
           </div>
-          <div className="w-100 text-center">
+          <div className="w-100" style={{paddingLeft: "30px"}}>
             <img className="my-2  kcl_logo" src={logo1} alt="" />
           </div>
         </div>

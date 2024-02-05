@@ -9,11 +9,19 @@ import graybox from "../../assets/images/graybox.png";
 
 const Operations = () => {
   useEffect(() => {
-    function sliceTextToWords(text: String, numWords: number) {
+    function sliceTextToWords(text:String, numWords:number) {
       var words = text.split(" ");
-      var slicedWords = words.slice(0, numWords);
-      return slicedWords.join(" ");
+      var sentenceEndRegex = /[.!?]/;
+      var lastWordIndex = 0;
+      for (var i = 0; i < numWords && lastWordIndex < words.length; i++) {
+        lastWordIndex += words[lastWordIndex].length + 1; // +1 to account for the space
+      }
+      while (lastWordIndex < text.length && !sentenceEndRegex.test(text[lastWordIndex])) {
+        lastWordIndex++;
+      }
+      return text.substring(0, lastWordIndex + 1); // +1 to include the sentence-ending punctuation
     }
+    
     function getWordCount(inputString: string): number {
       const trimmedString: string = inputString.trim();
       if (trimmedString === "") {
@@ -69,13 +77,21 @@ const Operations = () => {
                 <strong>Operations at KCL</strong>
               </h3>
               <p>Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCLhas adopted flash smelting and pierce smith converting technology wherein the copper concentrates are converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.</p>
+              <div className="d-md-block d-none">
               <p>Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with | minimal impurities.</p>
               <a className="operations-rm" href="">
                 <h6>Read More</h6>
               </a>
+              </div>
             </div>
             <div className="col-md-4">
-              <img className="rounded w-100" src={operations} alt="" />
+              <img className="rounded w-100 my-4" src={operations} alt="" />
+              <div className="d-md-none d-block">
+              <p>Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with | minimal impurities.</p>
+              <a className="operations-rm" href="">
+                <h6>Read More</h6>
+              </a>
+              </div>
             </div>
           </div>
 

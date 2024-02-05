@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import OwlCarousel from "react-owl-carousel";
+
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import lifeImg from "../../assets/images/Ecommerce Card V9.png";
 import lifeImg2 from "../../assets/images/dave-hoefler-m5oOq4iyaeQ-unsplash.jpg";
@@ -127,7 +128,7 @@ const Home = () => {
               <div className="col-md-4 WhatWeDoImages mb-4">
                 <div className="card">
                   <img src={wwd1} className="card-img w-100" alt="Image 1" />
-                  <div className="text-center">
+                  <div className="text-center" onClick={() => navigate("operations")}>
                     <h3 className="mt-3">Operations</h3>
                     <p>Technology thats's a league apart</p>
                   </div>
@@ -136,7 +137,7 @@ const Home = () => {
               <div className="col-md-4 WhatWeDoImages mb-4">
                 <div className="card">
                   <img src={wwd2} className="card-img w-100" alt="Image 2" />
-                  <div className="text-center">
+                  <div className="text-center" onClick={() => navigate("/products")}>
                     <h3 className="mt-3">Products</h3>
                     <p>Delivering quality,building trust</p>
                   </div>
@@ -145,7 +146,7 @@ const Home = () => {
               <div className="col-md-4 WhatWeDoImages mb-4">
                 <div className="card">
                   <img src={wwd3} className="card-img w-100" alt="Image 3" />
-                  <div className="text-center">
+                  <div className="text-center" onClick={() => navigate("")}>
                     <h3 className="mt-3">Project</h3>
                     <p>Backed by the best infrastructural capability</p>
                   </div>
@@ -207,9 +208,9 @@ const Home = () => {
 
       <section className="LifeAtKCL d-flex align-items-center justify-content-center pt-5">
         <div className="container LifeAtKCLContainer grid-custom">
-          <h1 className="mb-4 mt-4 mobileview2 section-heading">Life at KCL</h1>
+          <h1 className="mb-4 mt-4 d-md-none d-block section-heading">Life at KCL</h1>
           <div className="row LifeAtKCLRows">
-            <div className="col-lg-6 col-12 LifeAtKCL-1 pe-md-3 mb-4">
+            <div className="col-lg-6 col-12 LifeAtKCL-1 pe-md-3">
               <div className="row LifeAtKCL-row1">
                 <div className="col-md-7">
                   <img
@@ -236,10 +237,10 @@ const Home = () => {
             </div>
             <div className="col-lg-6 col-12 LifeAtKCL-2 ps-md-5">
               <div className="LifeAtKCLContentData">
-                <h1 className="mb-4 laptopview2 section-heading">Life at KCL</h1>
+                <h1 className="mb-4 d-md-block d-none section-heading">Life at KCL</h1>
                 <p>Experience the vibrant life at Kutch Copper Limited (KCL), where innovation meets tradition in the world of metals. Our commitment to responsible and sustainable copper extraction, coupled with cutting-edge technology and digitalisation, sets the stage for a dynamic workplace. Discover a culture built on values of Courage, Trust, and unwavering Commitment and join us in this transformative journey at KCL, where every individual plays a crucial role in building a stronger, Atmanirbhar Bharat. </p>
                 <div className="WhoWeAreButton mt-4">
-                  <button type="button" className="btn btn-dark rounded-pill home_btn">
+                  <button type="button" className="life-kcl-button btn btn-dark rounded-pill home_btn">
                     Job Openings
                   </button>
                 </div>

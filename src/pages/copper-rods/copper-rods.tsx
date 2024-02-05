@@ -19,10 +19,17 @@ import BottomBar from "../../shared/bottomBar/bottomBar";
 
 const CopperRods = () => {
   useEffect(() => {
-    function sliceTextToWords(text: String, numWords: number) {
+    function sliceTextToWords(text:String, numWords:number) {
       var words = text.split(" ");
-      var slicedWords = words.slice(0, numWords);
-      return slicedWords.join(" ");
+      var sentenceEndRegex = /[.!?]/;
+      var lastWordIndex = 0;
+      for (var i = 0; i < numWords && lastWordIndex < words.length; i++) {
+        lastWordIndex += words[lastWordIndex].length + 1; // +1 to account for the space
+      }
+      while (lastWordIndex < text.length && !sentenceEndRegex.test(text[lastWordIndex])) {
+        lastWordIndex++;
+      }
+      return text.substring(0, lastWordIndex + 1); // +1 to include the sentence-ending punctuation
     }
     //to hide more text in mobile view
     if (window.innerWidth <= 767) {

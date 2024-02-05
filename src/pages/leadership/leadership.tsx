@@ -50,7 +50,7 @@ const Leadership = () => {
                     { LeaderNo <= leaders.length && 
                         <div className="col-md-4 d-md-none d-block">
                         <div className="d-flex justify-content-center">
-                            <button className="btn  btn-outline-dark px-5 py-2 rounded-pill" onClick={()=>{setLeaderNo((prev:any) => prev + leaders.length)}}><h6>View All</h6></button>
+                            <button className="btn btn-outline-dark home_btn rounded-pill" onClick={()=>{setLeaderNo((prev:any) => prev + leaders.length)}}>View All</button>
                         </div>
                     </div>}
                 </div>

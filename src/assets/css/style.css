@@ -6,9 +6,6 @@ body {
 }
 
 /* =========================================home banner starts =================================*/
-.banner {
-  height: 70vh;
-}
 .banner-box {
   height: 70vh;
 }
@@ -108,7 +105,7 @@ body {
 
 /* =========================================banner others =================================*/
 .banner-others .banner-box {
-  max-height: 670px;
+  max-height: 452px;
   max-width: 1440px;
 }
 .banner-crumb a {
@@ -139,6 +136,10 @@ body {
   line-height: 24px;
 }
 @media (max-width: 767px) {
+  .banner-others .banner-box {
+    max-height: 388px;
+    width: auto;
+  }
   .banner-cont {
     position: absolute;
     bottom: 60px;
@@ -236,6 +237,9 @@ body {
 }
 
 @media (max-width: 767px) {
+  .WhatWeDoImages .inner-data {
+    margin-top: 30px;
+  }
   .leadership_Profiles {
     flex-wrap: nowrap !important;
     overflow-x: scroll;
@@ -301,6 +305,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.WhatWeDoData .card-img{
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
 }
 /* =========================================What we do end =================================*/
 
@@ -390,6 +398,7 @@ display: none !important;
   width: 60% !important;
 }
 .LifeAtKCL-2 {
+  position: relative;
   width: 40% !important;
 }
 .small-images {
@@ -400,9 +409,14 @@ display: none !important;
   display: flex;
   flex-direction: row;
 }
+.life-kcl-button{
+  position: absolute;
+  bottom: 10px;
+}
 @media (max-width: 767px) {
   .LifeAtKCL-row1 {
     gap: 0.3rem;
+    margin-bottom: 20px;
   }
   .WhatWeDoImages {
     margin-right: 10px;

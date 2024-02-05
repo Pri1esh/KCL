@@ -48,7 +48,7 @@ const Whoweare = () => {
               <div className="col-md-4 card about-divs WhatWeDoImages">
                 <h3 className="my-4 all-headings d-md-none d-block mobileviewKCL all-headings text-start">Mission</h3>
                 <img src={mission} alt="Image 2" />
-                <div className="inner-data mt-2">
+                <div className="inner-data">
                   <h3 className="my-4 all-headings d-md-block d-none laptopviewKCL text-start">Mission</h3>
                   <ul className="wwr-list">
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio expedita labore provident ducimus fugit veritatis.</li>
@@ -60,7 +60,7 @@ const Whoweare = () => {
               <div className="col-md-4 card about-divs WhatWeDoImages">
                 <h3 className="my-4 all-headings d-md-none d-block mobileviewKCL all-headings text-start">Value</h3>
                 <img src={values} alt="Image 3" />
-                <div className="inner-data mt-2">
+                <div className="inner-data">
                   <h3 className="my-4 all-headings d-md-block d-none laptopviewKCL text-start">Value</h3>
                   <ul className="wwr-list">
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio expedita labore provident ducimus fugit veritatis.</li>
