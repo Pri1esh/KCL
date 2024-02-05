@@ -9,7 +9,7 @@ import EmailIcon from "../../assets/images/email_icon.png";
 import contact1 from "../../assets/images/contact-location.svg";
 import contact2 from "../../assets/images/contact-factory.svg";
 import contact3 from "../../assets/images/contact-phone.svg";
-import contact4 from "../../assets/images/contact-location.svg";
+import contact4 from "../../assets/images/contact-mail.svg";
 import thumb from "../../assets/images/thumbsUp.png";
 import crCross from "../../assets/images/cross.svg";
 
