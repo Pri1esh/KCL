@@ -1147,9 +1147,9 @@ p {
         padding: 15px 27px;
         color: #FFFFFF;
         background-color: #333333;
-        position: relative;
+        position: absolute;
         bottom: 0px;
-        width: 100%;
+        width: calc(100% - (calc(var(--bs-gutter-x) * .5))*2);
       }
       .cr-section-3 .prod-card-body button:hover {
         color: #333333;
