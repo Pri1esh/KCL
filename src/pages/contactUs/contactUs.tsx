@@ -6,8 +6,10 @@ import { useNavigate } from "react-router-dom";
 
 import PhoneIcon from "../../assets/images/phone_icon.png";
 import EmailIcon from "../../assets/images/email_icon.png";
-import contact1 from "../../assets/images/contactUs3.png";
-import contact2 from "../../assets/images/contactUs4.png";
+import contact1 from "../../assets/images/contact-location.svg";
+import contact2 from "../../assets/images/contact-factory.svg";
+import contact3 from "../../assets/images/contact-phone.svg";
+import contact4 from "../../assets/images/contact-location.svg";
 import thumb from "../../assets/images/thumbsUp.png";
 import crCross from "../../assets/images/cross.svg";
 
@@ -85,21 +87,21 @@ const Contactus = () => {
                   </div>
                 </div>
                 <div className="left-card">
-                  <img src={contact1} alt="" />
+                  <img src={contact2} alt="" />
                   <div>
                     <h5>Copper Plant</h5>
                     <p>Plot No.1, Sector 04N, S. No.295/Paiki 6/Paiki 2, 138/1, 140, North of APL Road Near Adani Power Plant, APSEZ, Siracha and Navinal Village, mundra, Kachchh, Gujarat, 370421</p>
                   </div>
                 </div>
                 <div className="left-card">
-                  <img src={contact1} alt="" />
+                  <img src={contact3} alt="" />
                   <div className="cont">
                     <h5>Call Us</h5>
                     <p>+91 0796851906</p>
                   </div>
                 </div>
                 <div className="left-card">
-                  <img src={contact1} alt="" />
+                  <img src={contact4} alt="" />
                   <div className="cont">
                     <h5>Email Us</h5>
                     <p>copper.marketing@adani.com</p>
