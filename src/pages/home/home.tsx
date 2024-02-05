@@ -6,9 +6,9 @@ import lifeImg2 from "../../assets/images/dave-hoefler-m5oOq4iyaeQ-unsplash.jpg"
 import wwd1 from "../../assets/images/image 154.png";
 import wwd2 from "../../assets/images/image 155.png";
 import wwd3 from "../../assets/images/image 156.png";
-import wwr1 from "../../assets/images/Group 1000006542.png";
-import wwr2 from "../../assets/images/Group 1000006552.png";
-import wwr3 from "../../assets/images/Group 1000006553.png";
+import wwr1 from "../../assets/images/Group 1000006542.svg";
+import wwr2 from "../../assets/images/Group 1000006552.svg";
+import wwr3 from "../../assets/images/Group 1000006553.svg";
 import banner from "../../assets/images/Mask group 1.png";
 import sustainability from "../../assets/images/Content Section V20.png";
 import sustainabilityMobile from "../../assets/images/sustainabilityMobile.png";

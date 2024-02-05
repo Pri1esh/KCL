@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { DataContext } from "../../contexts/datacontext";
 import $ from "jquery";
-import logo1 from "../../assets/images/KCL Logo  1.png";
+import logo1 from "../../assets/images/KCL Logo  1.svg";
 import logo2 from "../../assets/images/Image 5.png";
 import hamb from "../../assets/images/menu-hamb.png";
 import cloud from "../../assets/images/cloud-sun-alt-svgrepo-com.svg";
@@ -72,102 +72,100 @@ const Header = () => {
         <div className="container">
           <div className="leftdata">
             <div className="hamburger mobile-trigger">
-              <a href="#">
                 <img className="menu-hamb" src={hamb} alt="@HumbAlt" width="20" />
-              </a>
             </div>
             <Link className="navbar-brand" to={"/"}>
-              <img src={logo1} alt="" style={{ mixBlendMode: "darken" }} />
+              <img className="kcl_logo" src={logo1} alt="" style={{ mixBlendMode: "darken" }} />
             </Link>
           </div>
           <div className="rightdata">
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
                 <div className="nav-item px-1 dropdown">
-                  <a className="nav-link active dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <Link className="nav-link active dropdown-toggle"to={"/whoweare"} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Who we are
-                  </a>
+                  </Link>
                   <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to={"#"}>
                       About Us
-                    </a>
-                    <a className="dropdown-item" href="/leadership">
+                    </Link>
+                    <Link className="dropdown-item" to={"/leadership"}>
                       Leadership & Management
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
                 <div className="nav-item px-1 dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <Link className="nav-link dropdown-toggle" to={"operations"} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     What we do
-                  </a>
+                  </Link>
                   <div className="dropdown-menu">
-                    <a className="dropdown-item" href="/operations">
+                    <Link className="dropdown-item" to={"/operations"}>
                       Operations
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" to={"products"}>
                       Products
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" to={"#"}>
                       Project
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
                 <div className="nav-item px-1 dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <Link className="nav-link dropdown-toggle" to={""} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sustainability
-                  </a>
-                  <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#">
+                  </Link>
+                  {/* <div className="dropdown-menu">
+                    <Link className="dropdown-item" >
                       Sub Menu 1
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 2
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 3
-                    </a>
-                  </div>
+                    </Link>
+                  </div> */}
                 </div>
 
                 <div className="nav-item px-1 dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <Link className="nav-link dropdown-toggle" to={"#"} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Media
-                  </a>
-                  <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#">
+                  </Link>
+                  {/* <div className="dropdown-menu">
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 1
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 2
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 3
-                    </a>
-                  </div>
+                    </Link>
+                  </div> */}
                 </div>
 
                 <div className="nav-item px-1 dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <Link className="nav-link dropdown-toggle" to={"#"} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Career
-                  </a>
-                  <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#">
+                  </Link>
+                  {/* <div className="dropdown-menu">
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 1
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 2
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    <Link className="dropdown-item" href="#">
                       Sub Menu 3
-                    </a>
-                  </div>
+                    </Link>
+                  </div> */}
                 </div>
                 <div className="nav-item px-1">
-                  <a className="nav-link disabled" href="#" tabIndex={-1} aria-disabled="true">
+                  <Link className="nav-link" to={"/contactUs"} tabIndex={-1} aria-disabled="true">
                     Contact us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -180,58 +178,58 @@ const Header = () => {
             <i className="fas fa-times"></i>
           </div>
           <div className="w-100 text-center">
-            <img className="my-2" src={logo1} alt="" />
+            <img className="my-2  kcl_logo" src={logo1} alt="" />
           </div>
         </div>
         <div className="menu">
           <div className="item">
-            <a className="sub-btn">
+            <Link to={"/whoweare"} className="sub-btn">
               <img className="icons" src={sidebar1} alt="" />
               Who we are<i className="fas fa-angle-right dropdown"></i>
-            </a>
+            </Link>
             <div className="sub-menu">
-              <a href="#" className="sub-item">
+              <Link to={"/whoweare"} className="sub-item">
                 About Us
-              </a>
-              <a href="#" className="sub-item">
+              </Link>
+              <Link to={"/leadership"} className="sub-item">
                 Leadership & Management
-              </a>
+              </Link>
             </div>
           </div>
           <div className="item">
-            <a className="sub-btn">
+            <Link to={"/operations"} className="sub-btn">
               <img className="icons" src={sidebar2} alt="" />
               What we do<i className="fas fa-angle-right dropdown"></i>
-            </a>
+            </Link>
             <div className="sub-menu">
               <Link to={"/operations"} className="sub-item">
                 Operations
               </Link>
-              <a href="#" className="sub-item">
+              <Link to={"/products"} className="sub-item">
                 Products
-              </a>
-              <a href="#" className="sub-item">
+              </Link>
+              <Link to={"/"} className="sub-item">
                 Project
-              </a>
+              </Link>
             </div>
           </div>
           <div className="item">
-            <a href="#">
+            <Link to={"#"}>
               <img className="icons" src={sidebar3} alt="" />
               Sustainability
-            </a>
+            </Link>
           </div>
           <div className="item">
-            <a href="#">
+            <Link to={"media"}>
               <img className="icons" src={sidebar4} alt="" />
               Media
-            </a>
+            </Link>
           </div>
           <div className="item">
-            <a href="#">
+            <Link to={"#"}>
               <img className="icons" src={sidebar5} alt="" />
               Careers
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -241,13 +239,13 @@ const Header = () => {
           </div>
 
           <div className="item">
-            <a href="#">Contact Us</a>
+            <Link to={"contactUs"}>Contact Us</Link>
           </div>
           <div className="item">
-            <a href="#">Privacy Policy</a>
+            <Link to={"/privacyPolicy"}>Privacy Policy</Link>
           </div>
           <div className="item">
-            <a href="#">Terms & Conditions</a>
+            <Link to={"/terms"}>Terms & Conditions</Link>
           </div>
         </div>
       </div>

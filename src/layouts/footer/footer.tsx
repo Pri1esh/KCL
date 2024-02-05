@@ -26,33 +26,33 @@ const Footer = () => {
                         <div className="col-3">
                             <h5>Business</h5>
                             <ul>
-                                <li><a href="">Operations</a></li>
-                                <li><a href="">Products</a></li>
-                                <li><a href="">Project</a></li>
+                                <li><Link to={"/operations"}>Operations</Link></li>
+                                <li><Link to={"/products"}>Products</Link></li>
+                                <li><Link to={""}>Project</Link></li>
                             </ul>
                         </div>
                         <div className="col-3">
                             <h5>Company</h5>
                             <ul>
-                                <li><a href="">Who we are</a></li>
-                                <li><a href="">Media</a></li>
-                                <li><a href="">Careersv</a></li>
+                                <li><Link to={"whoweare"}>Who we are</Link></li>
+                                <li><Link to={""}>Media</Link></li>
+                                <li><Link to={""}>Careersv</Link></li>
                             </ul>
                         </div>
                         <div className="col-3">
                             <h5>Sustainability</h5>
                             <ul>
-                                <li><a href="">Our Goal</a></li>
-                                <li><a href="">Strategy</a></li>
-                                <li><a href="">Environment</a></li>
-                                <li><a href="">Reports</a></li>
-                                <li><a href="">Policies</a></li>
+                                <li><Link to={""}>Our Goal</Link></li>
+                                <li><Link to={""}>Strategy</Link></li>
+                                <li><Link to={""}>Environment</Link></li>
+                                <li><Link to={""}>Reports</Link></li>
+                                <li><Link to={""}>Policies</Link></li>
                             </ul>
                         </div>
                         <div className="col-3">
                             <h5>Help Center</h5>
                             <ul>
-                                <li><a href="">Contact Us</a></li>
+                                <li><Link to={""}>Contact Us</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -75,9 +75,9 @@ const Footer = () => {
                           <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div className="accordion-body">
                                 <ul>
-                                    <li><a href="">Operations</a></li>
-                                    <li><a href="">Products</a></li>
-                                    <li><a href="">Project</a></li>
+                                    <li><Link to={""}>Operations</Link></li>
+                                    <li><Link to={""}>Products</Link></li>
+                                    <li><Link to={""}>Project</Link></li>
                                 </ul>
                             </div>
                           </div>
@@ -91,9 +91,9 @@ const Footer = () => {
                           <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div className="accordion-body">
                                 <ul>
-                                    <li><a href="">Who we are</a></li>
-                                    <li><a href="">Media</a></li>
-                                    <li><a href="">Careersv</a></li>
+                                    <li><Link to={"/whoweare"}>Who we are</Link></li>
+                                    <li><Link to={"#"}>Media</Link></li>
+                                    <li><Link to={"#"}>Careersv</Link></li>
                                 </ul>
                             </div>
                           </div>
@@ -106,11 +106,11 @@ const Footer = () => {
                           </h2>
                           <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                             <div className="accordion-body"><ul>
-                                <li><a href="">Our Goal</a></li>
-                                <li><a href="">Strategy</a></li>
-                                <li><a href="">Environment</a></li>
-                                <li><a href="">Reports</a></li>
-                                <li><a href="">Policies</a></li>
+                                <li><Link to={""}>Our Goal</Link></li>
+                                <li><Link to={""}>Strategy</Link></li>
+                                <li><Link to={""}>Environment</Link></li>
+                                <li><Link to={""}>Reports</Link></li>
+                                <li><Link to={""}>Policies</Link></li>
                             </ul></div>
                           </div>
                         </div>
@@ -123,7 +123,7 @@ const Footer = () => {
                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                               <div className="accordion-body">
                                 <ul>
-                                    <li><a href="">Contact Us</a></li>
+                                    <li><Link to={"contactUs"}>Contact Us</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -141,15 +141,15 @@ const Footer = () => {
             </div>
             <div className="d-md-block d-none footer-bottom">
                 <h5>Kutch Copper Limited</h5>
-                <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem provident hic commodi tempore nemo, optio inventore ipsum quos maiores temporibus dolore perferendis fugit minima aut eum quis tenetur cupiditate vero ab ullam aspernatur autem fuga mollitia! Voluptas labore porro praesentium, quod itaque molestiae nam pariatur dolorem laudantium, obcaecati suscipit?</p>
+                <p className="mb-0">Kutch Copper Limited, a 100% subsidiary of Adani Enterprises Limited, is incorporated on March 24, 2021, with the object to undertake copper business - related activities such as the manufacture of copper cathodes and copper rods and associated products. KCL is setting up a greenfield copper refinery project for production of refined copper with 1 MTPA (million tons per annum) in two phases.</p>
             </div>
         </div>
         <div className="bottom-banner">
             <div className="container mt-3">
                 <p>&#x24B8; 2023 Kutch Copper Limited</p>
                 <ul>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
+                    <li><Link to={""}>Privacy Policy</Link></li>
+                    <li><Link to={""}>Terms & Conditions</Link></li>
                 </ul>
             </div>
         </div>

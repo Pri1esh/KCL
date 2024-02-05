@@ -14,13 +14,25 @@
 .hamburger {
     padding: 10px;
 }
+.menu-hamb{
+    margin-right: 10px;
+}
 
 .hamburger.mobile-trigger {
     display: flex;
     align-items: center;
 }
 
-.navbar{
+.kcl_logo{
+    height: 63px;
+    width: auto;
+}
+.side-bar .kcl_logo{
+    height: 50px;
+    width: auto;
+}
+
+.navbar {
     height: 80px;
 }
 

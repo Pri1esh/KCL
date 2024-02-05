@@ -1492,6 +1492,7 @@ p {
 .regional-section .regional-info img{
   width: 20px;
   height: 20px;
+  margin-right: 10px;
 }
 .regional-section .regional-info p{
   font-size: 16px;
@@ -1499,6 +1500,50 @@ p {
   line-height: 24px;
   color: #333333;
   margin-bottom: 0;
+}
+
+#thanksModal .modal-body img{
+  height: 110px;
+  width: 128px;
+  margin-bottom: 80px;
+  margin-top: 25px;
+}
+#thanksModal .modal-body .modal-cross img{
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  margin: 0;
+  cursor: pointer;
+}
+#thanksModal .modal-content{
+  position: relative;
+}
+#thanksModal .modal-body h3{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #222222;
+  margin-bottom: 10px;
+}
+#thanksModal .modal-body p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+#thanksModal .modal-body button{
+  padding-inline: 42px !important;
+  padding-block: 15px !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #333333;
+  margin-bottom: 25px;
 }
 
 @media (max-width:767px){
@@ -1540,5 +1585,9 @@ p {
 }
 .regional-section{
   margin-bottom: 30px;
-} 
+}
+#thanksModal .modal-body .modal-cross{
+  display: none;
+}
+ 
 }

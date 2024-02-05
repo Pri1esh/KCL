@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
+import { useNavigate } from "react-router-dom";
 
 import PhoneIcon from "../../assets/images/phone_icon.png";
 import EmailIcon from "../../assets/images/email_icon.png";
 import contact1 from "../../assets/images/contactUs3.png";
 import contact2 from "../../assets/images/contactUs4.png";
+import thumb from "../../assets/images/thumbsUp.png";
+import crCross from "../../assets/images/cross.svg";
+
 import { Link } from "react-router-dom";
 
 const phoneRegex = new RegExp(/^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/);
@@ -33,27 +37,35 @@ const Contactus = () => {
 
   const onSubmit: SubmitHandler<FormFields> = () => {
     console.log(234234);
-    console.log();
+    ($("#thanksModal") as any).modal("show");
+    console.log(44);
   };
+
+  const navigate = useNavigate();
+  useEffect(()=>{
+    $("#modal-cross").click(()=>{
+      ($("#thanksModal") as any).modal("hide");
+    })
+    $("#backToHome").click(()=>{
+      ($("#thanksModal") as any).modal("hide");
+    })
+    
+  },[]);
 
   return (
     <div>
       <section className="map-section">
         <div className="container">
-        <div className="products-crumb d-md-flex d-none">
-          <Link to={"/"}>
-            <p>Home</p>
-          </Link>
-          <p>&nbsp;/&nbsp;</p>
-          <Link to={"/products"}>
-            <p>Products</p>
-          </Link>
-          <p>&nbsp;/&nbsp;</p>
-          <p>Copper Cathode</p>
-        </div>
+          <div className="products-crumb d-md-flex d-none">
+            <Link to={"/"}>
+              <p>Home</p>
+            </Link>
+            <p>&nbsp;/&nbsp;</p>
+            <p>Contact Us</p>
+          </div>
           <h1>Contact Us</h1>
           <div className="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14709.823756745978!2d69.5861301321549!3d22.82261512885875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39512bc1f46323a1%3A0x7ba9a510e4f3621b!2sKutch%20Copper%20Limited!5e0!3m2!1sen!2sin!4v1706984489654!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14709.823756745978!2d69.5861301321549!3d22.82261512885875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39512bc1f46323a1%3A0x7ba9a510e4f3621b!2sKutch%20Copper%20Limited!5e0!3m2!1sen!2sin!4v1706984489654!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
@@ -195,6 +207,25 @@ const Contactus = () => {
           </div>
         </div>
       </section>
+
+      <div className="modal fade" id="thanksModal" tabIndex={-1} role="dialog" aria-labelledby="thanksModalTitle" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered" role="document">
+          <div className="modal-content">
+            <div className="modal-body d-flex flex-column align-items-center">
+              <div id="modal-cross" className="modal-cross">
+                <img src={crCross} alt="" />
+              </div>
+              <img src={thumb} alt="" />
+              <h3>
+                Thank you for
+                <br /> reaching out to us!{" "}
+              </h3>
+              <p>Our representative will call you shortly.</p>
+              <button className="btn btn-dark rounded-pill" id="backToHome" onClick={()=>{navigate("/")}}>Back to Home Page</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

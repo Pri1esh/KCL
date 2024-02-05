@@ -59,8 +59,8 @@ const Products = () => {
                     <div>
                     <img className="card-img prod-card-img" src={copperRods} alt="" />
                     <div className="card-body prod-card-body">
-                        <h5>Copper Cathodes</h5>
-                        <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                        <h5>Copper Rods</h5>
+                        <p>Copper rods serve various essential purposes due to their excellent electrical conductivity, malleability</p>
                         <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                     </div>
@@ -69,8 +69,8 @@ const Products = () => {
                     <div>
                     <img className="card-img prod-card-img" src={Silver} alt="" />
                     <div className="card-body prod-card-body">
-                        <h5>Copper Cathodes</h5>
-                        <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                        <h5>Silver</h5>
+                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
                         <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                     </div>
@@ -79,8 +79,8 @@ const Products = () => {
                     <div>
                     <img className="card-img prod-card-img" src={Gold} alt="" />
                     <div className="card-body prod-card-body">
-                        <h5>Copper Cathodes</h5>
-                        <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                        <h5>Gold</h5>
+                        <p>Gold bars are revered for their timeless value and a applications making them a cornerstone in various sectors</p>
                         <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                     </div>
@@ -172,8 +172,8 @@ const Products = () => {
                     <div>
                     <img className="card-img prod-card-img" src={copperRods} alt="" />
                     <div className="card-body prod-card-body">
-                        <h5>Copper Cathodes</h5>
-                        <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                        <h5>Copper Rods</h5>
+                        <p>Copper rods serve various essential purposes due to their excellent electrical conductivity, malleability</p>
                         <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                     </div>
@@ -182,8 +182,8 @@ const Products = () => {
                     <div>
                     <img className="card-img prod-card-img" src={Silver} alt="" />
                     <div className="card-body prod-card-body">
-                        <h5>Copper Cathodes</h5>
-                        <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                        <h5>Silver</h5>
+                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
                         <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                     </div>
@@ -192,8 +192,8 @@ const Products = () => {
                     <div>
                     <img className="card-img prod-card-img" src={Gold} alt="" />
                     <div className="card-body prod-card-body">
-                        <h5>Copper Cathodes</h5>
-                        <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
+                        <h5>Gold</h5>
+                        <p>Gold bars are revered for their timeless value and a applications making them a cornerstone in various sectors</p>
                         <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
                     </div>
                     </div>
