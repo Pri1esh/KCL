@@ -421,6 +421,9 @@ display: none !important;
   .WhatWeDoImages {
     margin-right: 10px;
   }
+  .life-kcl-button {
+    position: static;
+  }
 }
 
 .LifeAtKCLImg-2,
