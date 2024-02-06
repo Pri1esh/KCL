@@ -77,7 +77,7 @@ const Whoweare = () => {
         <div className="container ChairmanContainer py-5">
           <h1 className="d-md-none d-block mt-4 mb-4">Message From CEO</h1>
           <div className="row Chaimanrows">
-            <div className="col-md-6 ChaimanContentSection">
+            <div className="col-md-6 ChaimanContentSection justify-content-around">
               <div className="ChaimanTopContentData">
                 <h2 className="laptopview mb-4">Message From CEO</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus adipisci mollitia, eaque similique sint voluptatem? Enim, nisi consequatur sequi accusantium adipisci amet distinctio commodi est, expedita sapiente tempora accusamus. nisi consequatur sequi accusantium adipisci amet distinctio commodi est, expedita sapiente tempora accusamus.</p>
