@@ -10,6 +10,8 @@ import Products from '../pages/products/products';
 import CopperRods from '../pages/copper-rods/copper-rods';
 import CopperCathode from '../pages/copper-cathode/copper-cathode';
 import Contactus from '../pages/contactUs/contactUs';
+import Terms from '../pages/terms/terms';
+import PrivacyPolicy from '../pages/privacyPolicy/privacyPolicy';
 
 
 const Routings = () => {
@@ -28,6 +30,8 @@ const Routings = () => {
           <Route path="/copperRods" element={<CopperRods/>} />
           <Route path="/copperCathode" element={<CopperCathode/>} />
           <Route path="/contactUs" element={<Contactus/>} />
+          <Route path="/termsAndConditions" element={<Terms/>} />
+          <Route path="/privacyPolicy" element={<PrivacyPolicy/>} />
 
         </Routes>
     </div>

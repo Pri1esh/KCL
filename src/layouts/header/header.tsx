@@ -12,6 +12,8 @@ import sidebar2 from "../../assets/images/sidebar2.svg";
 import sidebar3 from "../../assets/images/sidebar3.svg";
 import sidebar4 from "../../assets/images/sidebar4.svg";
 import sidebar5 from "../../assets/images/sidebar5.svg";
+import Cookie from "../../components/cookie/cookie";
+
 
 const Header = () => {
   useEffect(() => {
@@ -272,6 +274,7 @@ const Header = () => {
         </div>
       </div>
       {<div id="sidebar-fade" className="modal-backdrop fade show" style={{display:"none"}}></div>}
+      <Cookie/>
     </header>
   );
 };

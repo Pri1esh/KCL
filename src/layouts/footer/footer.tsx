@@ -148,8 +148,8 @@ const Footer = () => {
             <div className="container mt-3">
                 <p>&#x24B8; 2023 Kutch Copper Limited</p>
                 <ul>
-                    <li><Link to={""}>Privacy Policy</Link></li>
-                    <li><Link to={""}>Terms & Conditions</Link></li>
+                    <li><Link to={"/privacyPolicy"}>Privacy Policy</Link></li>
+                    <li><Link to={"/termsAndConditions"}>Terms & Conditions</Link></li>
                 </ul>
             </div>
         </div>
