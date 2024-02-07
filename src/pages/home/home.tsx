@@ -124,7 +124,7 @@ const Home = () => {
                 <br /> ensuring quality, compliance, and sustainability across our operations.
               </p>
             </div>
-            <div className="row WhatWeDoImage no-gutters">
+            <div className="row px-0 WhatWeDoImage no-gutters">
               <div className="col-md-4 WhatWeDoImages mb-4">
                 <div className="card">
                   <img src={wwd1} className="card-img w-100" alt="Image 1" />

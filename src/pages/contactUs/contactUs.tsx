@@ -12,6 +12,8 @@ import contact3 from "../../assets/images/contact-phone.svg";
 import contact4 from "../../assets/images/contact-mail.svg";
 import thumb from "../../assets/images/thumbsUp.png";
 import crCross from "../../assets/images/cross.svg";
+import direction from "../../assets/images/direction-svgrepo-com.svg"
+import share from "../../assets/images/share-svgrepo-com.svg"
 
 import { Link } from "react-router-dom";
 
@@ -22,7 +24,7 @@ const schema = z.object({
   lastName: z.string().min(1, { message: "Last Name is required" }).max(18),
   email: z.string({ required_error: "Email is required" }).email({ message: "Please enter a valid email" }),
   phone: z.string({ required_error: "Phone no. is required" }).regex(phoneRegex, "Please enter a valid phone number"),
-  message: z.string().min(30, "Please enter at least 30 charecters").max(1000, "Only 1000 characters are allowed!"),
+  message: z.string().min(1, "Message is required").max(1000, "Only 1000 characters are allowed!"),
 });
 
 type FormFields = z.infer<typeof schema>;
@@ -67,7 +69,11 @@ const Contactus = () => {
           </div>
           <h1>Contact Us</h1>
           <div className="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14709.823756745978!2d69.5861301321549!3d22.82261512885875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39512bc1f46323a1%3A0x7ba9a510e4f3621b!2sKutch%20Copper%20Limited!5e0!3m2!1sen!2sin!4v1706984489654!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3677.5184864570065!2d69.57728677590785!3d22.8202993238451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQ5JzEzLjEiTiA2OcKwMzQnNDcuNSJF!5e0!3m2!1sen!2sin!4v1707225183521!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <div className="btn-box">
+              <button className="btn direction"><img src={direction} alt="" /><p>Get Direction</p></button>
+              <button className="btn share"><img src={share} alt="" /><p>Share</p></button>
+            </div>
           </div>
         </div>
       </section>

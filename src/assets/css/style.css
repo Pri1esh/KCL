@@ -393,6 +393,9 @@ display: none !important;
     } */
 /* =========================================Chairman section end =================================*/
 /* =========================================Life at KCL start =================================*/
+.LifeAtKCL{
+  margin-top: 100px;
+}
 
 .LifeAtKCL-1 {
   width: 60% !important;
@@ -414,6 +417,9 @@ display: none !important;
   bottom: 10px;
 }
 @media (max-width: 767px) {
+  .LifeAtKCL{
+    margin-top: 60px;
+  }
   .LifeAtKCL-row1 {
     gap: 0.3rem;
     margin-bottom: 20px;
@@ -1502,13 +1508,14 @@ p {
   border-radius: 8px;
   padding: 20px;
 }
-.regional-section .regional-card h2{
+.regional-section .regional-card h4{
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 22px;
   color: #000000;
   margin-bottom: 20px;
 }
+
 .regional-section .regional-card p{
   font-size: 16px;
   font-weight: 400;
@@ -1578,8 +1585,63 @@ p {
   background-color: #333333;
   margin-bottom: 25px;
 }
+.map-section .map .btn-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: end;
+  position: absolute;
+  gap: 10px;
+  bottom: 30px;
+  right: 80px;
+}
+.map-section .map{
+  position: relative;
+}
+.map-section .map .btn-box p{
+  margin-bottom: 0;
+}
+.map-section .map .btn-box button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap:20px;
+  height: 48px;
+  width: 160px;
+  border-radius: 8px;
+}
+.map-section .map .btn-box .direction{
+  background-color: #3779de;
+  color: #FFFFFF;
+}
+.map-section .map .btn-box .share{
+  color: #3779de;
+  background-color: #FFFFFF;
+  border: 1px solid #3779de;
+}
+.map-section .map .btn-box .direction img{
+  height: 20px;
+  width: 20px;
+  filter: invert(1);
+}
+.map-section .map .btn-box .share img{
+  height: 20px;
+  width: 20px;
+}
 
 @media (max-width:767px){
+  .map-section .map .btn-box img{
+    display: none;
+  }
+  .map-section .map .btn-box{
+    position: static !important;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-evenly !important;
+    margin-top: 15px;
+  }
   .regional-section .regional-row{
     display: flex;
     flex-direction: row;
@@ -1597,6 +1659,20 @@ p {
     width: 100%;
     height: 300px;
     border-radius: 8px;
+    
+  }
+  .map-section .map .btn-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+  }
+  .map-section .map .btn-box button img{
+    height: 20px;
+    width: 20px;
   }
   .here-right .contact-form .message textarea{
     min-height: 120px;
