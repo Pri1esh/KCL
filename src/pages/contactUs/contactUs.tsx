@@ -70,17 +70,17 @@ const Contactus = () => {
           <h1>Contact Us</h1>
           <div className="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3677.5184864570065!2d69.57728677590785!3d22.8202993238451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQ5JzEzLjEiTiA2OcKwMzQnNDcuNSJF!5e0!3m2!1sen!2sin!4v1707225183521!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            <div className="btn-box">
+            {/* <div className="btn-box">
               <button className="btn direction"><img src={direction} alt="" /><p>Get Direction</p></button>
               <button className="btn share"><img src={share} alt="" /><p>Share</p></button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       <section className="contactus-section">
         <div className="container">
-          <div className="row">
+          <div className="row contact_row">
             <div className="here-left col">
               <h2>We’re here for you</h2>
 

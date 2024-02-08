@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Banner from "../../shared/banner/banner";
 import bannerImg from "../../assets/images/cc-banner.png";
 import mobileImg from "../../assets/images/cr-mobile-banner.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import copperCathod from "../../assets/images/Copper Cathodes.png";
 import copperRods from "../../assets/images/Copper Rods.png";
@@ -18,7 +18,9 @@ import crCross from "../../assets/images/cross.svg";
 import BottomBar from "../../shared/bottomBar/bottomBar";
 import LeftMenu from "../../shared/leftMenu/leftMenu";
 
+
 const CopperCathode = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     function sliceTextToWords(text: String, numWords: number) {
       var words = text.split(" ");
@@ -88,7 +90,7 @@ const CopperCathode = () => {
             </div>
             <div className="right-head">
               <p className="readcr-text">Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore with a minimum copper content of 99.95%. · In its Phase 1, (Adani /We) will be producing 5,00,000 Tons of Copper Cathodes.</p>
-              <button type="button" className="btn btn-outline-dark rounded-pill">
+              <button type="button" className="d-none btn btn-outline-dark rounded-pill">
                 Buy Now
               </button>
             </div>
@@ -229,7 +231,7 @@ const CopperCathode = () => {
                     <div className="card-body prod-card-body">
                       <h5>Copper Rods</h5>
                       <p>Copper rods serve various essential purposes due to their excellent electrical conductivity, malleability</p>
-                      <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
+                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -239,7 +241,7 @@ const CopperCathode = () => {
                     <div className="card-body prod-card-body">
                       <h5>Silver</h5>
                       <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
-                      <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
+                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -249,7 +251,7 @@ const CopperCathode = () => {
                     <div className="card-body prod-card-body">
                       <h5>Gold</h5>
                       <p>Gold bars are revered for their timeless value and myriad applications making them a cornerstone in various sectors</p>
-                      <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
+                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                   </div>
                 </div>

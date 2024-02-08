@@ -86,7 +86,7 @@ const CopperRods = () => {
             </div>
             <div className="right-head">
               <p className="readcr-text">Copper rods serve various essential purposes due to their excellent electrical conductivity, malleability, and corrosion resistance. They are mainly used in drawing electrical wires, manufacturing of electrical components, </p>
-              <button type="button" className="btn btn-outline-dark rounded-pill">
+              <button type="button" className="d-none btn btn-outline-dark rounded-pill">
                 Buy Now
               </button>
             </div>
@@ -168,7 +168,7 @@ const CopperRods = () => {
                     <div className="card-body prod-card-body">
                       <h5>Copper Cathodes</h5>
                       <p>Copper Cathodes are the pure metal form of copper which can be practically extracted from copper ore</p>
-                      <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
+                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ const CopperRods = () => {
                     <div className="card-body prod-card-body">
                       <h5>Silver</h5>
                       <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
-                      <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
+                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -188,7 +188,7 @@ const CopperRods = () => {
                     <div className="card-body prod-card-body">
                       <h5>Gold</h5>
                       <p>Gold bars are revered for their timeless value and myriad applications making them a cornerstone in various sectors</p>
-                      <button className="btn btn-outline-dark rounded-pill">Buy Now</button>
+                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                   </div>
                 </div>

@@ -112,13 +112,13 @@ const Header = () => {
                     <Link className="dropdown-item" to={"/whatwedo/products"}>
                       Products
                     </Link>
-                    {/* <Link className="dropdown-item" to={"#"}>
+                    <Link className="dropdown-item" to={"#"}>
                       Project
-                    </Link> */}
+                    </Link>
                   </div>
                 </div>
 
-                {/* <div className="nav-item px-1 dropdown">
+                <div className="nav-item px-1 dropdown">
                   <Link className="nav-link dropdown-toggle" to={""} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sustainability
                   </Link>
@@ -134,7 +134,7 @@ const Header = () => {
                   <Link className="nav-link dropdown-toggle" to={"#"} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Career
                   </Link>
-                </div> */}
+                </div>
                 
                 <div className="nav-item px-1">
                   <Link className="nav-link" to={"/contactUs"} tabIndex={-1} aria-disabled="true">
@@ -188,9 +188,9 @@ const Header = () => {
               <Link to={"/whatwedo/products"} className="sub-item nav_links">
                 Products
               </Link>
-              {/* <Link to={"/"} className="sub-item">
+              <Link to={"/"} className="sub-item">
                 Project
-              </Link> */}
+              </Link>
             </div>
           </div>
           {/* <div className="item">
@@ -213,7 +213,7 @@ const Header = () => {
           </div>
         </div> */}
 
-          {/* <div className="item">
+          <div className="item">
             <a className="sub-btn">
               <img className="icons" src={sidebar3} alt="" />
               <Link to={""} className="sub-head nav_links">
@@ -236,7 +236,7 @@ const Header = () => {
                 Careers
               </Link>
             </a>
-          </div> */}
+          </div>
 
         </div>
 
