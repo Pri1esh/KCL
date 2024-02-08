@@ -27,7 +27,7 @@ const Leadership = () => {
         {src:birva,name:"Birva Chiragbhai Patel",designation:"Director"},
         {src:sunipa,name:"Sunipa Roy",designation:"Business Head Copper"},
         {src:mohan,name:"Mohanasundaram Natarajan",designation:"Business Head Strategic & Precious Metals"},
-        {src:dinesh,name:"Dinesh Kumar Jain",designation:"Dinesh Kumar Jain"},
+        {src:dinesh,name:"Dinesh Kumar Jain",designation:"Finance Controller"},
         {src:av,name:"AV Krishnan",designation:"Head Raw Material Sourcing & Marketing "},
         {src:amitabh,name:"Amitabh Mishra",designation:"CHRO Natural Resources"},
         {src:manish,name:"Manish Saxena",designation:"CEO, Adani Ports & SEZ Ltd"},
