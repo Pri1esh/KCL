@@ -92,10 +92,10 @@ const Header = () => {
                     Who we are
                   </Link>
                   <div className="dropdown-menu">
-                    <Link className="dropdown-item" to={"#"}>
-                      About Us
+                    <Link className="dropdown-item" to={"/whoweare/aboutKcl"}>
+                      About KCL
                     </Link>
-                    <Link className="dropdown-item" to={"/leadership"}>
+                    <Link className="dropdown-item" to={"/whoweare/leadership"}>
                       Leadership & Management
                     </Link>
                   </div>
@@ -106,15 +106,15 @@ const Header = () => {
                     What we do
                   </Link>
                   <div className="dropdown-menu">
-                    <Link className="dropdown-item" to={"/operations"}>
+                    <Link className="dropdown-item" to={"/whatwedo/operations"}>
                       Operations
                     </Link>
-                    <Link className="dropdown-item" to={"products"}>
+                    <Link className="dropdown-item" to={"/whatwedo/products"}>
                       Products
                     </Link>
-                    <Link className="dropdown-item" to={"#"}>
+                    {/* <Link className="dropdown-item" to={"#"}>
                       Project
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
 
@@ -165,10 +165,10 @@ const Header = () => {
               <i className="fas fa-angle-right dropdown"></i>
             </a>
             <div className="sub-menu">
-              <Link to={"/whoweare"} className="sub-item nav_links">
-                About Us
+              <Link to={"/whoweare/aboutKcl"} className="sub-item nav_links">
+                About KCL
               </Link>
-              <Link to={"/leadership"} className="sub-item nav_links">
+              <Link to={"/whoweare/leadership"} className="sub-item nav_links">
                 Leadership & Management
               </Link>
             </div>
@@ -182,15 +182,15 @@ const Header = () => {
               <i className="fas fa-angle-right dropdown"></i>
             </a>
             <div className="sub-menu">
-              <Link to={"/operations"} className="sub-item nav_links">
+              <Link to={"/whatwedo/operations"} className="sub-item nav_links">
                 Operations
               </Link>
-              <Link to={"/products"} className="sub-item nav_links">
+              <Link to={"/whatwedo/products"} className="sub-item nav_links">
                 Products
               </Link>
-              <Link to={"/"} className="sub-item">
+              {/* <Link to={"/"} className="sub-item">
                 Project
-              </Link>
+              </Link> */}
             </div>
           </div>
           {/* <div className="item">
