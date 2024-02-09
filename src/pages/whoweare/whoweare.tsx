@@ -81,7 +81,7 @@ const Whoweare = () => {
             <div className="col-md-6 ChaimanContentSection justify-content-around">
               <div className="ChaimanTopContentData">
                 <h2 className="laptopview mb-4">Message From CEO</h2>
-                <p>Our entry in the copper business with Kutch Copper, is on the lines ofthe Government of India's vision of resource security of critical minerals andthe drive for Make in India to reduce import dependency on copper. India’s percapita copper consumption of approximately 0.6 Kg, significantly lower than theglobal average of 3.2 Kg per capita. However, due to India's focus on cleanenergy systems, the increasing usage of electric vehicles, and a range ofrelated applications, the demand for copper is expected to double by 2030</p>
+                <p>Our entry in the metal business with Kutch Copper, is on the lines of the Government of India's vision of resource security of critical minerals and the drive for Make in India to reduce import dependency on copper. India’s percapita copper consumption of approximately 0.6 Kg, significantly lower than the global average of 3.2 Kg per capita. However, due to India's focus on clean energy systems, the increasing usage of electric vehicles, and a range of related applications, the demand for copper is expected to double by 2030</p>
                 <Link to={"/whoweare/ceomessage"} className="show-more-button-sustainibility mb-4">
                   Read More
                 </Link>
@@ -89,12 +89,12 @@ const Whoweare = () => {
 
               <div className="ChaimanBottomContentdata d-md-block d-none">
                 <h4>Vinay Prakash</h4>
-                <span className="ChaimanAdaniGroup">MDKCL & CEO Natural <br /> Resources, AEL</span>
+                <span className="ChaimanAdaniGroup">MDKCL & CEO Natural Resources, AEL</span>
               </div>
             </div>
             <div className="ChaimanBottomContentdata d-md-none d-block mt-4">
               <h4>Vinay Prakash</h4>
-              <span className="ChaimanAdaniGroup">MDKCL & CEO Natural <br /> Resources, AEL</span>
+              <span className="ChaimanAdaniGroup">MDKCL & CEO Natural Resources, AEL</span>
             </div>
             <div className="col-md-6 d-flex justify-content-center">
               <img src={ceoImage} alt="" className="Chairman-img w-75 w-md-100 rounded" />
