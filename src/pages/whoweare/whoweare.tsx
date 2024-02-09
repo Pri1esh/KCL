@@ -76,11 +76,11 @@ const Whoweare = () => {
 
       <section className="Chairman d-flex align-items-center justify-content-center">
         <div className="container ChairmanContainer py-5">
-          <h1 className="d-md-none d-block mt-4 mb-4">Message From CEO</h1>
+          <h1 className="d-md-none d-block mt-4 mb-4">Message From MD</h1>
           <div className="row Chaimanrows">
             <div className="col-md-6 ChaimanContentSection justify-content-around">
               <div className="ChaimanTopContentData">
-                <h2 className="laptopview mb-4">Message From CEO</h2>
+                <h2 className="laptopview mb-4">Message From MD</h2>
                 <p>Our entry in the metal business with Kutch Copper, is on the lines of the Government of India's vision of resource security of critical minerals and the drive for Make in India to reduce import dependency on copper. India’s percapita copper consumption of approximately 0.6 Kg, significantly lower than the global average of 3.2 Kg per capita. However, due to India's focus on clean energy systems, the increasing usage of electric vehicles, and a range of related applications, the demand for copper is expected to double by 2030</p>
                 <Link to={"/whoweare/ceomessage"} className="show-more-button-sustainibility mb-4">
                   Read More
@@ -89,12 +89,12 @@ const Whoweare = () => {
 
               <div className="ChaimanBottomContentdata d-md-block d-none">
                 <h4>Vinay Prakash</h4>
-                <span className="ChaimanAdaniGroup">Managing Director, KCL & CEO, Natural Resources</span>
+                <span className="ChaimanAdaniGroup">MD, KCL & CEO, Natural Resources</span>
               </div>
             </div>
             <div className="ChaimanBottomContentdata d-md-none d-block mt-4">
               <h4>Vinay Prakash</h4>
-              <span className="ChaimanAdaniGroup">Managing Director, KCL & CEO, Natural Resources</span>
+              <span className="ChaimanAdaniGroup">MD, KCL & CEO, Natural Resources</span>
             </div>
             <div className="col-md-6 d-flex justify-content-center">
               <img src={ceoImage} alt="" className="Chairman-img w-75 w-md-100 rounded" />

@@ -17,11 +17,11 @@ const Ceomessage = () => {
               <p>Who we are</p>
             </Link>
             <p>&nbsp;/&nbsp;</p>
-            <p>CEO Message</p>
+            <p>Message From MD</p>
           </div>
           <div className="row mt-3 mb-4">
             <div className="col-md-6 order-md-1 order-2 ceo-data">
-            <h1>CEO Message</h1>
+            <h1>Message From MD</h1>
               <p>Copper, is on the lines of the Government of India's vision of resource security of critical minerals and the drive for Make in India to reduce import dependency on copper. India’s per capita copper consumption of approximately 0.6 Kg, significantly lower than the global average of 3.2 Kg per capita. However, due to India's focus on clean energy systems, the increasing usage of electric vehicles, and a range of related applications, the demand for copper is expected to double by 2030.</p>
               <p>Our aim is to become the global leader in copper production by leveraging Adani Group's strengths in resource trading, logistics, and infrastructure. Our vision is to establish the world's largest copper smelting complex by 2030 at Mundra, near our flagship Mundra Port in the Kutch district on the West Coast. </p>
               <p>Meanwhile, Adani Group is also investing heavily in energy transition, in which copper will play a vital role. We are expanding into adjacent areas of our current capabilities, which makes the copper business a strategic fit.</p>
@@ -34,7 +34,7 @@ const Ceomessage = () => {
                   <h5>
                     <strong>Vinay Prakash</strong>
                   </h5>
-                  <p>Managing Director, KCL & CEO, Natural Resources</p>
+                  <p>MD, KCL & CEO, Natural Resources</p>
                 </div>
               </div>
             </div>
