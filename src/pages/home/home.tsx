@@ -53,7 +53,7 @@ const Home = () => {
                 <img className="card-img" src={slide1} alt="Placeholder Image" />
               </div>
               <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-                <h1 className="text-white bann-txt col-md-8">India’s Largest Single Location Custom Smelter</h1>
+                <h1 className="text-white bann-txt col-md-10">India’s Largest Single Location Custom Smelter</h1>
               </div>
             </div>
 
@@ -62,7 +62,7 @@ const Home = () => {
                 <img className="card-img" src={slide2} alt="Placeholder Image" />
               </div>
               <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-                <h1 className="text-white bann-txt col-md-8">Empowering Industries, Building a Self-Reliant Nation </h1>
+                <h1 className="text-white bann-txt col-md-10">Empowering Industries, Building a Self-Reliant Nation </h1>
               </div>
             </div>
 
@@ -71,7 +71,7 @@ const Home = () => {
                 <img className="card-img" src={slide3} alt="Placeholder Image" />
               </div>
               <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-                <h1 className="text-white bann-txt col-md-8">Committed to Environment, Safety and Governance </h1>
+                <h1 className="text-white bann-txt col-md-10">Committed to Environment, Safety and Governance </h1>
               </div>
             </div>
           </OwlCarousel>
