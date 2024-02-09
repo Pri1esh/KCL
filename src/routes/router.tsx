@@ -12,6 +12,7 @@ import CopperCathode from "../pages/copper-cathode/copper-cathode";
 import Contactus from "../pages/contactUs/contactUs";
 import Terms from "../pages/terms/terms";
 import PrivacyPolicy from "../pages/privacyPolicy/privacyPolicy";
+import Chairmanmessage from "../pages/chairmanmessage/chairmanmessage";
 
 const Routings = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ const Routings = () => {
           <Route path="aboutKcl" element={<Whoweare />} />
           <Route path="leadership" element={<Leadership />} />
           <Route path="ceomessage" element={<Ceomessage />} />
+          <Route path="chairmanmessage" element={<Chairmanmessage />} />
         </Route>
 
         <Route path="whatwedo">

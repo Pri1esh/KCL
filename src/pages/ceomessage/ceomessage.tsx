@@ -1,5 +1,7 @@
 import React from "react";
 import Banner from "../../shared/banner/banner";
+import vinay from "../../assets/images/vinay.png";
+import { Link } from "react-router-dom";
 
 const Ceomessage = () => {
   return (
@@ -7,31 +9,32 @@ const Ceomessage = () => {
       <section>
         <div className="container ceoMessage-container">
           <div className=" d-md-flex d-none ceo-crumb small">
-            <a href="/">
+            <Link to="/">
               <p>Home</p>
-            </a>
+            </Link>
             <p>&nbsp;/&nbsp;</p>
-            <a href="/whoweare">
+            <Link to="/whoweare">
               <p>Who we are</p>
-            </a>
+            </Link>
             <p>&nbsp;/&nbsp;</p>
             <p>CEO Message</p>
           </div>
           <div className="row mt-3 mb-4">
-          <h1>CEO Message</h1>
             <div className="col-md-6 order-md-1 order-2 ceo-data">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi unde quam fuga asperiores. Nemo facere, magnam provident distinctio labore rerum officia officiis reprehenderit quod perferendis in, quisquam quo, est consequuntur. Facere distinctio adipisci voluptatem tempora alias nam recusandae nihil vitae optio. Asperiores placeat pariatur sequi, ea suscipit quos dolorem.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi unde quam fuga asperiores. Nemo facere, magnam provident distinctio labore rerum officia officiis reprehenderit quod perferendis in, quisquam quo, est consequuntur. Facere distinctio adipisci voluptatem tempora alias nam recusandae nihil vitae optio. Asperiores placeat pariatur sequi, ea suscipit quos dolorem.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi unde quam fuga asperiores. Nemo facere, magnam provident distinctio labore rerum officia officiis reprehenderit quod perferendis in, quisquam quo, est consequuntur. Facere distinctio adipisci voluptatem tempora alias nam recusandae nihil vitae optio. Asperiores placeat pariatur sequi, ea suscipit quos dolorem.</p>
+            <h1>CEO Message</h1>
+              <p>Copper, is on the lines of the Government of India's vision of resource security of critical minerals and the drive for Make in India to reduce import dependency on copper. India’s per capita copper consumption of approximately 0.6 Kg, significantly lower than the global average of 3.2 Kg per capita. However, due to India's focus on clean energy systems, the increasing usage of electric vehicles, and a range of related applications, the demand for copper is expected to double by 2030.</p>
+              <p>Our aim is to become the global leader in copper production by leveraging Adani Group's strengths in resource trading, logistics, and infrastructure. Our vision is to establish the world's largest copper smelting complex by 2030 at Mundra, near our flagship Mundra Port in the Kutch district on the West Coast. </p>
+              <p>Meanwhile, Adani Group is also investing heavily in energy transition, in which copper will play a vital role. We are expanding into adjacent areas of our current capabilities, which makes the copper business a strategic fit.</p>
+              <p>Kutch Copper is India's one of the most efficient copper smelters with lesser greenhouse gas emissions. We are also striving to increase the share of renewables in the overall energy mix in our quest to be the proponents of 'Green Copper'.  </p>
             </div>
             <div className="col-md-6  px-md-5 order-md-2 order-1">
               <div>
-                <img className="rounded w-100" src="https://images.freeimages.com/image/previews/88d/soft-glow-bokeh-lights-5690827.jpg" alt="" />
+                <img className="rounded w-100" src={vinay} alt="" />
                 <div className="my-3">
                   <h5>
-                    <strong>Gautam Adani</strong>
+                    <strong>Vinay Prakash</strong>
                   </h5>
-                  <p>Chairman, Adani Group</p>
+                  <p>MDKCL & CEO Natural Resources, AEL</p>
                 </div>
               </div>
             </div>

@@ -128,8 +128,8 @@ const Home = () => {
                 <h2 className="d-md-block d-none" style={{ marginBottom: "40px" }}>
                   Chairman Message
                 </h2>
-                <p>"It is my promise that we will continue to invest and do our part to help the people wherever we operate "</p>
-                <Link to={"/whoweare/ceomessage"} className="show-more-button-sustainibility">
+                <p>"It is my promise that we will continue to invest and do our part to help the people wherever we operate"</p>
+                <Link to={"/whoweare/chairmanmessage"} className="show-more-button-sustainibility">
                   Read More
                 </Link>
               </div>
@@ -143,7 +143,7 @@ const Home = () => {
               <h4>Gautam Adani</h4>
               <span className="ChaimanAdaniGroup">Chairman, Adani Group</span>
             </div>
-            <div className="col-md-6 px-lg-5 align-items-center">
+            <div className="col-md-6 px-lg-5 d-flex justify-content-end align-items-center">
               <img src={chairmanImage} alt="" className="Chairman-img rounded" />
             </div>
           </div>
@@ -202,7 +202,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="LifeAtKCL d-flex align-items-center justify-content-center pt-5">
+      <section className="LifeAtKCL d-flex align-items-center justify-content-center">
         <div className="container LifeAtKCLContainer grid-custom">
           <h1 className="mb-4 mt-4 d-md-none d-block section-heading">Life at KCL</h1>
           <div className="row LifeAtKCLRows">
