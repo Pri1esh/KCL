@@ -53,7 +53,7 @@ const Home = () => {
                 <img className="card-img" src={slide1} alt="Placeholder Image" />
               </div>
               <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-                <h1 className="text-white bann-txt col-md-8">India’s Largest Single Location Custom Smelter</h1>
+                <h1 className="text-white bann-txt col-md-10">India’s Largest Single Location Custom Smelter</h1>
               </div>
             </div>
 
