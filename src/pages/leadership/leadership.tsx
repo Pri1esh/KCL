@@ -23,14 +23,14 @@ const Leadership = () => {
     const [LeaderNo,setLeaderNo] = useState<any>();
     const leaders = [
         {src:vinay,name:"Vinay Prakash",designation:"Managing Director"},
-        {src:jeet,name:"Jeet Gautam Adani",designation:"Additional Director"},
+        {src:jeet,name:"Jeet Gautam Adani",designation:"Director"},
         {src:birva,name:"Birva Chiragbhai Patel",designation:"Director"},
         {src:sunipa,name:"Sunipa Roy",designation:"Business Head Copper"},
         {src:mohan,name:"Mohanasundaram Natarajan",designation:"Business Head Strategic & Precious Metals"},
         {src:dinesh,name:"Dinesh Kumar Jain",designation:"Finance Controller"},
         {src:av,name:"AV Krishnan",designation:"Head Raw Material Sourcing & Marketing "},
         {src:amitabh,name:"Amitabh Mishra",designation:"CHRO Natural Resources"},
-        {src:manish,name:"Manish Saxena",designation:"CEO, Adani Ports & SEZ Ltd"},
+        {src:manish,name:"Manish Saxena",designation:"CFO Metals & Mines"},
         {src:srinivas,name:"Srinivas V Gutta",designation:"Chief Digital Officer Natural Resources"},
         {src:kaniya,name:"Kanaiya Thakker",designation:"Head Legal Natural Resources "},
         {src:satish,name:"Satish Sinha",designation:"Head Sustainability & ESG "},

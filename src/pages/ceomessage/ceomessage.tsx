@@ -34,7 +34,7 @@ const Ceomessage = () => {
                   <h5>
                     <strong>Vinay Prakash</strong>
                   </h5>
-                  <p>MDKCL & CEO Natural Resources, AEL</p>
+                  <p>Managing Director, KCL & CEO, Natural Resources</p>
                 </div>
               </div>
             </div>

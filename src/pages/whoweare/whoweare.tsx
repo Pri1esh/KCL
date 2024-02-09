@@ -89,12 +89,12 @@ const Whoweare = () => {
 
               <div className="ChaimanBottomContentdata d-md-block d-none">
                 <h4>Vinay Prakash</h4>
-                <span className="ChaimanAdaniGroup">MDKCL & CEO Natural Resources, AEL</span>
+                <span className="ChaimanAdaniGroup">Managing Director, KCL & CEO, Natural Resources</span>
               </div>
             </div>
             <div className="ChaimanBottomContentdata d-md-none d-block mt-4">
               <h4>Vinay Prakash</h4>
-              <span className="ChaimanAdaniGroup">MDKCL & CEO Natural Resources, AEL</span>
+              <span className="ChaimanAdaniGroup">Managing Director, KCL & CEO, Natural Resources</span>
             </div>
             <div className="col-md-6 d-flex justify-content-center">
               <img src={ceoImage} alt="" className="Chairman-img w-75 w-md-100 rounded" />
@@ -121,13 +121,13 @@ const Whoweare = () => {
                 <img src={jeet} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
                   <h5 className="mt-3">Jeet Gautam Adani</h5>
-                  <span>Additional Director</span>
+                  <span>Director</span>
                 </div>
               </div>
               <div className="col-md-4 col-8 card WhatWeDoImages ">
                 <img src={birva} alt="Image 1" className="rounded img-fluid fixed-size-image" />
                 <div className="inner-data">
-                  <h5 className="mt-3">Birva Chiragbhai PatelBirva Chiragbhai Patel</h5>
+                  <h5 className="mt-3">Birva Chiragbhai Patel</h5>
                   <span>Director</span>
                 </div>
               </div>
