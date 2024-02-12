@@ -83,7 +83,7 @@ const Home = () => {
           <div className="row WhoWeAreData justify-content-center">
             <div className="contentsection col-md-10">
               <h1 className="mb-4 section-heading">Adani Metals at a Glance</h1>
-              <p>Adani Group is forging into metals business with Copper, Aluminium and Precious Metals with cutting-edge and sustainable technologies. Kutch Copper Ltd.(KCL) a subsidiary of Adani Enterprises Ltd., is a greenfield copper custom smelting and refining complex, poised to be a pivotal player in advancing green energy infrastructure.This state-of-the-art facility in Mundra, will produce copper cathodes and rods along with other valuable products such as gold, silver and selenium.</p>
+              <p>Adani Group is forging into metals business with Copper, Aluminium and Precious Metals with cutting-edge and sustainable technologies. Kutch Copper Ltd.(KCL) a subsidiary of Adani Enterprises Ltd., is a greenfield copper custom smelting and refining complex, poised to be a pivotal player in advancing green energy infrastructure. This state-of-the-art facility in Mundra, will produce copper cathodes and rods along with other valuable products such as gold, silver and selenium.</p>
             </div>
             <div className="WhoWeAreImage d-flex align-items-start mt-4">
               <div className="col-md-4 col-8 px-3">
