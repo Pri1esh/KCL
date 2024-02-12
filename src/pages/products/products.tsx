@@ -40,7 +40,7 @@ const Products = () => {
             { (window.innerWidth > 786) && <div id="all-tab" className="tab-heads active d-md-block d-none" data-bs-toggle="tab" data-bs-target="#all" role="tab" aria-controls="all" aria-selected="true">All</div>}
             <div id="product-tab" className="tab-heads"  data-bs-toggle="tab" data-bs-target="#product" role="tab" aria-controls="product" aria-selected="false">Products</div>
             <div id="byProduc-tab" className="tab-heads"  data-bs-toggle="tab" data-bs-target="#byProduct" role="tab" aria-controls="byProduct" aria-selected="false">By products</div>
-            <div id="metals-tab" className="tab-heads"  data-bs-toggle="tab" data-bs-target="#metals" role="tab" aria-controls="metals" aria-selected="false">Precious and Minor Metals</div>
+            <div id="metals-tab" className="tab-heads"  data-bs-toggle="tab" data-bs-target="#metals" role="tab" aria-controls="metals" aria-selected="false">Minor Metals</div>
           </div>
 
           <div className="tab-content">
@@ -69,16 +69,6 @@ const Products = () => {
                 </div>
                 <div className="col-md-3 prod-cards">
                     <div>
-                    <img className="card-img prod-card-img" src={Silver} alt="" />
-                    <div className="card-body prod-card-body">
-                        <h5>Silver</h5>
-                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
-                        <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-3 prod-cards">
-                    <div>
                     <img className="card-img prod-card-img" src={Gold} alt="" />
                     <div className="card-body prod-card-body">
                         <h5>Gold</h5>
@@ -87,6 +77,16 @@ const Products = () => {
                     </div>
                     </div>
                 </div>
+                <div className="col-md-3 prod-cards">
+                    <div>
+                    <img className="card-img prod-card-img" src={Silver} alt="" />
+                    <div className="card-body prod-card-body">
+                        <h5>Silver</h5>
+                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
+                        <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
+                    </div>
+                    </div>
+                </div>                
                 </div>
                 <div className="prod-heading">By Products</div>
                 <div className="row prod-box" >
@@ -122,7 +122,7 @@ const Products = () => {
                 </div>
                 </div>
 
-                <div className="prod-heading">Precious and Minor Metals</div>
+                <div className="prod-heading">Minor Metals</div>
                 <div className="row prod-box">
                 <div className="col-md-3 prod-cards">
                     <div>
@@ -240,7 +240,7 @@ const Products = () => {
             </div>
 
             <div className="tab-pane" id="metals" role="tabpanel">
-            <div className="prod-heading">Precious and Minor Metals</div>
+            <div className="prod-heading">Minor Metals</div>
                 <div className="row prod-box">
                 <div className="col-md-3 prod-cards">
                     <div>

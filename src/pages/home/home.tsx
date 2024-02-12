@@ -53,16 +53,7 @@ const Home = () => {
                 <img className="card-img" src={slide1} alt="Placeholder Image" />
               </div>
               <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-                <h1 className="text-white bann-txt col-md-10">India’s Largest Single Location Custom Smelter</h1>
-              </div>
-            </div>
-
-            <div>
-              <div className="banner-img-div">
-                <img className="card-img" src={slide2} alt="Placeholder Image" />
-              </div>
-              <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-                <h1 className="text-white bann-txt col-md-10">Empowering Industries, Building a Self-Reliant Nation </h1>
+                <h1 className="text-white bann-txt col-md-10">Empowering Industries, Building a Self-Reliant Nation</h1>
               </div>
             </div>
 
@@ -71,7 +62,16 @@ const Home = () => {
                 <img className="card-img" src={slide3} alt="Placeholder Image" />
               </div>
               <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
-                <h1 className="text-white bann-txt col-md-10">Committed to Environment, Safety and Governance </h1>
+                <h1 className="text-white bann-txt col-md-10">India’s Largest Single Location Custom Smelter</h1>
+              </div>
+            </div>
+
+            <div>
+              <div className="banner-img-div">
+                <img className="card-img" src={slide3} alt="Placeholder Image" />
+              </div>
+              <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
+                <h1 className="text-white bann-txt col-md-10">Committed to Environment, Safety and Governance</h1>
               </div>
             </div>
           </OwlCarousel>
@@ -82,8 +82,8 @@ const Home = () => {
         <div className="container WhoWeAreContainer">
           <div className="row WhoWeAreData justify-content-center">
             <div className="contentsection col-md-10">
-              <h1 className="mb-4 section-heading">Kutch Copper at a Glance</h1>
-              <p>Kutch Copper Ltd.(KCL) a subsidiary of Adani Enterprises Ltd., is a greenfield copper custom smelting and refining complex, poised to be a pivotal player in advancing green energy infrastructure.This state-of-the-art facility in Mundra, will produce copper cathodes and rods along with other valuable products such as gold, silver and selenium</p>
+              <h1 className="mb-4 section-heading">Adani Metals at a Glance</h1>
+              <p>Adani Group is forging into metals business with Copper, Aluminium and Precious Metals with cutting-edge and sustainable technologies. Kutch Copper Ltd.(KCL) a subsidiary of Adani Enterprises Ltd., is a greenfield copper custom smelting and refining complex, poised to be a pivotal player in advancing green energy infrastructure.This state-of-the-art facility in Mundra, will produce copper cathodes and rods along with other valuable products such as gold, silver and selenium.</p>
             </div>
             <div className="WhoWeAreImage d-flex align-items-start mt-4">
               <div className="col-md-4 col-8 px-3">
@@ -91,7 +91,7 @@ const Home = () => {
                   <img src={wwr2} className="rounded w-50" alt="Image 3" />
                 </div>
                 <h3>Our Purpose</h3>
-                <p>To be a world class leader in copper business with a commitment to nation building and delivering sustainable value to all stakeholders</p>
+                <p>To be a world class leader in metal business with a commitment to nation building and delivering sustainable value to all stakeholders</p>
               </div>
               <div className="col-md-4 col-8 px-3">
                 <div className="d-md-flex justify-content-center px-md-5">
@@ -172,7 +172,7 @@ const Home = () => {
                   <img src={wwd2} className="card-img w-100" alt="Image 2" />
                   <div className="text-center">
                     <h3 className="mt-3">Products</h3>
-                    <p>Delivering quality,building trust</p>
+                    <p>Delivering quality, building trust</p>
                   </div>
                 </div>
               </div>
@@ -234,7 +234,7 @@ const Home = () => {
             <div className="col-lg-6 col-12 LifeAtKCL-2 ps-md-5">
               <div className="LifeAtKCLContentData">
                 <h1 className="mb-4 d-md-block d-none section-heading">Life at KCL</h1>
-                <p>At KCL, we believe our workforce is our most vital resource. With a robust and diverse team, we benefit from a range of perspectivesand ideas. Our hiring strategy focuses on attracting top talent from bothcampuses and the market, ensuring we have the right individuals to meet ourevolving needs. This approach not only enhances our capabilities but alsofosters a dynamic and innovative workplace culture.</p>
+                <p>At KCL, we believe our workforce is our most vital resource. With a robust and diverse team, we benefit from a range of perspectives and ideas. Our hiring strategy focuses on attracting top talent from both campuses and the market, ensuring we have the right individuals to meet our evolving needs. This approach not only enhances our capabilities but also fosters a dynamic and innovative workplace culture</p>
                 <div className="WhoWeAreButton mt-4">
                   <button type="button" className="life-kcl-button btn btn-dark rounded-pill home_btn">
                     Current Openings

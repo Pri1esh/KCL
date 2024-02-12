@@ -8,16 +8,22 @@ import values from "../../assets/images/Mask group-1.png";
 import graybox from "../../assets/images/ceoImage.png";
 import ceoImage from "../../assets/images/ceoImage.png";
 
-import vinay from "../../assets/images/vinay.png"
-import jeet from "../../assets/images/jeet.png"
-import birva from "../../assets/images/birva.png"
-import sunipa from "../../assets/images/sunipa.png"
-import mohan from "../../assets/images/mohan.png"
-import dinesh from "../../assets/images/dinesh.png"
+import vinay from "../../assets/images/vinay.png";
+import jeet from "../../assets/images/jeet.png";
+import birva from "../../assets/images/birva.png";
+import sunipa from "../../assets/images/sunipa.png";
+import mohan from "../../assets/images/mohan.png";
+import dinesh from "../../assets/images/dinesh.png";
 
 const Whoweare = () => {
   const navigate = useNavigate();
   useEffect(() => {
+    function sliceTextToWords(text: String, numWords: number) {
+      var words = text.split(" ");
+      var slicedWords = words.slice(0, numWords);
+      return slicedWords.join(" ");
+    }
+
     if (window.innerWidth <= 768) {
       var readMore = $('<div class="ps-3 text-start wwr-read-more text-decoration-underline">Read More</div>');
       readMore.on("click", function () {
@@ -31,6 +37,23 @@ const Whoweare = () => {
       });
       $(".wwr-list").after(readMore);
     }
+
+    if (true) {
+      $(".readMore-para")
+        .find("p:first")
+        .each(function (index, element) {
+          var readMore = $('<div class="seeMore text-start wwr-read-more text-decoration-underline">Read More</div>');
+          readMore.on("click", function () {
+            $(this).prev().toggle();
+            $(this).prev().prev().toggle();
+            $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
+          });
+          var displayPara = $(`<p>${sliceTextToWords($(element).text(), 20)}</p>`);
+          $(element).parent().after(readMore);
+          $(element).parent().after(displayPara);
+        });
+      $(".readMore-para").hide();
+    }
   }, []);
 
   return (
@@ -40,17 +63,18 @@ const Whoweare = () => {
         <div className="aboutKCL-section d-flex align-items-center justify-content-center">
           <div className="container ">
             <h2 className="all-headings">About KCL</h2>
-            <p className="all-paragraphs">As a part of Adani Group, Kutch Copper Ltd. (KCL), is a greenfield copper custom smelting and refining complex with an annual capacity of 0.5 million tonne in Phase-1 and planned additional capacity of 0.5 million tonne in Phase-2, totaling to an annual capacity of 1 million tonne making it the largest custom smelter at a single location in the world.</p>
-            <a href="" className="show-more-button-sustainibility">
+            <p className="all-paragraphs">As a part of the diversified Adani Group, Kutch Copper Ltd. (KCL), is a greenfield copper custom smelting and refining complex with an annual capacity of 0.5 million tonne in Phase-1 and planned additional capacity of 0.5 million tonne in Phase-2, totaling to an annual capacity of 1 million tonne making it the largest custom smelter at a single location in the world.</p>
+            <p>With a vision to make India self-reliant, KCL is strategically positioned to meet the nation's copper demand. Mundra, located on the northern shores of the Gulf of Kutch, Gujarat has proven to be a strategic location for Adani Group. With impeccable connectivity via sea, roads and railways, Mundra stands as an ideal hub for diverse business operations ensuring seamless movement of goods and an efficient supply chain. The power required forKCL will be sourced through MPSEZ Utilities, Adani Power, Mundra and the operational water requirement will be fulfilled through sea water de-salination of APSEZ, Mundra. The synergy between Adani's diverse businesses transforms Mundra into a pivotal location that aligns with the group’s multifaceted business needs, making it a cornerstone for the company's strategic endeavours.</p>
+            {/* <a href="" className="show-more-button-sustainibility">
               Read More
-            </a>
+            </a> */}
             <div className="row WhatWeDoImage align-items-stretch justify-content-between mt-4">
               <div className="col-md-4 card about-divs WhatWeDoImages">
                 <h3 className="my-4 mobileviewKCL d-md-none d-block all-headings text-start">Our Purpose</h3>
                 <img src={vision} alt="Image 1" />
                 <div className="inner-data">
                   <h3 className="my-4 all-headings d-md-block d-none laptopviewKCL text-start">Our Purpose</h3>
-                  <p className="text-start">To be a world class leader in copper business with a commitment to nation building and delivering sustainable value to all stakeholders</p>
+                  <p className="text-start">To be a world class leader in metal business with a commitment to nation building and delivering sustainable value to all stakeholders</p>
                 </div>
               </div>
               <div className="col-md-4 card about-divs WhatWeDoImages">

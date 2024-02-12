@@ -158,7 +158,7 @@ const Operations = () => {
                   <div className="circle">
                     <h4>03</h4>
                   </div>
-                  <h5>Anode furnace</h5>
+                  <h5>Anode furnace and Casting wheel</h5>
                 </button>
               </h2>
               <div id="flush-collapse-3" className="accordion-collapse collapse" aria-labelledby="flush-heading-3" data-bs-parent="#accordionFlushExample">
@@ -170,50 +170,24 @@ const Operations = () => {
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">
                         <p>Fire refining is conducted in the anode furnace. FO or NG is used as a reductant to eliminate the oxygen in the blister copper, refining it to a purity of approximately 99.5%.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="horizontal-line">
-                <hr />
-              </div>
-            </div>
-
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="flush-heading-4">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-4" aria-expanded="false" aria-controls="flush-collapse-4">
-                  <div className="circle">
-                    <h4>04</h4>
-                  </div>
-                  <h5>Anode casting wheel</h5>
-                </button>
-              </h2>
-              <div id="flush-collapse-4" className="accordion-collapse collapse" aria-labelledby="flush-heading-4" data-bs-parent="#accordionFlushExample">
-                <div className="accordion-body">
-                  <div className="row">
-                    <div className="col-md-3 p-0 mb-3">
-                      <img className="rounded w-100" src={smelting2} alt="" />
-                    </div>
-                    <div className="col-md-9 ps-md-5">
-                      <div className="readMore-para">
                         <p>The refined blister copper is then poured into casting molds lined-up side by side on the revolving circular caster of a casting wheel, forming anode plates for electrolytic refining. Each anode plate weighs 380-425 kg.</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className="horizontal-line">
                 <hr />
               </div>
             </div>
 
+
             <div className="accordion-item">
               <h2 className="accordion-header" id="flush-heading-5">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-5" aria-expanded="false" aria-controls="flush-collapse-5">
                   <div className="circle">
-                    <h4>05</h4>
+                    <h4>04</h4>
                   </div>
                   <h5>Refinery</h5>
                 </button>
@@ -241,7 +215,7 @@ const Operations = () => {
               <h2 className="accordion-header" id="flush-heading-6">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-6" aria-expanded="false" aria-controls="flush-collapse-6">
                   <div className="circle">
-                    <h4>06</h4>
+                    <h4>05</h4>
                   </div>
                   <h5>Continuous catalyst regeneration (CCR)</h5>
                 </button>
@@ -269,7 +243,7 @@ const Operations = () => {
               <h2 className="accordion-header" id="flush-heading-7">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-7" aria-expanded="false" aria-controls="flush-collapse-7">
                   <div className="circle">
-                    <h4>07</h4>
+                    <h4>06</h4>
                   </div>
                   <h5>Sulfuric Acid plant</h5>
                 </button>
@@ -297,7 +271,7 @@ const Operations = () => {
               <h2 className="accordion-header" id="flush-heading-8">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-8" aria-expanded="false" aria-controls="flush-collapse-8">
                   <div className="circle">
-                    <h4>08</h4>
+                    <h4>07</h4>
                   </div>
                   <h5>Slime treatment plant</h5>
                 </button>

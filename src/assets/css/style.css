@@ -82,6 +82,7 @@ body {
   }
 }
 .banner-btn {
+  cursor: pointer;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -289,7 +290,7 @@ body {
 .WhatWeDoImages {
   border: none !important;
   margin-bottom: 80px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .WhatWeDoImages h3 {
   font-size: 24px;
@@ -297,7 +298,7 @@ body {
   line-height: 32px;
 }
 .WhatWeDoImages p {
-  color: #666666;
+  color: #333333;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -884,7 +885,7 @@ p {
 }
 .product-tab-head .tab-heads {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 20px;
   padding: 25px 25px;
   color: #333333;
@@ -895,6 +896,7 @@ p {
 }
 .product-tab-head .tab-heads.active {
   border-bottom: solid 2px #222222;
+  font-weight: 700;
 }
 
 @media (max-width: 767px) {

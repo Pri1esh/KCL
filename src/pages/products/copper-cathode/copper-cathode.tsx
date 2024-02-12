@@ -237,16 +237,6 @@ const CopperCathode = () => {
                 </div>
                 <div className="col-md-4 col-9 prod-cards">
                   <div>
-                    <img className="card-img prod-card-img" src={Silver} alt="" />
-                    <div className="card-body prod-card-body">
-                      <h5>Silver</h5>
-                      <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
-                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 col-9 prod-cards">
-                  <div>
                     <img className="card-img prod-card-img" src={Gold} alt="" />
                     <div className="card-body prod-card-body">
                       <h5>Gold</h5>
@@ -255,6 +245,17 @@ const CopperCathode = () => {
                     </div>
                   </div>
                 </div>
+                <div className="col-md-4 col-9 prod-cards">
+                  <div>
+                    <img className="card-img prod-card-img" src={Silver} alt="" />
+                    <div className="card-body prod-card-body">
+                      <h5>Silver</h5>
+                      <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
+                      <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>

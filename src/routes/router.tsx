@@ -13,6 +13,8 @@ import Contactus from "../pages/contactUs/contactUs";
 import Terms from "../pages/terms/terms";
 import PrivacyPolicy from "../pages/privacyPolicy/privacyPolicy";
 import Chairmanmessage from "../pages/chairmanmessage/chairmanmessage";
+import Disclaimer from "../pages/disclaimer/disclaimer";
+import CookiePolicy from "../pages/cookiePolicy/cookiePolicy";
 
 const Routings = () => {
   const location = useLocation();
@@ -48,6 +50,8 @@ const Routings = () => {
         <Route path="/contactUs" element={<Contactus />} />
         <Route path="/termsAndConditions" element={<Terms />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/cookiePolicy" element={<CookiePolicy />} />
       </Routes>
     </div>
   );

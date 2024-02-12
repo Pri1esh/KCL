@@ -112,9 +112,6 @@ const Header = () => {
                     <Link className="dropdown-item" to={"/whatwedo/products"}>
                       Products
                     </Link>
-                    <Link className="dropdown-item" to={"#"}>
-                      Project
-                    </Link>
                   </div>
                 </div>
 
@@ -135,7 +132,7 @@ const Header = () => {
                     Career
                   </Link>
                 </div>
-                
+
                 <div className="nav-item px-1">
                   <Link className="nav-link" to={"/contactUs"} tabIndex={-1} aria-disabled="true">
                     Contact us
@@ -188,9 +185,6 @@ const Header = () => {
               <Link to={"/whatwedo/products"} className="sub-item nav_links">
                 Products
               </Link>
-              <Link to={"/"} className="sub-item">
-                Project
-              </Link>
             </div>
           </div>
           {/* <div className="item">
@@ -237,7 +231,6 @@ const Header = () => {
               </Link>
             </a>
           </div>
-
         </div>
 
         <div className="menu">
@@ -256,8 +249,18 @@ const Header = () => {
             </Link>
           </div>
           <div className="item">
-            <Link className="info-menu nav_links" to={"/terms"}>
+            <Link className="info-menu nav_links" to={"/termsAndConditions"}>
               Terms & Conditions
+            </Link>
+          </div>
+          <div className="item">
+            <Link className="info-menu nav_links" to={"/disclaimer"}>
+              Disclaimer
+            </Link>
+          </div>
+          <div className="item">
+            <Link className="info-menu nav_links" to={"/cookiePolicy"}>
+              Cookie Policy
             </Link>
           </div>
         </div>

@@ -28,7 +28,6 @@ const Footer = () => {
                             <ul>
                                 <li><Link to={"/operations"}>Operations</Link></li>
                                 <li><Link to={"/products"}>Products</Link></li>
-                                <li><Link to={""}>Project</Link></li>
                             </ul>
                         </div>
                         <div className="col-3">
@@ -53,6 +52,7 @@ const Footer = () => {
                             <h5>Help Center</h5>
                             <ul>
                                 <li><Link to={""}>Contact Us</Link></li>
+                                <li><Link to={""}>Sitemap</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -77,7 +77,6 @@ const Footer = () => {
                                 <ul>
                                     <li><Link to={""}>Operations</Link></li>
                                     <li><Link to={""}>Products</Link></li>
-                                    <li><Link to={""}>Project</Link></li>
                                 </ul>
                             </div>
                           </div>
@@ -124,6 +123,7 @@ const Footer = () => {
                               <div className="accordion-body">
                                 <ul>
                                     <li><Link to={"contactUs"}>Contact Us</Link></li>
+                                    <li><Link to={""}>Sitemap</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -139,17 +139,16 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="d-md-block d-none footer-bottom">
-                <h5>Kutch Copper Limited</h5>
-                <p className="mb-0">Kutch Copper Limited, a 100% subsidiary of Adani Enterprises Limited, is incorporated on March 24, 2021, with the object to undertake copper business - related activities such as the manufacture of copper cathodes and copper rods and associated products. KCL is setting up a greenfield copper refinery project for production of refined copper with 1 MTPA (million tons per annum) in two phases.</p>
-            </div>
+
         </div>
         <div className="bottom-banner">
             <div className="container py-3">
-                <p>&#x24B8; 2023 Kutch Copper Limited</p>
-                <ul>
+                <p>&#x24B8; 2024 Kutch Copper Limited</p>
+                <ul className='d-md-inline-flex d-none'>
                     <li><Link to={"/privacyPolicy"}>Privacy Policy</Link></li>
                     <li><Link to={"/termsAndConditions"}>Terms & Conditions</Link></li>
+                    <li><Link to={"/disclaimer"}>Disclaimer</Link></li>
+                    <li><Link to={"/cookiePolicy"}>Cookie Policy</Link></li>
                 </ul>
             </div>
         </div>
