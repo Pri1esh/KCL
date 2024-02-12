@@ -103,14 +103,14 @@ const Contactus = () => {
                   <img src={contact3} alt="" />
                   <div className="cont">
                     <h5>Call Us</h5>
-                    <p>+91 0796851906</p>
+                    <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
                   </div>
                 </div>
                 <div className="left-card">
                   <img src={contact4} alt="" />
                   <div className="cont">
                     <h5>Email Us</h5>
-                    <p>copper.marketing@adani.com</p>
+                    <p><a href="mailto:copper.marketing@adani.com">copper.marketing@adani.com</a></p>
                   </div>
                 </div>
               </div>
@@ -176,11 +176,11 @@ const Contactus = () => {
               <div className="regional-info">
                 <div className="d-flex">
                   <img src={PhoneIcon} alt="" />
-                  <p>+91 0796851906</p>
+                  <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
                 </div>
                 <div className="d-flex">
                   <img src={EmailIcon} alt="" />
-                  <p>Prakash.marketing@adani.com</p>
+                  <p><a href="mailto:Prakash.marketing@adani.com">Prakash.marketing@adani.com</a></p>
                 </div>
               </div>
             </div>
@@ -190,11 +190,11 @@ const Contactus = () => {
               <div className="regional-info">
                 <div className="d-flex">
                   <img src={PhoneIcon} alt="" />
-                  <p>+91 0796851906</p>
+                  <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
                 </div>
                 <div className="d-flex">
                   <img src={EmailIcon} alt="" />
-                  <p>Prakash.marketing@adani.com</p>
+                  <p><a href="mailto:Prakash.marketing@adani.com">Prakash.marketing@adani.com</a></p>
                 </div>
               </div>
             </div>
@@ -204,11 +204,11 @@ const Contactus = () => {
               <div className="regional-info">
                 <div className="d-flex">
                   <img src={PhoneIcon} alt="" />
-                  <p>+91 0796851906</p>
+                  <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
                 </div>
                 <div className="d-flex">
                   <img src={EmailIcon} alt="" />
-                  <p>Prakash.marketing@adani.com</p>
+                  <p><a href="mailto:Prakash.marketing@adani.com">Prakash.marketing@adani.com</a></p>
                 </div>
               </div>
             </div>

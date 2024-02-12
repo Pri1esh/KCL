@@ -1536,6 +1536,14 @@ p {
   color: #333333;
 }
 
+.here-left .left-box .left-card .cont p a{
+text-decoration: none;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+color: #333333;
+}
+
 
 .regional-section .regional-row{
   display: flex;
@@ -1589,6 +1597,15 @@ p {
   line-height: 24px;
   color: #333333;
   margin-bottom: 0;
+  text-decoration: none;
+}
+.regional-section .regional-info p a{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 0;
+  text-decoration: none;
 }
 
 #thanksModal .modal-body img{

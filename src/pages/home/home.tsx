@@ -20,9 +20,9 @@ import { Link, useNavigate } from "react-router-dom";
 import graybox from "../../assets/images/graybox.png";
 import chairmanImage from "../../assets/images/chairman-image.jpg";
 
-import slide1 from "../../assets/images/slide-1.png";
-import slide2 from "../../assets/images/slide-2.png";
-import slide3 from "../../assets/images/slide-3.png";
+import slide1 from "../../assets/images/banner-slide.png";
+import slide2 from "../../assets/images/slide-3.png";
+import slide3 from "../../assets/images/banner-slide2.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -59,7 +59,7 @@ const Home = () => {
 
             <div>
               <div className="banner-img-div">
-                <img className="card-img" src={slide3} alt="Placeholder Image" />
+                <img className="card-img" src={slide2} alt="Placeholder Image" />
               </div>
               <div className="card-img-overlay d-flex justify-content-center align-items-center row px-md-0 px-4">
                 <h1 className="text-white bann-txt col-md-10">India’s Largest Single Location Custom Smelter</h1>
@@ -196,7 +196,7 @@ const Home = () => {
           <img src={sustainabilityMobile} alt="Placeholder Image" className="rounded d-block d-md-none" />
           <div className="Sustainibility-box">
             <h1>Sustainability</h1>
-            <p>Fostering Goodness through sustainability</p>
+            <p>Fostering Goodness through Sustainability</p>
             {/* <button type="button" className="btn btn-light rounded-pill">Know More</button> */}
           </div>
         </div>
