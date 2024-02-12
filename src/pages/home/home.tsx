@@ -82,7 +82,7 @@ const Home = () => {
         <div className="container WhoWeAreContainer">
           <div className="row WhoWeAreData justify-content-center">
             <div className="contentsection col-md-10">
-              <h1 className="mb-3 section-heading">Kutch Copper at a Glance</h1>
+              <h1 className="mb-4 section-heading">Kutch Copper at a Glance</h1>
               <p>Kutch Copper Ltd.(KCL) a subsidiary of Adani Enterprises Ltd., is a greenfield copper custom smelting and refining complex, poised to be a pivotal player in advancing green energy infrastructure.This state-of-the-art facility in Mundra, will produce copper cathodes and rods along with other valuable products such as gold, silver and selenium</p>
             </div>
             <div className="WhoWeAreImage d-flex align-items-start mt-4">
@@ -117,19 +117,19 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="Chairman py-5 d-flex align-items-center justify-content-center">
+      <section className="Chairman  d-flex align-items-center justify-content-center">
         <div className="container ChairmanContainer">
           <h2 className="d-md-none d-block mt-4" style={{ marginBottom: "40px" }}>
             Chairman Message
           </h2>
           <div className="row Chaimanrows">
-            <div className="col-md-6 ChaimanContentSection justify-content-around">
-              <div className="ChaimanTopContentData">
+            <div className="col-md-6 px-md-5 ChaimanContentSection justify-content-around">
+              <div className="ChaimanTopContentData  CMD">
                 <h2 className="d-md-block d-none" style={{ marginBottom: "40px" }}>
                   Chairman Message
                 </h2>
                 <p>"It is my promise that we will continue to invest and do our part to help the people wherever we operate"</p>
-                <Link to={"/whoweare/chairmanmessage"} className="show-more-button-sustainibility">
+                <Link to={"/whoweare/chairmanmessage"} className="seeMore show-more-button-sustainibility">
                   Read More
                 </Link>
               </div>
@@ -143,14 +143,14 @@ const Home = () => {
               <h4>Gautam Adani</h4>
               <span className="ChaimanAdaniGroup">Chairman, Adani Group</span>
             </div>
-            <div className="col-md-6 px-lg-5 d-flex justify-content-end align-items-center">
+            <div className="col-md-6 px-md-5 d-flex justify-content-end align-items-center">
               <img src={chairmanImage} alt="" className="Chairman-img rounded" />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="WhatWeDo py-5">
+      <section className="WhatWeDo">
         <div className="container WhatWeDoContainer">
           <div className="row WhatWeDoData justify-content-center">
             <div className="contentsection col-md-8 mb-3">

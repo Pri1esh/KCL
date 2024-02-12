@@ -1,0 +1,604 @@
+{
+  "sitecore": {
+    "context": {
+      "visitorIdentificationTimestamp": 638429739329704300,
+      "pageEditing": false,
+      "site": {
+        "name": "KutchCopper"
+      },
+      "pageState": "normal",
+      "language": "en",
+      "itemPath": "https://kutchcopper.dev.local/"
+    },
+    "route": {
+      "name": "Home",
+      "displayName": "Home",
+      "fields": {},
+      "databaseName": "web",
+      "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+      "itemId": "012ab642-c83b-45aa-9cd2-03e0d82add7d",
+      "itemLanguage": "en",
+      "itemVersion": 1,
+      "layoutId": "59d251db-cfe8-4f6e-b515-6aa6ab89d3bb",
+      "templateId": "061cba15-5474-4b91-8a06-17903b102b82",
+      "templateName": "App",
+      "placeholders": {
+        "Header": [
+          {
+            "uid": "59f13760-0022-405f-b0fb-6f9ca8ec1cab",
+            "componentName": "Header",
+            "dataSource": "{E25BE5AC-7A77-4945-9559-70F098B3DC2C}",
+            "fields": {
+              "header": [
+                {
+                  "items": [
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "About Us",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "/-/media/Project/Adani/Logo/logo.png",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Leadership and Management",
+                      "ctaLink": ""
+                    }
+                  ],
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "Who We Are",
+                  "ctaLink": "http://www.adani.com"
+                },
+                {
+                  "items": [
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Operationdf",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Product",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Project",
+                      "ctaLink": ""
+                    }
+                  ],
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "What we do",
+                  "ctaLink": ""
+                },
+                {
+                  "items": null,
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "Sustainability",
+                  "ctaLink": ""
+                },
+                {
+                  "items": null,
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "Media",
+                  "ctaLink": ""
+                },
+                {
+                  "items": null,
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "Career",
+                  "ctaLink": ""
+                },
+                {
+                  "items": null,
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "Contact us",
+                  "ctaLink": ""
+                },
+                {
+                  "items": null,
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "CEO Message",
+                  "ctaLink": ""
+                },
+                {
+                  "items": null,
+                  "image": "",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": "Leadership Team",
+                  "ctaLink": ""
+                }
+              ],
+              "logo": {
+                "image": "/-/media/Project/Adani/Logo/logo.png",
+                "mobileImage": "",
+                "imageAltText": "",
+                "ctaText": null,
+                "ctaLink": ""
+              },
+              "hamburger": [
+                {
+                  "items": [
+                    {
+                      "title": "Navigation",
+                      "items": [
+                        {
+                          "items": [
+                            {
+                              "image": "/-/media/Project/Adani/Logo/logo.png",
+                              "mobileImage": null,
+                              "imageAltText": "",
+                              "ctaText": "About Us",
+                              "ctaLink": ""
+                            },
+                            {
+                              "image": "/-/media/Project/Adani/Logo/logo.png",
+                              "mobileImage": null,
+                              "imageAltText": "",
+                              "ctaText": "Leadership And Management",
+                              "ctaLink": ""
+                            }
+                          ],
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "Who We Are",
+                          "ctaLink": ""
+                        },
+                        {
+                          "items": [
+                            {
+                              "image": "",
+                              "mobileImage": null,
+                              "imageAltText": "",
+                              "ctaText": "Operation",
+                              "ctaLink": ""
+                            },
+                            {
+                              "image": "",
+                              "mobileImage": null,
+                              "imageAltText": "",
+                              "ctaText": "Product",
+                              "ctaLink": ""
+                            },
+                            {
+                              "image": "",
+                              "mobileImage": null,
+                              "imageAltText": "",
+                              "ctaText": "Project",
+                              "ctaLink": ""
+                            }
+                          ],
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "What we do",
+                          "ctaLink": ""
+                        },
+                        {
+                          "items": null,
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "Sustainability",
+                          "ctaLink": ""
+                        },
+                        {
+                          "items": null,
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "Media",
+                          "ctaLink": ""
+                        },
+                        {
+                          "items": null,
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "Career",
+                          "ctaLink": ""
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Information",
+                      "items": [
+                        {
+                          "items": null,
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "Contact us",
+                          "ctaLink": ""
+                        },
+                        {
+                          "items": null,
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "Privacy Policy",
+                          "ctaLink": ""
+                        },
+                        {
+                          "items": null,
+                          "image": "",
+                          "mobileImage": "",
+                          "imageAltText": "",
+                          "ctaText": "Terms and Conditions",
+                          "ctaLink": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "image": "/-/media/Project/Adani/Logo/logo.png",
+                  "mobileImage": null,
+                  "imageAltText": "",
+                  "ctaText": null,
+                  "ctaLink": null
+                }
+              ]
+            }
+          }
+        ],
+        "Main": [
+          {
+            "uid": "4d32b40a-75bf-4875-a90e-80b316a8bfcb",
+            "componentName": "Banner",
+            "dataSource": "{A6FF0D6D-3B88-4D6F-9327-D3E37C150F4B}",
+            "fields": {
+              "bannerResource": [
+                {
+                  "title": "India’s Largest Single Loca om Smelter 500 ktpa production capacity",
+                  "subtitle": "",
+                  "thumbnailImage": "",
+                  "tabAltText": null,
+                  "mobileImageAltText": null,
+                  "image": "/-/media/Project/KutchCopper/Home/Banner.png",
+                  "mobileImage": "",
+                  "imageAltText": "",
+                  "ctaText": "",
+                  "ctaLink": ""
+                },
+                {
+                  "title": "India’s Largest Single Loca om Smelter 500 ktpa production capacity",
+                  "subtitle": "",
+                  "thumbnailImage": "",
+                  "tabAltText": null,
+                  "mobileImageAltText": null,
+                  "image": "/-/media/Project/KutchCopper/Home/Banner.png",
+                  "mobileImage": "",
+                  "imageAltText": "",
+                  "ctaText": "",
+                  "ctaLink": ""
+                }
+              ]
+            }
+          },
+          {
+            "uid": "714316c9-6a00-456e-babb-f461f45b9ede",
+            "componentName": "HomeAbout",
+            "dataSource": "{11F7783B-328C-4805-BE56-A6065815F3BC}",
+            "fields": {
+              "about": {
+                "title": "Who we are",
+                "subTitle": "Copper plays a significant role in sectors such as infrastructure development, power transmission, electrical equipment manufacturing, and renewable energy. As a leading mining, metal, and trading company, our mission is to reduce India's dependence on copper imports and lead the nation toward an 'Atmanirbhar Bharat'.",
+                "description": "<div class=\"WhoWeAreImage d-flex mt-4\">\n  <div class=\"col-md-4 col-8 px-3\">\n    <div class=\"d-md-flex justify-content-center px-md-5\">\n      <img src=\"-/media/Project/KutchCopper/Home/Vision.png\" class=\"rounded w-50\" alt=\"Image 3\" />\n    </div>\n    <h3>Vision</h3>\n    <p>To be the globally admired leader in copper business with a commitment to nation building and delivering sustainable value for stakeholders.</p>\n  </div>\n  <div class=\"col-md-4 col-8 px-3\">\n    <div class=\"d-md-flex justify-content-center px-md-5\">\n      <img src=\"-/media/Project/KutchCopper/Home/Mission.png\" class=\"rounded w-50\" alt=\"Image 3\" />\n    </div>\n    <h3>Mission</h3>\n    <p>To be the world's largest copper smelting complex by 2030. Responsible and sustainable copper  extraction with superior environmental standards</p>\n  </div>\n  <div class=\"col-md-4 col-8 px-3\">\n    <div class=\"d-md-flex justify-content-center px-md-5\">\n      <img src=\"-/media/Project/KutchCopper/Home/Value.png\" class=\"rounded w-50\" alt=\"Image 3\" />\n    </div>\n    <h3>Value</h3>\n    <p>We shall believe in our employees and other stakeholders also embrace new ideas and businesses</p>\n  </div>\n</div>",
+                "image": null,
+                "mobileImage": null,
+                "imageAltText": null,
+                "ctaText": "Know more",
+                "ctaLink": ""
+              }
+            }
+          },
+          {
+            "uid": "dca5321e-3141-4d15-badf-90962b432cb5",
+            "componentName": "HomeAbout",
+            "dataSource": "{D9567B5D-D629-4707-9CD5-F8AB39FDEA29}",
+            "fields": {
+              "about": {
+                "title": "What We Do",
+                "subTitle": "Adani's manufacturing acumen is unmatched. We adhere to the highest standards, ensuring quality, compliance, and sustainability across our operations. ",
+                "description": "<div class=\"row WhatWeDoImage no-gutters\">\n  <div class=\"col-md-4 WhatWeDoImages mb-4\">\n    <div class=\"card\">\n      <img src=\"-/media/Project/KutchCopper/Home/Operations.png\" class=\"card-img w-100\" alt=\"Image 1\" />\n      <div class=\"text-center\">\n        <h3 class=\"mt-3\">Operations</h3>\n        <p>Technology thats's a league apart</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-4 WhatWeDoImages mb-4\">\n    <div class=\"card\">\n      <img src=\"-/media/Project/KutchCopper/Home/Product.png\" class=\"card-img w-100\" alt=\"Image 2\" />\n      <div class=\"text-center\">\n        <h3 class=\"mt-3\">Products</h3>\n        <p>Delivering quality,building trust</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-4 WhatWeDoImages mb-4\">\n    <div class=\"card\">\n      <img src=\"-/media/Project/KutchCopper/Home/Project.png\" class=\"card-img w-100\" alt=\"Image 3\" />\n      <div class=\"text-center\">\n        <h3 class=\"mt-3\">Project</h3>\n        <p>Backed by the best infrastructural capability</p>\n      </div>\n    </div>\n  </div>\n</div>",
+                "image": null,
+                "mobileImage": null,
+                "imageAltText": null,
+                "ctaText": "",
+                "ctaLink": ""
+              }
+            }
+          },
+          {
+            "uid": "1d70d0b1-2287-4eb7-bd01-c3487eb11bcf",
+            "componentName": "Banner",
+            "dataSource": "{0A3B65B3-31DE-4B7D-8318-49FADE295E54}",
+            "fields": {
+              "bannerResource": [
+                {
+                  "title": "Sustainability",
+                  "subtitle": "Adani Kutch Copper prioritizes sustainability. We strive for responsible copper extraction, low carbon footprint, and circular economy practices.",
+                  "thumbnailImage": "/-/media/Project/Adani/Logo/logo.png",
+                  "tabAltText": null,
+                  "mobileImageAltText": null,
+                  "image": "/-/media/Project/KutchCopper/Home/Susutainability.png",
+                  "mobileImage": "/-/media/Project/Adani/Logo/logo.png",
+                  "imageAltText": "",
+                  "ctaText": "Know more",
+                  "ctaLink": ""
+                }
+              ]
+            }
+          },
+          {
+            "uid": "4b725af5-4091-43e3-821e-30aef2bf4d13",
+            "componentName": "AboutMessage",
+            "dataSource": "{42F1153C-E6CE-442E-A1AF-29A559FE56EA}",
+            "fields": {
+              "message": {
+                "title": "Chairman Message",
+                "subTitle": "“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\r\nhas been the industry's standard dummy text ever since the 1500s, when an unknown printer\r\ntook a galley of type and scrambled it to make a type specimen book. It has survived not\r\nonly five centuries, but also the leap into electronic typesetting, remaining essentially\r\nunchanged. It was popularised in the 1960s with the release of Letraset sheets containing\r\nLorem Ipsum passages, and more recently with desktop publishing”",
+                "description": "<div class=\"ChaimanBottomContentdata d-md-block d-none \"><h4>Gautam Adani</h4><span class=\"ChaimanAdaniGroup\">Chairman, Adani Group</span></div>",
+                "image": "/-/media/Project/KutchCopper/Home/Rectangle.png",
+                "mobileImage": null,
+                "imageAltText": "",
+                "ctaText": "Read More",
+                "ctaLink": ""
+              }
+            }
+          },
+          {
+            "uid": "243778d5-8d5a-48af-bf8e-9c31924a7fc1",
+            "componentName": "AboutMessage",
+            "dataSource": "{E76B2E3D-462B-480E-88DE-9331DED9D2D0}",
+            "fields": {
+              "message": {
+                "title": "Life at KCL",
+                "subTitle": "Experience the vibrant life at Kutch Copper Limited (KCL), where innovation meets tradition in the world of metals. Our commitment to responsible and sustainable copper extraction, coupled with cutting-edge technology and digitalisation, sets the stage for a dynamic workplace. Discover a culture built on values of Courage, Trust, and unwavering Commitment and join us in this transformative journey at KCL, where every individual plays a crucial role in building a stronger, Atmanirbhar Bharat.",
+                "description": "<div class=\"col-lg-6 col-12 LifeAtKCL-1 pe-md-3 mb-4\">\n\t<div class=\"row LifeAtKCL-row1\">\n\t\t<div class=\"col-md-7\">\n\t\t<img class=\"LifeAtKCLImg-1 rounded mb-md-0 mb-2 h-100\" src=\"-/media/Project/KutchCopper/Home/Rectangle.png\" alt=\"Image 1\" style=\"margin-bottom: 20px; width: 100%;\" />\n\t\t</div>\n\t\t<div class=\"col-md-5 two-img\">\n\t\t\t<div class=\"row h-100 justify-content-around\">\n\t\t\t\t<div class=\"col-md-12 col-6 pb-md-2 px-md-0 pe-1\">\n\t\t\t\t<img class=\"LifeAtKCLImg-2 rounded mb-0 h-100 w-100\" src=\"-/media/Project/KutchCopper/Home/Rectangle.png\" alt=\"Image 2\" />\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-12 col-6 pt-md-2 px-md-0 ps-1\">\n\t\t\t\t<img class=\"LifeAtKCLImg-3 rounded mb-0 h-100 w-100\" src=\"-/media/Project/KutchCopper/Home/Rectangle.png\" alt=\"Image 3\" />\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>",
+                "image": "",
+                "mobileImage": null,
+                "imageAltText": "",
+                "ctaText": "Job Opening",
+                "ctaLink": ""
+              }
+            }
+          }
+        ],
+        "Footer": [
+          {
+            "uid": "68fc041d-9fef-4913-81a3-0261604a8fda",
+            "componentName": "Footer",
+            "dataSource": "{E0AA70DC-6A1D-45EC-B9C7-AE78FB19C1F5}",
+            "fields": {
+              "footer": [
+                {
+                  "title": "Business",
+                  "items": [
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Operations",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Products",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Project",
+                      "ctaLink": ""
+                    }
+                  ],
+                  "image": null,
+                  "mobileImage": null,
+                  "imageAltText": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                {
+                  "title": "Company",
+                  "items": [
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Careers",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Who we are",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Media",
+                      "ctaLink": ""
+                    }
+                  ],
+                  "image": null,
+                  "mobileImage": null,
+                  "imageAltText": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                {
+                  "title": "Sustainability",
+                  "items": [
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Our Goal",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Strategy",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Environment",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Reports",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Policies",
+                      "ctaLink": ""
+                    }
+                  ],
+                  "image": null,
+                  "mobileImage": null,
+                  "imageAltText": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                {
+                  "title": "Help Center",
+                  "items": [
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "Contact Us",
+                      "ctaLink": ""
+                    }
+                  ],
+                  "image": null,
+                  "mobileImage": null,
+                  "imageAltText": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                {
+                  "title": "Social Media",
+                  "items": [
+                    {
+                      "image": "/-/media/Project/Defence/Assault-Riflet.jpg",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "",
+                      "ctaLink": ""
+                    },
+                    {
+                      "image": "",
+                      "mobileImage": null,
+                      "imageAltText": "",
+                      "ctaText": "",
+                      "ctaLink": ""
+                    }
+                  ],
+                  "image": null,
+                  "mobileImage": null,
+                  "imageAltText": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                }
+              ],
+              "logo": {
+                "image": "/-/media/Project/Adani/Logo/logo.png",
+                "mobileImage": null,
+                "imageAltText": "",
+                "ctaText": null,
+                "ctaLink": null
+              },
+              "social": null
+            }
+          },
+          {
+            "uid": "37cd1221-4fab-4ea2-a484-c526d53a3d4d",
+            "componentName": "FooterBottom",
+            "dataSource": "{E637757B-014E-4ABC-B031-9871D434CC98}",
+            "fields": {
+              "footerBottom": {
+                "title": "Kutch Copper Limited",
+                "heading": "2023 KCL copyright",
+                "subtitle": "KCL is multinational.... test"
+              },
+              "bottom": [
+                {
+                  "ctaText": "Privacy Policy",
+                  "ctaLink": ""
+                },
+                {
+                  "ctaText": "Terms and Conditions",
+                  "ctaLink": ""
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

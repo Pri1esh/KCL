@@ -36,7 +36,7 @@ const Footer = () => {
                             <ul>
                                 <li><Link to={"whoweare"}>Who we are</Link></li>
                                 <li><Link to={""}>Media</Link></li>
-                                <li><Link to={""}>Careersv</Link></li>
+                                <li><Link to={""}>Careers</Link></li>
                             </ul>
                         </div>
                         <div className="col-3">
@@ -145,7 +145,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="bottom-banner">
-            <div className="container mt-3">
+            <div className="container py-3">
                 <p>&#x24B8; 2023 Kutch Copper Limited</p>
                 <ul>
                     <li><Link to={"/privacyPolicy"}>Privacy Policy</Link></li>

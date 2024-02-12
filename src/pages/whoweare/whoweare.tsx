@@ -37,7 +37,7 @@ const Whoweare = () => {
     <div>
       <Banner bannerImg={bannerImg} crumb={"Who we are"} heading={"Who we are"} subheading={"know about Kutch Copper"} />
       <section>
-        <div className="aboutKCL-section d-flex align-items-center justify-content-center mb-5">
+        <div className="aboutKCL-section d-flex align-items-center justify-content-center">
           <div className="container ">
             <h2 className="all-headings">About KCL</h2>
             <p className="all-paragraphs">As a part of Adani Group, Kutch Copper Ltd. (KCL), is a greenfield copper custom smelting and refining complex with an annual capacity of 0.5 million tonne in Phase-1 and planned additional capacity of 0.5 million tonne in Phase-2, totaling to an annual capacity of 1 million tonne making it the largest custom smelter at a single location in the world.</p>
@@ -74,15 +74,15 @@ const Whoweare = () => {
         </div>
       </section>
 
-      <section className="Chairman d-flex align-items-center justify-content-center">
-        <div className="container ChairmanContainer py-5">
+      <section className="CeoMessage d-flex align-items-center justify-content-center">
+        <div className="container  py-5">
           <h1 className="d-md-none d-block mt-4 mb-4">Message From MD</h1>
           <div className="row Chaimanrows">
-            <div className="col-md-6 ChaimanContentSection justify-content-around">
+            <div className="col-md-6 px-md-5 ChaimanContentSection justify-content-around">
               <div className="ChaimanTopContentData">
-                <h2 className="laptopview mb-4">Message From MD</h2>
+                <h2 className="d-md-block d-none mb-4">Message From MD</h2>
                 <p>Our entry in the metal business with Kutch Copper, is on the lines of the Government of India's vision of resource security of critical minerals and the drive for Make in India to reduce import dependency on copper. India’s percapita copper consumption of approximately 0.6 Kg, significantly lower than the global average of 3.2 Kg per capita. However, due to India's focus on clean energy systems, the increasing usage of electric vehicles, and a range of related applications, the demand for copper is expected to double by 2030</p>
-                <Link to={"/whoweare/ceomessage"} className="show-more-button-sustainibility mb-4">
+                <Link to={"/whoweare/ceomessage"} className="seeMore show-more-button-sustainibility mb-4">
                   Read More
                 </Link>
               </div>
@@ -92,17 +92,17 @@ const Whoweare = () => {
                 <span className="ChaimanAdaniGroup">MD, KCL & CEO, Natural Resources</span>
               </div>
             </div>
-            <div className="ChaimanBottomContentdata d-md-none d-block mt-4">
+            <div className="ChaimanBottomContentdata d-md-none d-block">
               <h4>Vinay Prakash</h4>
               <span className="ChaimanAdaniGroup">MD, KCL & CEO, Natural Resources</span>
             </div>
-            <div className="col-md-6 d-flex justify-content-center">
-              <img src={ceoImage} alt="" className="Chairman-img w-75 w-md-100 rounded" />
+            <div className="col-md-6 px-md-5 mb-2 d-md-flex justify-content-end">
+              <img src={ceoImage} alt="" className="Chairman-img w-75 rounded" />
             </div>
           </div>
         </div>
       </section>
-      <section className="aboutKCL-section1 wwr-leadership d-flex align-items-center justify-content-center mt-5">
+      <section className="aboutKCL-section1 wwr-leadership d-flex align-items-center justify-content-center">
         <div className="">
           <div className="container">
             <h2 className="all-headings" style={{ marginBottom: "20px" }}>
