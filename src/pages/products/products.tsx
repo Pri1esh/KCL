@@ -82,7 +82,7 @@ const Products = () => {
                     <img className="card-img prod-card-img" src={Silver} alt="" />
                     <div className="card-body prod-card-body">
                         <h5>Silver</h5>
-                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
+                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications</p>
                         <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                     </div>
@@ -149,7 +149,7 @@ const Products = () => {
                     <img className="card-img prod-card-img" src={copperTelluride} alt="" />
                     <div className="card-body prod-card-body">
                         <h5>Copper Telluride</h5>
-                        <p>Discover the exceptional conductivity and versatility of our Copper Telluride.</p>
+                        <p>Discover the exceptional conductivity and versatility of our Copper Telluride</p>
                         <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                     </div>
@@ -185,7 +185,7 @@ const Products = () => {
                     <img className="card-img prod-card-img" src={Silver} alt="" />
                     <div className="card-body prod-card-body">
                         <h5>Silver</h5>
-                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications.</p>
+                        <p>Distinguished by their radiant white sheen, are valued not only for their beauty but also for their practical applications</p>
                         <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                     </div>
@@ -247,7 +247,7 @@ const Products = () => {
                     <img className="card-img prod-card-img" src={seleniumPowder} alt="" />
                     <div className="card-body prod-card-body">
                         <h5>Selenium Powder</h5>
-                        <p>It is used in various applications such as electronics, glassmaking, and more</p>
+                        <p>It is used in various applications such as electronics, glassmaking and more</p>
                         <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                     </div>
@@ -267,7 +267,7 @@ const Products = () => {
                     <img className="card-img prod-card-img" src={copperTelluride} alt="" />
                     <div className="card-body prod-card-body">
                         <h5>Copper Telluride</h5>
-                        <p>Discover the exceptional conductivity and versatility of our Copper Telluride.</p>
+                        <p>Discover the exceptional conductivity and versatility of our Copper Telluride</p>
                         <button className="btn btn-outline-dark rounded-pill d-none">Buy Now</button>
                     </div>
                     </div>

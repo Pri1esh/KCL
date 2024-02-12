@@ -66,7 +66,7 @@ const Operations = () => {
           <h3>
             <strong>Copper at a glance</strong>
           </h3>
-          <p className="mb-4 readMore-text">Copper plays a significant role in sectors such as infrastructure development, power transmission, electrical equipment manufacturing, and renewable energy. As a leading | mining, metal, and trading company, our mission is to reduce India's dependence on copper imports and lead the nation toward an ‘Atmanirbhar Bharat’. Adani is committed to expanding domestic mining operations, enhancing refining capabilities, and promoting sustainable practices to build a stronger India.</p>
+          <p className="mb-4 readMore-text">Copper plays a significant role in sectors such as infrastructure development, power transmission, electrical equipment manufacturing, and renewable energy. As a leading mining, metal, and trading company, our mission is to reduce India's dependence on copper imports and lead the nation toward an ‘Atmanirbhar Bharat’. Adani is committed to expanding domestic mining operations, enhancing refining capabilities, and promoting sustainable practices to build a stronger India.</p>
 
           <div className="row" style={{ marginTop: "60px" }}>
             <div className="col-md-8 order-md-2 order-2">
@@ -74,10 +74,10 @@ const Operations = () => {
                 <strong>Operations at KCL</strong>
               </h3>
               <p className="my-4 operations-text">
-                Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCLhas adopted flash smelting and pierce smith converting technology wherein the copper concentrates are converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.
+                Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCL has adopted flash smelting and pierce smith converting technology wherein the copper concentrates are converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.
                 <br />
                 <br />
-                Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with | minimal impurities.
+                Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with minimal impurities.
               </p>
             </div>
             <div className="col-md-4 order-md-2 order-1">
@@ -139,7 +139,7 @@ const Operations = () => {
                     </div>
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">
-                        <p>The matte produced by the flash smelting furnace is transferred to the converter furnace. Oxygen-enriched air is blown into the converter furnace to further oxidize the matte, creating blister copper with a grade of approximately 98-99%</p>
+                        <p>The matte produced by the flash smelting furnace is transferred to the converter furnace. Oxygen-enriched air is blown into the converter furnace to further oxidize the matte, creating blister copper with a grade of approximately 98-99%.</p>
                         <p>Reaction in the flash smelting furnace</p>
                         <h6>Cu2S・FeS + SiO2 + O2 → Cu + 2FeO・SiO2 + SO2 + Reaction heat</h6>
                       </div>
@@ -200,7 +200,7 @@ const Operations = () => {
                     </div>
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">
-                        <p>Anode plates (Cu) and stainless-steel cathode plates are alternately set into the electrorefining cell, where a proper level of DC current is supplied. Dissolved copper from the anode is electrolytically deposited on the stainless-steel cathode plate. After about 6- 7 days of electrolysis, the cathode is lifted out and stripped from the stainless-steel plate, resulting in the completion of refined copper (with grade of 99.99%) as a final product. Weight of Cu Cathode is approx. 110 Kg.</p>
+                        <p>Anode plates (Cu) and stainless-steel cathode plates are alternately set into the electrorefining cell, where a proper level of DC current is supplied. Dissolved copper from the anode is electrolytically deposited on the stainless-steel cathode plate. After about 6 - 7 days of electrolysis, the cathode is lifted out and stripped from the stainless-steel plate, resulting in the completion of refined copper (with grade of 99.99%) as a final product. Weight of Cu Cathode is approximately 110 Kg.</p>
                       </div>
                     </div>
                   </div>
