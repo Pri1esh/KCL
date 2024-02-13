@@ -18,7 +18,7 @@ import sustainability from "../../assets/images/Content Section V20.png";
 import sustainabilityMobile from "../../assets/images/sustainabilityMobile.png";
 import { Link, useNavigate } from "react-router-dom";
 import graybox from "../../assets/images/graybox.png";
-import chairmanImage from "../../assets/images/chairman-image.jpg";
+import chairmanImage from "../../assets/images/chairman-white.png";
 
 import slide1 from "../../assets/images/banner-slide.png";
 import slide2 from "../../assets/images/slide-3.png";
@@ -56,7 +56,6 @@ const Home = () => {
                 <h1 className="text-white bann-txt col-md-10">Empowering Industries, Building a Self-Reliant Nation</h1>
               </div>
             </div>
-
             <div>
               <div className="banner-img-div">
                 <img className="card-img" src={slide2} alt="Placeholder Image" />
@@ -155,7 +154,7 @@ const Home = () => {
           <div className="row WhatWeDoData justify-content-center">
             <div className="contentsection col-md-8 mb-3">
               <h1 className="mb-3 section-heading">Our Business</h1>
-              <p className="text-center font-500">With a vision to make India self-reliant, Kutch Copper is strategically positioned to meet the nation’s copper demand.</p>
+              <p className="text-center">With a vision to make India self-reliant, Kutch Copper is strategically positioned to meet the nation’s copper demand.</p>
             </div>
             <div className="row px-0 WhatWeDoImage no-gutters">
               <div className="col-md-6 WhatWeDoImages mb-4">

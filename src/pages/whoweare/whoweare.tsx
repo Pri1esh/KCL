@@ -6,7 +6,7 @@ import mission from "../../assets/images/Bitmap.png";
 import vision from "../../assets/images/Mask group.png";
 import values from "../../assets/images/Mask group-1.png";
 import graybox from "../../assets/images/ceoImage.png";
-import ceoImage from "../../assets/images/ceoImage.png";
+import ceoImage from "../../assets/images/ceo-white.png";
 
 import vinay from "../../assets/images/vinay.png";
 import jeet from "../../assets/images/jeet.png";
@@ -38,7 +38,7 @@ const Whoweare = () => {
       $(".wwr-list").after(readMore);
     }
 
-    if (true) {
+    if (window.innerWidth <= 786) {
       $(".readMore-para")
         .find("p:first")
         .each(function (index, element) {
@@ -54,6 +54,13 @@ const Whoweare = () => {
         });
       $(".readMore-para").hide();
     }
+    var hideMore = $('<div class="text-start seeMore mb-4">Read More</div>');
+    $(".hide-text").children().nextAll("p").hide();
+    hideMore.click(function () {
+      $(this).prev().children().nextAll("p").toggle();
+      $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
+    });
+    $(".hide-text").after(hideMore);
   }, []);
 
   return (
@@ -63,8 +70,10 @@ const Whoweare = () => {
         <div className="aboutKCL-section d-flex align-items-center justify-content-center">
           <div className="container ">
             <h2 className="all-headings">About KCL</h2>
+            <div className="hide-text">
             <p className="all-paragraphs">As a part of the diversified Adani Group, Kutch Copper Ltd. (KCL), is a greenfield copper custom smelting and refining complex with an annual capacity of 0.5 million tonne in Phase-1 and planned additional capacity of 0.5 million tonne in Phase-2, totaling to an annual capacity of 1 million tonne making it the largest custom smelter at a single location in the world.</p>
             <p>With a vision to make India self-reliant, KCL is strategically positioned to meet the nation's copper demand. Mundra, located on the northern shores of the Gulf of Kutch, Gujarat has proven to be a strategic location for Adani Group. With impeccable connectivity via sea, roads and railways, Mundra stands as an ideal hub for diverse business operations ensuring seamless movement of goods and an efficient supply chain. The power required forKCL will be sourced through MPSEZ Utilities, Adani Power, Mundra and the operational water requirement will be fulfilled through sea water de-salination of APSEZ, Mundra. The synergy between Adani's diverse businesses transforms Mundra into a pivotal location that aligns with the group’s multifaceted business needs, making it a cornerstone for the company's strategic endeavours.</p>
+            </div>
             {/* <a href="" className="show-more-button-sustainibility">
               Read More
             </a> */}
@@ -102,7 +111,7 @@ const Whoweare = () => {
         <div className="container  py-5">
           <h1 className="d-md-none d-block mt-4 mb-4">Message From MD</h1>
           <div className="row Chaimanrows">
-            <div className="col-md-6 px-md-5 ChaimanContentSection justify-content-around">
+            <div className="col-md-6 pe-md-5 ChaimanContentSection justify-content-around">
               <div className="ChaimanTopContentData">
                 <h2 className="d-md-block d-none mb-4">Message From MD</h2>
                 <p>Our entry in the metal business with Kutch Copper, is on the lines of the Government of India's vision of resource security of critical minerals and the drive for Make in India to reduce import dependency on copper. India’s percapita copper consumption of approximately 0.6 Kg, significantly lower than the global average of 3.2 Kg per capita. However, due to India's focus on clean energy systems, the increasing usage of electric vehicles, and a range of related applications, the demand for copper is expected to double by 2030</p>
@@ -120,7 +129,7 @@ const Whoweare = () => {
               <h4>Vinay Prakash</h4>
               <span className="ChaimanAdaniGroup">MD, KCL & CEO, Natural Resources</span>
             </div>
-            <div className="col-md-6 px-md-5 mb-2 d-md-flex justify-content-end">
+            <div className="col-md-6 ps-md-5 mb-2 d-md-flex justify-content-end">
               <img src={ceoImage} alt="" className="Chairman-img w-75 rounded" />
             </div>
           </div>

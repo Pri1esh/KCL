@@ -5,10 +5,14 @@ const Banner = (props: any) => {
   return (
     <section className="banner banner-others d-flex justify-content-center">
       <div className="position-relative banner-box">
-        <div className="banner-crumb d-md-flex d-none">
-          <Link to={"/"}><p>Home</p></Link>
-          <p>&nbsp;/&nbsp;</p>
-          <p>{props.crumb}</p>
+        <div className="container position-relative">
+          <div className="banner-crumb d-md-flex d-none">
+            <Link to={"/"}>
+              <p>Home</p>
+            </Link>
+            <p>&nbsp;/&nbsp;</p>
+            <p>{props.crumb}</p>
+          </div>
         </div>
         <img className="card-img banner-image h-100" src={props.bannerImg} alt="Placeholder Image" />
         <div className="card-img-overlay w-100 row align-items-center justify-content-center">

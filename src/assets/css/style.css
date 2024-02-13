@@ -14,7 +14,7 @@ body {
   left: 50%;
   transform: translate(-50%, 0px);
   max-height: 670px;
-  max-width: 1700px;
+  max-width: 1800px;
 }
 .owl-carousel .owl-dots {
   position: absolute;
@@ -107,7 +107,7 @@ body {
 /* =========================================banner others =================================*/
 .banner-others .banner-box {
   max-height: 452px;
-  max-width: 1440px;
+  width: 1800px;
 }
 .banner-crumb a {
   color: white;
@@ -121,7 +121,6 @@ body {
   position: absolute;
   z-index: 1;
   top: 1rem;
-  left: 5rem;
   display: flex;
   flex-direction: row;
   color: white;
@@ -152,9 +151,6 @@ body {
   font-weight: 700;
   font-size: 48px !important;
   line-height: 40px;
-}
-.font-500 {
-  font-weight: 500;
 }
 .home_btn {
   padding-inline: 42px !important;
@@ -238,6 +234,12 @@ body {
   font-size: 28px;
   font-weight: 700;
   line-height: 32.18px;
+}
+.ChaimanTopContentData h2{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #333333;
 }
 
 @media (max-width: 767px) {
@@ -710,7 +712,7 @@ p {
 .operations-container p {
   color: #222222;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
 }
 .operations-container .operations-rm {
@@ -744,6 +746,14 @@ p {
 .operations-container .horizontal-line {
   padding-left: 4rem;
 }
+.operations-container .horizontal-line hr{
+  color: #E6E6E6 !important;
+  opacity: unset !important;
+}
+.operations-container .accordion-item:nth-last-child(2) .horizontal-line hr{
+ display: none;
+}
+
 .operations-container .accordion-body li {
   margin-bottom: 1rem;
 }

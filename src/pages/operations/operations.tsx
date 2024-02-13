@@ -31,6 +31,15 @@ const Operations = () => {
         });
       $(".readMore-para").hide();
     }
+
+    var hideMore = $('<div class="text-start seeMore mb-4">Read More</div>');
+    $(".hide-text").children().nextAll("p").hide();
+    hideMore.click(function () {
+      $(this).prev().children().nextAll("p").toggle();
+      $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
+    });
+    $(".hide-text").after(hideMore);
+
     //to hide more text in mobile view
     if (window.innerWidth <= 768) {
       var readMore = $('<div class="text-start wwr-read-more text-decoration-underline mb-4">Read More</div>');
@@ -73,18 +82,16 @@ const Operations = () => {
               <h3 className="d-md-block d-none">
                 <strong>Operations at KCL</strong>
               </h3>
-              <p className="my-4 operations-text">
-                Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCL has adopted flash smelting and pierce smith converting technology wherein the copper concentrates are converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.
-                <br />
-                <br />
-                Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with minimal impurities.
-              </p>
+              <div className="hide-text">
+                <p className="my-4">Copper smelting is a metallurgical process that transforms copper concentrates into refined metal. KCL has adopted flash smelting and pierce smith converting technology wherein the copper concentrates are converted into molten anodes. The molten copper is then tapped and cast into shapes like ingots or billets.</p>
+                <p>Refining follows smelting to enhance copper purity. In electrolytic refining, copper is dissolved from impure copper anodes and then electroplated onto pure cathodes. This process yields high-grade copper with minimal impurities.</p>
+              </div>
             </div>
             <div className="col-md-4 order-md-2 order-1">
               <h3 className="d-md-none d-block">
                 <strong>Operations at KCL</strong>
               </h3>
-              <img className="rounded w-100 my-4" src={operations} alt="" />
+              <img className="rounded w-100 my-md-0 my-4" src={operations} alt="" />
             </div>
           </div>
 
@@ -110,8 +117,8 @@ const Operations = () => {
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">
                         <p>The copper concentrates are fed through the flash smelting furnace with oxygen-enriched air. In the furnace, the concentrates are instantly oxidized, after which they melt and separate by their own reaction heat into copper matte with a grade of 60-65% and slag consisting of iron oxide, silica, and other compounds.</p>
-                        <p>Reaction in the flash smelting furnace</p>
-                        <h6>CuFeS2 + SiO2 + O2 → Cu2S・FeS + 2FeO・SiO2 + SO2 + Reaction heat</h6>
+                        {/* <p>Reaction in the flash smelting furnace</p>
+                        <h6>CuFeS2 + SiO2 + O2 → Cu2S・FeS + 2FeO・SiO2 + SO2 + Reaction heat</h6> */}
                       </div>
                     </div>
                   </div>
@@ -140,8 +147,8 @@ const Operations = () => {
                     <div className="col-md-9 ps-md-5">
                       <div className="readMore-para">
                         <p>The matte produced by the flash smelting furnace is transferred to the converter furnace. Oxygen-enriched air is blown into the converter furnace to further oxidize the matte, creating blister copper with a grade of approximately 98-99%.</p>
-                        <p>Reaction in the flash smelting furnace</p>
-                        <h6>Cu2S・FeS + SiO2 + O2 → Cu + 2FeO・SiO2 + SO2 + Reaction heat</h6>
+                        {/* <p>Reaction in the flash smelting furnace</p>
+                        <h6>Cu2S・FeS + SiO2 + O2 → Cu + 2FeO・SiO2 + SO2 + Reaction heat</h6> */}
                       </div>
                     </div>
                   </div>
@@ -182,7 +189,6 @@ const Operations = () => {
               </div>
             </div>
 
-
             <div className="accordion-item">
               <h2 className="accordion-header" id="flush-heading-5">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-5" aria-expanded="false" aria-controls="flush-collapse-5">
@@ -217,7 +223,7 @@ const Operations = () => {
                   <div className="circle">
                     <h4>05</h4>
                   </div>
-                  <h5>Continuous catalyst regeneration (CCR)</h5>
+                  <h5>Continuous Cast Rod (CCR)</h5>
                 </button>
               </h2>
               <div id="flush-collapse-6" className="accordion-collapse collapse" aria-labelledby="flush-heading-6" data-bs-parent="#accordionFlushExample">
@@ -245,7 +251,7 @@ const Operations = () => {
                   <div className="circle">
                     <h4>06</h4>
                   </div>
-                  <h5>Sulfuric Acid plant</h5>
+                  <h5>Sulphuric Acid plant</h5>
                 </button>
               </h2>
               <div id="flush-collapse-7" className="accordion-collapse collapse" aria-labelledby="flush-heading-7" data-bs-parent="#accordionFlushExample">
@@ -273,7 +279,7 @@ const Operations = () => {
                   <div className="circle">
                     <h4>07</h4>
                   </div>
-                  <h5>Slime treatment plant</h5>
+                  <h5>Precious Metals Recovery</h5>
                 </button>
               </h2>
               <div id="flush-collapse-8" className="accordion-collapse collapse" aria-labelledby="flush-heading-8" data-bs-parent="#accordionFlushExample">
