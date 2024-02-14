@@ -234,6 +234,7 @@ body {
   font-size: 28px;
   font-weight: 700;
   line-height: 32.18px;
+  margin-bottom: 1rem;
 }
 .ChaimanTopContentData h2{
   font-size: 28px;
@@ -243,6 +244,17 @@ body {
 }
 
 @media (max-width: 767px) {
+  .section-heading {
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 40px;
+  }
+  .contentsection{
+    align-items: start;
+  }
+  .WhatWeDoImages{
+    margin-bottom: 0 !important;
+  }
   .WhatWeDoImages .inner-data {
     margin-top: 30px;
   }
@@ -298,12 +310,14 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
+  text-align: center;
 }
 .WhatWeDoImages p {
   color: #333333;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
+  text-align: center;
 }
 .WhatWeDo {
   background-color: #f1ffef;
@@ -314,12 +328,23 @@ body {
   align-items: center;
   justify-content: center;
 }
+.contentsection p{
+  align-items: center;
+}
 .WhatWeDoData .card-img{
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
 .aboutKCL-section{
   margin-top: 80px;
+}
+@media (max-width:767px){
+  .WhatWeDoImages h3 {
+    text-align: start;
+  }
+  .WhatWeDoImages p {
+    text-align: start;
+  }
 }
 /* =========================================What we do end =================================*/
 
@@ -372,7 +397,7 @@ body {
   font-weight: 700;
 }
 .ChaimanBottomContentdata{
-  margin-top: 20px;
+  margin-block: 20px;
 }
 .ChaimanBottomContentdata h4 {
   font-size: 16px;
@@ -436,6 +461,10 @@ display: none !important;
   bottom: 10px;
 }
 @media (max-width: 767px) {
+  .ChairmanContainer h2 {
+    text-align: center;
+  font-size: 24px;
+}
   .LifeAtKCL{
     margin-top: 60px;
   }
@@ -588,13 +617,16 @@ display: none !important;
 }
 @media (max-width: 767px) {
   .contentsection {
-    align-items: left;
+    align-items: start;
+  }
+  .contentsection p{
+    align-items: start;
   }
   .WhoWeAreImage {
-    text-align: left;
+    text-align: start;
   }
   .WhatWeDoImage {
-    text-align: left;
+    text-align: start;
   }
 
   .mobileview {
@@ -828,6 +860,13 @@ p {
 }
 
 @media (max-width: 767px) {
+  .ceoMessage-container h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
   .operations-container .op-accordion .accordion-item h5 {
     color: #333333;
     font-size: 20px;
@@ -910,9 +949,8 @@ p {
 }
 
 @media (max-width: 767px) {
-  .prod-box {
-    margin-bottom: 30px;
-  }
+
+
   .product-tab-head .tab-heads {
     padding-block: 25px;
     text-wrap: nowrap;
@@ -953,7 +991,7 @@ p {
     font-size: 24px;
     font-weight: 700;
     line-height: 20px;
-    margin-bottom: 30px;
+    margin-block: 30px;
   }
 }
 
@@ -1124,10 +1162,6 @@ p {
     margin-bottom: 30px;
     color: #222222;
   }
-  .prod-box {
-    /* margin-bottom: 120px; */
-    margin-bottom: 80px;
-  }
   
   .cr-section-3 img {
     max-height: 535px;
@@ -1183,6 +1217,9 @@ p {
   @media(max-width:767px){
     .products-banner {
       border-radius: 0px !important;
+    }
+    .prod-box,.prod-card-body{
+      margin-bottom: 0 !important;
     }
     .products-banner {
         height: 196px;
@@ -1339,6 +1376,7 @@ p {
   .cc-section-1 .cc-box{
     
   }
+  
   .cc-section-1 .tabs h5 {
     font-size: 16px;
     font-weight: 500;
@@ -1411,6 +1449,14 @@ p {
   }
 
   @media (max-width:767px){
+    .cc-section-1 h3,
+    .cr-section-2 h3,
+    .cr-section-3 h3{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 38px;
+      color: #333333;
+    }
     .cc-section-1 .tabs {
       padding-left: calc(var(--bs-gutter-x) * .5) !important;
       padding-right: calc((var(--bs-gutter-x) * .5) + 10px) !important;

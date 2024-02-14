@@ -154,13 +154,13 @@ const Home = () => {
           <div className="row WhatWeDoData justify-content-center">
             <div className="contentsection col-md-8 mb-3">
               <h1 className="mb-3 section-heading">Our Business</h1>
-              <p className="text-center">With a vision to make India self-reliant, Kutch Copper is strategically positioned to meet the nation’s copper demand.</p>
+              <p>With a vision to make India self-reliant, Kutch Copper is strategically positioned to meet the nation’s copper demand.</p>
             </div>
             <div className="row px-0 WhatWeDoImage no-gutters">
               <div className="col-md-6 WhatWeDoImages mb-4">
                 <div className="card" onClick={() => navigate("whatwedo/operations")}>
                   <img src={wwd1} className="card-img w-100" alt="Image 1" />
-                  <div className="text-center">
+                  <div className="px-2">
                     <h3 className="mt-3">Operations</h3>
                     <p>Technology thats's a league apart</p>
                   </div>
@@ -169,7 +169,7 @@ const Home = () => {
               <div className="col-md-6 WhatWeDoImages mb-4">
                 <div className="card" onClick={() => navigate("whatwedo/products")}>
                   <img src={wwd2} className="card-img w-100" alt="Image 2" />
-                  <div className="text-center">
+                  <div className="px-2">
                     <h3 className="mt-3">Products</h3>
                     <p>Delivering quality, building trust</p>
                   </div>

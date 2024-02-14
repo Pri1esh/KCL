@@ -108,7 +108,7 @@ const Whoweare = () => {
       </section>
 
       <section className="CeoMessage d-flex align-items-center justify-content-center">
-        <div className="container  py-5">
+        <div className="container ceoMessage-container py-5">
           <h1 className="d-md-none d-block mt-4 mb-4">Message From MD</h1>
           <div className="row Chaimanrows">
             <div className="col-md-6 pe-md-5 ChaimanContentSection justify-content-around">
@@ -122,12 +122,12 @@ const Whoweare = () => {
 
               <div className="ChaimanBottomContentdata d-md-block d-none">
                 <h4>Vinay Prakash</h4>
-                <span className="ChaimanAdaniGroup">MD, KCL & CEO, Natural Resources</span>
+                <span className="ChaimanAdaniGroup">MDKCL & CEO Natural Resources, AEL</span>
               </div>
             </div>
             <div className="ChaimanBottomContentdata d-md-none d-block">
               <h4>Vinay Prakash</h4>
-              <span className="ChaimanAdaniGroup">MD, KCL & CEO, Natural Resources</span>
+              <span className="ChaimanAdaniGroup">MDKCL & CEO Natural Resources, AEL</span>
             </div>
             <div className="col-md-6 ps-md-5 mb-2 d-md-flex justify-content-end">
               <img src={ceoImage} alt="" className="Chairman-img w-75 rounded" />

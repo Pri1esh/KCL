@@ -29,7 +29,7 @@ const CopperCathode = () => {
     }
     //to hide more text in mobile view
     if (window.innerWidth <= 767) {
-      var readMore = $('<div class="text-start wwr-read-more text-decoration-underline my-4">Read More</div>');
+      var readMore = $('<div class="text-start seeMore wwr-read-more text-decoration-underline my-4">Read More</div>');
       var slicedText = sliceTextToWords($(".readcr-text").text(), 20);
       var displayText = $(`<p>${slicedText}</p>`);
       $(".readcr-text").hide();
@@ -41,7 +41,7 @@ const CopperCathode = () => {
       $(".readcr-text").after(readMore);
       $(readMore).before(displayText);
 
-      var read_cr = $('<div class="text-start wwr-read-more text-decoration-underline mt-2 mb-4">Read More</div>');
+      var read_cr = $('<div class="text-start seeMore wwr-read-more text-decoration-underline mt-2 mb-4">Read More</div>');
       $(".read_cr .tabs .lul .lli").slice(5, 13).hide();
       $(".read_cr .tabs .rul .rli").slice(5, 13).hide();
       read_cr.on("click", function () {
