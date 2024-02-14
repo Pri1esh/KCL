@@ -103,7 +103,7 @@ const Contactus = () => {
                   <img src={contact3} alt="" />
                   <div className="cont">
                     <h5>Call Us</h5>
-                    <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
+                    <p><a href="tel:+91 796851906">+91 796851906</a></p>
                   </div>
                 </div>
                 <div className="left-card">
@@ -176,7 +176,7 @@ const Contactus = () => {
               <div className="regional-info">
                 <div className="d-flex">
                   <img src={PhoneIcon} alt="" />
-                  <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
+                  <p><a href="tel:+91 796851906">+91 796851906</a></p>
                 </div>
                 <div className="d-flex">
                   <img src={EmailIcon} alt="" />
@@ -190,7 +190,7 @@ const Contactus = () => {
               <div className="regional-info">
                 <div className="d-flex">
                   <img src={PhoneIcon} alt="" />
-                  <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
+                  <p><a href="tel:+91 796851906">+91 796851906</a></p>
                 </div>
                 <div className="d-flex">
                   <img src={EmailIcon} alt="" />
@@ -204,7 +204,7 @@ const Contactus = () => {
               <div className="regional-info">
                 <div className="d-flex">
                   <img src={PhoneIcon} alt="" />
-                  <p><a href="tel:+91 0796851906">+91 0796851906</a></p>
+                  <p><a href="tel:+91 796851906">+91 796851906</a></p>
                 </div>
                 <div className="d-flex">
                   <img src={EmailIcon} alt="" />
