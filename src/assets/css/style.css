@@ -341,6 +341,7 @@ body {
 @media (max-width:767px){
   .WhatWeDoImages h3 {
     text-align: start;
+    font-size: 20px;
   }
   .WhatWeDoImages p {
     text-align: start;
