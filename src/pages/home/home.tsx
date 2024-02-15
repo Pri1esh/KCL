@@ -36,14 +36,25 @@ const Home = () => {
     $(".banner-right-button").click(function () {
       owl.trigger("next.owl.carousel");
     });
-
-    var hideMore = $('<div class="text-start seeMore mb-4">Read More</div>');
-    $(".hide-text").children().nextAll("p").hide();
-    hideMore.click(function () {
-      $(this).prev().children().nextAll("p").toggle();
+    $('.glance-text').css('display','none');
+    $('#glance-more').click(function(){
+    $('.glance-text').css('display') == 'none' ? $('.glance-text').css('display','inline') : $('.glance-text').css('display','none');
       $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
     });
-    $(".hide-text").after(hideMore);
+
+    // var readMore = $('<div class="text-start seeMore mb-4">Read More</div>');
+    // var tempP = $(".glance-text").html().split('&nbsp;')[0];
+    // console.log("-",tempP);
+    // $(".glance-text").hide();
+    // // $(".glance-text").after(tempP);
+    // readMore.click(function () {
+    //   $(this).prev().prev().toggle();
+    //   $(this).prev().toggle();
+    //   $(this).html() == "Read More" ? $(this).html("Read Less") : $(this).html("Read More");
+    // });
+    // $(".glance-text").after(readMore);
+    // $(readMore).before(`<p>${tempP}</p>`);
+
   }, []);
   return (
     <div>
@@ -90,10 +101,11 @@ const Home = () => {
           <div className="row WhoWeAreData justify-content-center">
             <div className="contentsection col-md-10">
               <h1 className="mb-4 section-heading">Kutch Copper at a Glance</h1>
-              <div className="hide-text">
-              <p>Adani Group is the largest and fastest-growing portfolio of diversified businesses in India with interests in Logistics, Resources, Power Generation and Distribution, Renewable Energy, Gas, Infrastructure among other sectors. The Group forayed in to the metal business with Copper, Aluminium and Precious Metals. Kutch Copper Ltd.(KCL) a subsidiary of Adani Enterprises Ltd.</p>
-              <p>is a greenfield copper custom smelting and refining complex, poised to be a pivotal player in advancing green energy infrastructure. This state-of-the-art facility in Mundra, will produce copper cathodes and rods along with other valuable products such as gold, silver and selenium.</p>
-              </div>
+
+              <div className="mb-0">Adani Group is the largest and fastest-growing portfolio of diversified businesses in India with interests in Logistics, Resources, Power Generation and Distribution, Renewable Energy, Gas, Infrastructure among other sectors. The Group forayed in to the metal business with Copper, Aluminium and Precious Metals. Kutch Copper Ltd.(KCL) a subsidiary of Adani Enterprises Ltd.&nbsp;
+              <div className="glance-text">is a greenfield copper custom smelting and refining complex, poised to be a pivotal player in advancing green energy infrastructure. This state-of-the-art facility in Mundra, will produce copper cathodes and rods along with other valuable products such as gold, silver and selenium.&nbsp;</div>
+              <div id="glance-more" className="text-start seeMore d-inline">Read More</div></div>
+
             </div>
             <div className="WhoWeAreImage d-flex align-items-start mt-4">
               <div className="col-md-4 col-8 px-3">
