@@ -23,7 +23,7 @@ const schema = z.object({
   firstName: z.string().min(1, { message: "Name is required" }).max(18),
   lastName: z.string().min(1, { message: "Last Name is required" }).max(18),
   email: z.string({ required_error: "Email is required" }).email({ message: "Please enter a valid email" }),
-  phone: z.string({ required_error: "Phone no. is required" }).regex(phoneRegex, "Please enter a valid phone number"),
+  phone: z.string({ required_error: "Phone no. is required" }).regex(phoneRegex, "Please enter a valid phone number").max(15,{message: "Please enter a valid phone number"}),
   message: z.string().min(1, "Message is required").max(1000, "Only 1000 characters are allowed!"),
 });
 

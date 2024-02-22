@@ -20,6 +20,17 @@ footer{
     background-color: #F9F9F9;
     margin-top: 100px;
 }
+footer .sbsAlertBox{
+    display: none;
+}
+footer .subscribe-alert{
+    display: none;
+    background-color: #333333 !important;
+    color: #FFFFFF !important;
+    position: absolute;
+    width: 100%;
+}
+
 @media (max-width:786px){
     footer{
         margin-top: 60px;
